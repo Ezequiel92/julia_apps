@@ -2,7 +2,7 @@
 
 [![ForTheBadge made-with-julia](https://forthebadge.com/images/badges/made-with-julia.svg)](https://julialang.org)
 
-[![GitHub](https://img.shields.io/github/license/Ezequiel92/GADGETPlotting?style=flat-square)](https://github.com/Ezequiel92/GADGETPlotting/blob/main/LICENSE) [![Maintenance](https://img.shields.io/maintenance/yes/2021?style=flat-square)](mailto:lozano.ez@gmail.com)
+[![GitHub](https://img.shields.io/github/license/Ezequiel92/julia_apps?style=flat-square)](https://github.com/Ezequiel92/julia_apps/blob/main/LICENSE) [![Maintenance](https://img.shields.io/maintenance/yes/2021?style=flat-square)](mailto:lozano.ez@gmail.com)
 
 Collection of single-file apps written in Julia, for educational purposes.
 
