@@ -18,8 +18,8 @@ const FILE = Dict(
 """
     function smoothTimeSeries(
         data::Vector{Float64},
-        dates::Vector{Dates.Date};
-        width::Int64 = 3,
+        dates::Vector{Dates.Date}; 
+        <keyword arguments>
     )::Tuple{Vector{Dates.Date}, Vector{Float64}}
 
 Smooth `data` with a moving window of width `width`.

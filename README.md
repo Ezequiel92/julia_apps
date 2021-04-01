@@ -15,5 +15,6 @@ Collection of single-file apps written in Julia, for educational purposes.
 
 COVID-19: Makes an interactive plot (outputs an .html file) of some variable, e.g. total number of cases, versus time for a given country. The data is taken from [Our World in Data](https://github.com/owid/covid-19-data).
 
-gravity_sim: (UNDER CONSTRUCTION) Makes a GIF of a N-body gravitational simulation.
+bookdepository_wishlist: A Web scrapper which collects the books of a public wishlist from [Book Depository](https://www.bookdepository.com) and saves the data in a JSON file. I could find only two similar projects in GitHub, one in Python2 (more than 10 years old) and other in Javascript (from more than two years ago), both were unmaintained and obviously neither worked. So, I made my own in Julia.
 
+gravity_sim: (UNDER CONSTRUCTION) Makes a GIF of a N-body gravitational simulation.
