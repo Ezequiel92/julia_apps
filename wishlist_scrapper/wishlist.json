@@ -1,0 +1,5888 @@
+{
+    "9780008117498": {
+        "name": "Foundation",
+        "isbn": "9780008117498",
+        "author": "Isaac Asimov",
+        "price": "ARS$1.147,02",
+        "published": "2016-09-22"
+    },
+    "9780449220597": {
+        "name": "Isaac Asimov's Guide to Earth and Space",
+        "isbn": "9780449220597",
+        "author": "Isaac Asimov",
+        "price": "ARS$1.192,10",
+        "published": "1993-01-01"
+    },
+    "9781845296841": {
+        "name": "A Brief History of the Universe",
+        "isbn": "9781845296841",
+        "author": "J.P. McEvoy",
+        "price": "ARS$1.245,91",
+        "published": "2010-01-28"
+    },
+    "9780199236220": {
+        "name": "Relativity: A Very Short Introduction",
+        "isbn": "9780199236220",
+        "author": "Russell Stannard",
+        "price": "ARS$1.254,67",
+        "published": "2008-08-15"
+    },
+    "9780486425634": {
+        "name": "Gravity",
+        "isbn": "9780486425634",
+        "author": "George Gamow",
+        "price": "ARS$1.265,58",
+        "published": "2003-03-28"
+    },
+    "9781784700171": {
+        "name": "I Contain Multitudes",
+        "isbn": "9781784700171",
+        "author": "Ed Yong",
+        "price": "ARS$1.276,65",
+        "published": "2017-10-18"
+    },
+    "9781780742458": {
+        "name": "The Particle at the End of the Universe",
+        "isbn": "9781780742458",
+        "author": "Sean Carroll",
+        "price": "ARS$1.283,82",
+        "published": "2013-05-02"
+    },
+    "9780385479561": {
+        "name": "The Hot Zone",
+        "isbn": "9780385479561",
+        "author": "Richard Preston",
+        "price": "ARS$1.283,94",
+        "published": "1995-08-01"
+    },
+    "9780192853783": {
+        "name": "Chaos: A Very Short Introduction",
+        "isbn": "9780192853783",
+        "author": "Leonard Smith",
+        "price": "ARS$1.322,83",
+        "published": "2007-06-01"
+    },
+    "9780486688954": {
+        "name": "Introduction to Special Relativity",
+        "isbn": "9780486688954",
+        "author": "James H. Smith",
+        "price": "ARS$1.330,98",
+        "published": "2015-12-16"
+    },
+    "9781848315990": {
+        "name": "The Science Magpie",
+        "isbn": "9781848315990",
+        "author": "Simon Flynn",
+        "price": "ARS$1.332,22",
+        "published": "2013-11-12"
+    },
+    "9780761177319": {
+        "name": "The Book of Questions",
+        "isbn": "9780761177319",
+        "author": "Gregory Stock",
+        "price": "ARS$1.335,73",
+        "published": "2021-03-01"
+    },
+    "9781840468502": {
+        "name": "Introducing Quantum Theory",
+        "isbn": "9781840468502",
+        "author": "Oscar Zarate",
+        "price": "ARS$1.340,49",
+        "published": "2019-02-20"
+    },
+    "9780751565348": {
+        "name": "Past Mortems",
+        "isbn": "9780751565348",
+        "author": "Carla Valentine",
+        "price": "ARS$1.396,13",
+        "published": "2018-03-15"
+    },
+    "9780141439976": {
+        "name": "The Time Machine",
+        "isbn": "9780141439976",
+        "author": "Patrick Parrinder",
+        "price": "ARS$1.426,48",
+        "published": "2005-05-31"
+    },
+    "9781848315891": {
+        "name": "Introducing Particle Physics",
+        "isbn": "9781848315891",
+        "author": "Oliver Pugh",
+        "price": "ARS$1.433,33",
+        "published": "2014-02-11"
+    },
+    "9780099505693": {
+        "name": "Made to Stick",
+        "isbn": "9780099505693",
+        "author": "Dan Heath",
+        "price": "ARS$1.445,58",
+        "published": "2018-05-30"
+    },
+    "9781732037427": {
+        "name": "A Dreamer's Tales",
+        "isbn": "9781732037427",
+        "author": "Jac Mindelan",
+        "price": "ARS$1.456,87",
+        "published": "2018-04-08"
+    },
+    "9781848314061": {
+        "name": "Introducing Infinity",
+        "isbn": "9781848314061",
+        "author": "Oliver Pugh",
+        "price": "ARS$1.457,72",
+        "published": "2013-01-01"
+    },
+    "9780814758373": {
+        "name": "Godel's Proof",
+        "isbn": "9780814758373",
+        "author": "Douglas R. Hofstadter",
+        "price": "ARS$1.464,24",
+        "published": "2008-10-01"
+    },
+    "9781497643079": {
+        "name": "I Have No Mouth and I Must Scream",
+        "isbn": "9781497643079",
+        "author": "Harlan Ellison",
+        "price": "ARS$1.467,62",
+        "published": "2014-06-03"
+    },
+    "9781451683400": {
+        "name": "Free Will",
+        "isbn": "9781451683400",
+        "author": "Sam Harris",
+        "price": "ARS$1.467,62",
+        "published": "2012-04-26"
+    },
+    "9781786071330": {
+        "name": "Energy",
+        "isbn": "9781786071330",
+        "author": "Vaclav Smil",
+        "price": "ARS$1.472,22",
+        "published": "2017-03-07"
+    },
+    "9781848310124": {
+        "name": "Introducing Logic",
+        "isbn": "9781848310124",
+        "author": "Bill Mayblin",
+        "price": "ARS$1.477,00",
+        "published": "2015-05-18"
+    },
+    "9781848310872": {
+        "name": "Introducing Fractals",
+        "isbn": "9781848310872",
+        "author": "Ralph Edney",
+        "price": "ARS$1.482,38",
+        "published": "2009-10-16"
+    },
+    "9781848310131": {
+        "name": "Introducing Chaos",
+        "isbn": "9781848310131",
+        "author": "Iwona Abrams",
+        "price": "ARS$1.482,38",
+        "published": "2015-05-18"
+    },
+    "9781848310889": {
+        "name": "Introducing Linguistics",
+        "isbn": "9781848310889",
+        "author": "Bill Mayblin",
+        "price": "ARS$1.482,38",
+        "published": "2009-10-16"
+    },
+    "9781848311206": {
+        "name": "Introducing Time",
+        "isbn": "9781848311206",
+        "author": "Ralph Edney",
+        "price": "ARS$1.482,38",
+        "published": "2010-09-01"
+    },
+    "9780465025268": {
+        "name": "Six Not-So-Easy Pieces",
+        "isbn": "9780465025268",
+        "author": "Robert Leighton",
+        "price": "ARS$1.492,89",
+        "published": "2011-03-22"
+    },
+    "9788415870432": {
+        "name": "El Cientifico Que Derroto a Hitler",
+        "isbn": "9788415870432",
+        "author": "Alejandro Navarro",
+        "price": "ARS$1.501,60",
+        "published": "2014-10-02"
+    },
+    "9781782437833": {
+        "name": "When the Earth Was Flat",
+        "isbn": "9781782437833",
+        "author": "Graeme Donald",
+        "price": "ARS$1.514,65",
+        "published": "2017-07-13"
+    },
+    "9781781250372": {
+        "name": "The Vital Question",
+        "isbn": "9781781250372",
+        "author": "Nick Lane",
+        "price": "ARS$1.523,26",
+        "published": "2016-04-07"
+    },
+    "9780192802521": {
+        "name": "Quantum Theory: A Very Short Introduction",
+        "isbn": "9780192802521",
+        "author": "John Polkinghorne",
+        "price": "ARS$1.535,23",
+        "published": "2002-08-29"
+    },
+    "9780099800200": {
+        "name": "Slaughterhouse 5",
+        "isbn": "9780099800200",
+        "author": "Kurt Vonnegut",
+        "price": "ARS$1.539,87",
+        "published": "2018-04-19"
+    },
+    "9780486296647": {
+        "name": "Mathematical Fallacies and Paradoxes",
+        "isbn": "9780486296647",
+        "author": "Bryan Bunch",
+        "price": "ARS$1.555,79",
+        "published": "2003-03-28"
+    },
+    "9780198718635": {
+        "name": "Nuclear Physics: A Very Short Introduction",
+        "isbn": "9780198718635",
+        "author": "Frank Close",
+        "price": "ARS$1.555,79",
+        "published": "2015-10-01"
+    },
+    "9780199662548": {
+        "name": "Complexity: A Very Short Introduction",
+        "isbn": "9780199662548",
+        "author": "John H. Holland",
+        "price": "ARS$1.555,79",
+        "published": "2014-09-01"
+    },
+    "9780198745587": {
+        "name": "Philosophy of Science: Very Short Introduction",
+        "isbn": "9780198745587",
+        "author": "Samir Okasha",
+        "price": "ARS$1.555,79",
+        "published": "2016-09-28"
+    },
+    "9780007163182": {
+        "name": "Isaac Newton",
+        "isbn": "9780007163182",
+        "author": "James Gleick",
+        "price": "ARS$1.556,21",
+        "published": "2004-06-07"
+    },
+    "9780393310726": {
+        "name": "How to Lie with Statistics",
+        "isbn": "9780393310726",
+        "author": "Irving Geis",
+        "price": "ARS$1.557,82",
+        "published": "1993-12-07"
+    },
+    "9781785780486": {
+        "name": "Einstein's Masterwork",
+        "isbn": "9781785780486",
+        "author": "John Gribbin",
+        "price": "ARS$1.559,25",
+        "published": "2016-05-05"
+    },
+    "9780199225866": {
+        "name": "Nothing: A Very Short Introduction",
+        "isbn": "9780199225866",
+        "author": "Frank Close",
+        "price": "ARS$1.561,04",
+        "published": "2009-07-26"
+    },
+    "9780192854162": {
+        "name": "Cosmology: A Very Short Introduction",
+        "isbn": "9780192854162",
+        "author": "Peter Coles",
+        "price": "ARS$1.562,11",
+        "published": "2001-12-06"
+    },
+    "9780198752851": {
+        "name": "Astrophysics: A Very Short Introduction",
+        "isbn": "9780198752851",
+        "author": "James Binney",
+        "price": "ARS$1.564,27",
+        "published": "2016-06-01"
+    },
+    "9780192803153": {
+        "name": "Cryptography: A Very Short Introduction",
+        "isbn": "9780192803153",
+        "author": "Sean Murphy",
+        "price": "ARS$1.565,34",
+        "published": "2010-10-28"
+    },
+    "9780199602919": {
+        "name": "Artificial Intelligence: A Very Short Introduction",
+        "isbn": "9780199602919",
+        "author": "Margaret A. Boden",
+        "price": "ARS$1.567,49",
+        "published": "2018-12-01"
+    },
+    "9780192853615": {
+        "name": "Mathematics: A Very Short Introduction",
+        "isbn": "9780192853615",
+        "author": "Timothy Gowers",
+        "price": "ARS$1.567,49",
+        "published": "2002-11-28"
+    },
+    "9780198755234": {
+        "name": "Infinity: A Very Short Introduction",
+        "isbn": "9780198755234",
+        "author": "Ian Stewart",
+        "price": "ARS$1.568,57",
+        "published": "2017-07-23"
+    },
+    "9780192804990": {
+        "name": "The History of Time: A Very Short Introduction",
+        "isbn": "9780192804990",
+        "author": "Leofranc Holford-Strevens",
+        "price": "ARS$1.569,65",
+        "published": "2005-10-27"
+    },
+    "9780192804341": {
+        "name": "Particle Physics: A Very Short Introduction",
+        "isbn": "9780192804341",
+        "author": "Frank Close",
+        "price": "ARS$1.571,80",
+        "published": "2004-07-29"
+    },
+    "9781451607130": {
+        "name": "For the Love of Physics",
+        "isbn": "9781451607130",
+        "author": "Warren Goldstein",
+        "price": "ARS$1.579,78",
+        "published": "2012-03-15"
+    },
+    "9780985545505": {
+        "name": "Penpal",
+        "isbn": "9780985545505",
+        "author": "Dathan Auerbach",
+        "price": "ARS$1.585,73",
+        "published": "2013-04-25"
+    },
+    "9780544483941": {
+        "name": "Stuff Matters",
+        "isbn": "9780544483941",
+        "author": "Mark Miodownik",
+        "price": "ARS$1.587,02",
+        "published": "2015-03-17"
+    },
+    "9780142001868": {
+        "name": "How to Build a Time Machine",
+        "isbn": "9780142001868",
+        "author": "Paul Davies",
+        "price": "ARS$1.588,26",
+        "published": "2003-04-01"
+    },
+    "9780691168449": {
+        "name": "The Nature of Space and Time",
+        "isbn": "9780691168449",
+        "author": "Roger Penrose",
+        "price": "ARS$1.588,86",
+        "published": "2015-11-01"
+    },
+    "9780060728892": {
+        "name": "Infinite In All Directions",
+        "isbn": "9780060728892",
+        "author": "Freeman J Dyson",
+        "price": "ARS$1.597,32",
+        "published": "2004-10-19"
+    },
+    "9780199537501": {
+        "name": "Flatland",
+        "isbn": "9780199537501",
+        "author": "Rosemary Jann",
+        "price": "ARS$1.606,53",
+        "published": "2008-10-01"
+    },
+    "9780007547999": {
+        "name": "Algorithms to Live By",
+        "isbn": "9780007547999",
+        "author": "Tom Griffiths",
+        "price": "ARS$1.609,65",
+        "published": "2017-04-06"
+    },
+    "9780062296238": {
+        "name": "What Should We Be Worried About?",
+        "isbn": "9780062296238",
+        "author": "John Brockman",
+        "price": "ARS$1.612,30",
+        "published": "2016-05-05"
+    },
+    "9780140287752": {
+        "name": "Emergence",
+        "isbn": "9780140287752",
+        "author": "Steven Johnson",
+        "price": "ARS$1.624,74",
+        "published": "2002-08-01"
+    },
+    "9780141007458": {
+        "name": "Stiff",
+        "isbn": "9780141007458",
+        "author": "Mary Roach",
+        "price": "ARS$1.639,44",
+        "published": "2004-07-01"
+    },
+    "9781780873695": {
+        "name": "Maths in Minutes",
+        "isbn": "9781780873695",
+        "author": "Quercus Quercus",
+        "price": "ARS$1.647,63",
+        "published": "2020-01-14"
+    },
+    "9781476777610": {
+        "name": "The Greatest Story Ever Told--So Far",
+        "isbn": "9781476777610",
+        "author": "Lawrence M. Krauss",
+        "price": "ARS$1.649,41",
+        "published": "2017-03-21"
+    },
+    "9780679764892": {
+        "name": "Mr. Wilson's Cabinet Of Wonder",
+        "isbn": "9780679764892",
+        "author": "Lawrence Weschler",
+        "price": "ARS$1.650,38",
+        "published": "1996-12-01"
+    },
+    "9780198728887": {
+        "name": "Tetralogue",
+        "isbn": "9780198728887",
+        "author": "Timothy Williamson",
+        "price": "ARS$1.651,21",
+        "published": "2015-04-12"
+    },
+    "9780425245552": {
+        "name": "The Book of (Even More) Awesome",
+        "isbn": "9780425245552",
+        "author": "Neil Pasricha",
+        "price": "ARS$1.656,23",
+        "published": "2012-07-09"
+    },
+    "9780312381851": {
+        "name": "A History of Pi",
+        "isbn": "9780312381851",
+        "author": "Petr Beckmann",
+        "price": "ARS$1.657,39",
+        "published": "1976-12-31"
+    },
+    "9781847081285": {
+        "name": "The Pig That Wants To Be Eaten",
+        "isbn": "9781847081285",
+        "author": "Julian Baggini",
+        "price": "ARS$1.658,92",
+        "published": "2010-03-04"
+    },
+    "9780465025275": {
+        "name": "Six Easy Pieces",
+        "isbn": "9780465025275",
+        "author": "Robert Leighton",
+        "price": "ARS$1.667,83",
+        "published": "2016-12-27"
+    },
+    "9781780871448": {
+        "name": "Science in Seconds",
+        "isbn": "9781780871448",
+        "author": "Hazel Muir",
+        "price": "ARS$1.668,23",
+        "published": "2013-09-10"
+    },
+    "9780393339918": {
+        "name": "Packing for Mars",
+        "isbn": "9780393339918",
+        "author": "Mary Roach",
+        "price": "ARS$1.671,51",
+        "published": "2018-04-01"
+    },
+    "9780465023943": {
+        "name": "The Meaning of It All",
+        "isbn": "9780465023943",
+        "author": "Richard Feynman",
+        "price": "ARS$1.675,60",
+        "published": "2005-04-06"
+    },
+    "9780140175059": {
+        "name": "The Character of Physical Law",
+        "isbn": "9780140175059",
+        "author": "Paul Davies",
+        "price": "ARS$1.676,28",
+        "published": "2006-06-01"
+    },
+    "9781642500769": {
+        "name": "Movie Quotes for Special Occasions",
+        "isbn": "9781642500769",
+        "author": "James Scheibli",
+        "price": "ARS$1.678,86",
+        "published": "2020-03-17"
+    },
+    "9780465094547": {
+        "name": "Three Roads to Quantum Gravity",
+        "isbn": "9780465094547",
+        "author": "Lee Smolin",
+        "price": "ARS$1.680,66",
+        "published": "2017-08-08"
+    },
+    "9780393347777": {
+        "name": "Naked Statistics",
+        "isbn": "9780393347777",
+        "author": "Charles Wheelan",
+        "price": "ARS$1.681,61",
+        "published": "2016-09-19"
+    },
+    "9780521658621": {
+        "name": "Elementary Particles and the Laws of Physics",
+        "isbn": "9780521658621",
+        "author": "Steven Weinberg",
+        "price": "ARS$1.692,80",
+        "published": "1999-09-16"
+    },
+    "9780262533416": {
+        "name": "The Character of Physical Law, with new foreword",
+        "isbn": "9780262533416",
+        "author": "Frank Wilczek",
+        "price": "ARS$1.693,18",
+        "published": "2020-07-27"
+    },
+    "9780060789411": {
+        "name": "Symmetry",
+        "isbn": "9780060789411",
+        "author": "Marcus du Sautoy",
+        "price": "ARS$1.697,23",
+        "published": "2009-03-03"
+    },
+    "9781409343707": {
+        "name": "Rock & Mineral",
+        "isbn": "9781409343707",
+        "author": "DK",
+        "price": "ARS$1.704,57",
+        "published": "2014-07-01"
+    },
+    "9781439192375": {
+        "name": "Brilliant Blunders",
+        "isbn": "9781439192375",
+        "author": "Mario Livio",
+        "price": "ARS$1.705,64",
+        "published": "2014-06-05"
+    },
+    "9788420674254": {
+        "name": "Momentos estelares de la ciencia / Breakthoughs in Science",
+        "isbn": "9788420674254",
+        "author": "Miguel Paredes Larrucea",
+        "price": "ARS$1.706,05",
+        "published": "2010-09-14"
+    },
+    "9780141031484": {
+        "name": "Fooled by Randomness",
+        "isbn": "9780141031484",
+        "author": "Nassim Nicholas Taleb",
+        "price": "ARS$1.706,26",
+        "published": "2009-08-06"
+    },
+    "9781101972120": {
+        "name": "Stories of Your Life and Others",
+        "isbn": "9781101972120",
+        "author": "Ted Chiang",
+        "price": "ARS$1.708,41",
+        "published": "2016-09-28"
+    },
+    "9780143106586": {
+        "name": "Heart of Darkness (Penguin Classics Deluxe Edition)",
+        "isbn": "9780143106586",
+        "author": "Joseph Conrad",
+        "price": "ARS$1.715,30",
+        "published": "2012-08-28"
+    },
+    "9780307275172": {
+        "name": "The Drunkard's Walk",
+        "isbn": "9780307275172",
+        "author": "Leonard Mlodinow",
+        "price": "ARS$1.721,10",
+        "published": "2009-05-05"
+    },
+    "9780241286876": {
+        "name": "Fossil",
+        "isbn": "9780241286876",
+        "author": "DK",
+        "price": "ARS$1.723,86",
+        "published": "2017-06-01"
+    },
+    "9780399579141": {
+        "name": "The Creeps",
+        "isbn": "9780399579141",
+        "author": "Fran Krause",
+        "price": "ARS$1.725,42",
+        "published": "2017-09-26"
+    },
+    "9781784971571": {
+        "name": "The Three-Body Problem",
+        "isbn": "9781784971571",
+        "author": "Ken Liu",
+        "price": "ARS$1.732,59",
+        "published": "2018-05-30"
+    },
+    "9780807010037": {
+        "name": "Inferior",
+        "isbn": "9780807010037",
+        "author": "Angela Saini",
+        "price": "ARS$1.737,36",
+        "published": "2018-03-06"
+    },
+    "9781617230165": {
+        "name": "Five Billion Years Of Solitude",
+        "isbn": "9781617230165",
+        "author": "Lee Billings",
+        "price": "ARS$1.738,55",
+        "published": "2014-12-19"
+    },
+    "9780007214228": {
+        "name": "Longitude",
+        "isbn": "9780007214228",
+        "author": "Dava Sobel",
+        "price": "ARS$1.741,31",
+        "published": "2011-11-17"
+    },
+    "9780465023950": {
+        "name": "The Pleasure of Finding Things Out",
+        "isbn": "9780465023950",
+        "author": "Richard Feynman",
+        "price": "ARS$1.741,67",
+        "published": "2005-04-06"
+    },
+    "9780008117481": {
+        "name": "Prelude to Foundation",
+        "isbn": "9780008117481",
+        "author": "Isaac Asimov",
+        "price": "ARS$1.742,22",
+        "published": "2016-11-17"
+    },
+    "9781633539907": {
+        "name": "Any Last Words?",
+        "isbn": "9781633539907",
+        "author": "Joseph Hayden",
+        "price": "ARS$1.743,15",
+        "published": "2019-08-01"
+    },
+    "9780393355642": {
+        "name": "\"What Do You Care What Other People Think?\"",
+        "isbn": "9780393355642",
+        "author": "Ralph Leighton",
+        "price": "ARS$1.743,15",
+        "published": "2018-05-23"
+    },
+    "9780393355628": {
+        "name": "\"Surely You're Joking, Mr. Feynman!\"",
+        "isbn": "9780393355628",
+        "author": "Ralph Leighton",
+        "price": "ARS$1.743,15",
+        "published": "2018-06-15"
+    },
+    "9781861976475": {
+        "name": "13 Things That Don't Make Sense",
+        "isbn": "9781861976475",
+        "author": "Michael Brooks",
+        "price": "ARS$1.743,15",
+        "published": "2012-09-10"
+    },
+    "9780486779782": {
+        "name": "The Fourth Dimension: Toward a Geometry of Higher Reality",
+        "isbn": "9780486779782",
+        "author": "Rudy Rucker",
+        "price": "ARS$1.747,56",
+        "published": "2014-09-26"
+    },
+    "9780099286479": {
+        "name": "The Constants Of Nature",
+        "isbn": "9780099286479",
+        "author": "John D. Barrow",
+        "price": "ARS$1.757,13",
+        "published": "2003-08-18"
+    },
+    "9781780229072": {
+        "name": "A Brief History of Everyone Who Ever Lived",
+        "isbn": "9781780229072",
+        "author": "Adam Rutherford",
+        "price": "ARS$1.759,22",
+        "published": "2018-04-18"
+    },
+    "9781848549562": {
+        "name": "What If?",
+        "isbn": "9781848549562",
+        "author": "Randall Munroe",
+        "price": "ARS$1.760,56",
+        "published": "2015-10-12"
+    },
+    "9780143036531": {
+        "name": "Amusing Ourselves to Death",
+        "isbn": "9780143036531",
+        "author": "Andrew Postman",
+        "price": "ARS$1.763,60",
+        "published": "2011-07-15"
+    },
+    "9780140261493": {
+        "name": "The Penguin Dictionary of Curious and Interesting Numbers",
+        "isbn": "9780140261493",
+        "author": "David Wells",
+        "price": "ARS$1.764,08",
+        "published": "1998-05-01"
+    },
+    "9780141018683": {
+        "name": "Everything Bad is Good for You",
+        "isbn": "9780141018683",
+        "author": "Steven Johnson",
+        "price": "ARS$1.768,10",
+        "published": "2010-03-01"
+    },
+    "9780008210038": {
+        "name": "Forces of Nature",
+        "isbn": "9780008210038",
+        "author": "Andrew Cohen",
+        "price": "ARS$1.768,87",
+        "published": "2017-03-09"
+    },
+    "9781847080837": {
+        "name": "Do They Think You're Stupid?",
+        "isbn": "9781847080837",
+        "author": "Julian Baggini",
+        "price": "ARS$1.769,78",
+        "published": "2010-03-04"
+    },
+    "9780143116042": {
+        "name": "Death from the Skies!",
+        "isbn": "9780143116042",
+        "author": "Philip Plait",
+        "price": "ARS$1.778,05",
+        "published": "2009-08-25"
+    },
+    "9780544781931": {
+        "name": "The Only Investment Guide You'll Ever Need",
+        "isbn": "9780544781931",
+        "author": "Andrew Tobias",
+        "price": "ARS$1.779,89",
+        "published": "2016-04-26"
+    },
+    "9780008218430": {
+        "name": "The Hidden Life of Trees",
+        "isbn": "9780008218430",
+        "author": "Peter Wohlleben",
+        "price": "ARS$1.780,42",
+        "published": "2019-11-22"
+    },
+    "9780008226299": {
+        "name": "Other Minds",
+        "isbn": "9780008226299",
+        "author": "Peter Godfrey-Smith",
+        "price": "ARS$1.780,42",
+        "published": "2018-03-19"
+    },
+    "9781250056115": {
+        "name": "Scarcity",
+        "isbn": "9781250056115",
+        "author": "Eldar Shafir",
+        "price": "ARS$1.780,61",
+        "published": "2014-12-13"
+    },
+    "9780198788607": {
+        "name": "The Selfish Gene",
+        "isbn": "9780198788607",
+        "author": "Richard Dawkins",
+        "price": "ARS$1.785,40",
+        "published": "2018-06-01"
+    },
+    "9780486485065": {
+        "name": "The Cosmic Code",
+        "isbn": "9780486485065",
+        "author": "Heinz R Pagels",
+        "price": "ARS$1.788,99",
+        "published": "2012-03-14"
+    },
+    "9780691164083": {
+        "name": "The Meaning of Relativity",
+        "isbn": "9780691164083",
+        "author": "Brian Greene",
+        "price": "ARS$1.790,66",
+        "published": "2014-10-26"
+    },
+    "9781633536630": {
+        "name": "Movie Quotes for All Occasions",
+        "isbn": "9781633536630",
+        "author": "James Scheibli",
+        "price": "ARS$1.795,12",
+        "published": "2018-01-01"
+    },
+    "9780307390998": {
+        "name": "The Master Switch",
+        "isbn": "9780307390998",
+        "author": "Tim Wu",
+        "price": "ARS$1.798,25",
+        "published": "2011-11-29"
+    },
+    "9780199602667": {
+        "name": "Black Holes: A Very Short Introduction",
+        "isbn": "9780199602667",
+        "author": "Katherine Blundell",
+        "price": "ARS$1.799,87",
+        "published": "2016-02-01"
+    },
+    "9780691169248": {
+        "name": "An Imaginary Tale",
+        "isbn": "9780691169248",
+        "author": "Paul J. Nahin",
+        "price": "ARS$1.808,36",
+        "published": "2016-04-18"
+    },
+    "9780099598473": {
+        "name": "Peak",
+        "isbn": "9780099598473",
+        "author": "Robert Pool",
+        "price": "ARS$1.811,10",
+        "published": "2017-06-20"
+    },
+    "9780307950925": {
+        "name": "Ficciones",
+        "isbn": "9780307950925",
+        "author": "Jorge Luis Borges",
+        "price": "ARS$1.815,64",
+        "published": "2012-09-04"
+    },
+    "9780199599684": {
+        "name": "The History of Mathematics: A Very Short Introduction",
+        "isbn": "9780199599684",
+        "author": "Jacqueline Stedall",
+        "price": "ARS$1.818,58",
+        "published": "2012-04-01"
+    },
+    "9780141977812": {
+        "name": "Quantum Mechanics: The Theoretical Minimum",
+        "isbn": "9780141977812",
+        "author": "Art Friedman",
+        "price": "ARS$1.822,57",
+        "published": "2015-04-30"
+    },
+    "9780679758945": {
+        "name": "Nonzero",
+        "isbn": "9780679758945",
+        "author": "Robert Wright",
+        "price": "ARS$1.824,49",
+        "published": "2001-01-09"
+    },
+    "9781400033720": {
+        "name": "Parallel Worlds",
+        "isbn": "9781400033720",
+        "author": "Michio Kaku",
+        "price": "ARS$1.825,87",
+        "published": "2006-02-14"
+    },
+    "9781616960001": {
+        "name": "The Search for Philip K. Dick",
+        "isbn": "9781616960001",
+        "author": "Anne R. Dick",
+        "price": "ARS$1.831,32",
+        "published": "2010-11-05"
+    },
+    "9780751545043": {
+        "name": "The Aliens Are Coming!",
+        "isbn": "9780751545043",
+        "author": "Ben Miller",
+        "price": "ARS$1.833,15",
+        "published": "2017-03-16"
+    },
+    "9781633538429": {
+        "name": "We Don't Know Either",
+        "isbn": "9781633538429",
+        "author": "City Trivia",
+        "price": "ARS$1.834,99",
+        "published": "2019-04-18"
+    },
+    "9780374535001": {
+        "name": "The Improbability Principle",
+        "isbn": "9780374535001",
+        "author": "David J Hand",
+        "price": "ARS$1.834,99",
+        "published": "2015-03-01"
+    },
+    "9780316090995": {
+        "name": "The Sun's Heartbeat",
+        "isbn": "9780316090995",
+        "author": "Bob Berman",
+        "price": "ARS$1.835,31",
+        "published": "2012-08-23"
+    },
+    "9781572841499": {
+        "name": "Life Skills",
+        "isbn": "9781572841499",
+        "author": "Chicago Tribune Staff",
+        "price": "ARS$1.835,90",
+        "published": "2013-10-03"
+    },
+    "9780142001615": {
+        "name": "Salt",
+        "isbn": "9780142001615",
+        "author": "Mark Kurlansky",
+        "price": "ARS$1.838,93",
+        "published": "2003-01-28"
+    },
+    "9780393338102": {
+        "name": "The Elegant Universe",
+        "isbn": "9780393338102",
+        "author": "Brian Greene",
+        "price": "ARS$1.839,78",
+        "published": "2010-11-16"
+    },
+    "9780140135978": {
+        "name": "The New Science of Strong Materials",
+        "isbn": "9780140135978",
+        "author": "J E Gordon",
+        "price": "ARS$1.844,45",
+        "published": "1999-06-01"
+    },
+    "9780141041452": {
+        "name": "Periodic Tales",
+        "isbn": "9780141041452",
+        "author": "Hugh Aldersey-Williams",
+        "price": "ARS$1.845,89",
+        "published": "2012-02-14"
+    },
+    "9781573242127": {
+        "name": "Random Kinds of Factness",
+        "isbn": "9781573242127",
+        "author": "Erin Barrett",
+        "price": "ARS$1.846,43",
+        "published": "2005-10-01"
+    },
+    "9781474601887": {
+        "name": "The Ascent of Gravity",
+        "isbn": "9781474601887",
+        "author": "Marcus Chown",
+        "price": "ARS$1.854,28",
+        "published": "2018-04-05"
+    },
+    "9781642502534": {
+        "name": "Your Brain on Facts",
+        "isbn": "9781642502534",
+        "author": "Emily Prokop",
+        "price": "ARS$1.855,27",
+        "published": "2020-07-02"
+    },
+    "9780307278128": {
+        "name": "The Hidden Reality",
+        "isbn": "9780307278128",
+        "author": "Brian Greene",
+        "price": "ARS$1.855,84",
+        "published": "2011-11-01"
+    },
+    "9780486409269": {
+        "name": "The Direction of Time",
+        "isbn": "9780486409269",
+        "author": "Hans Reichenbach",
+        "price": "ARS$1.860,99",
+        "published": "2003-03-28"
+    },
+    "9780393327007": {
+        "name": "Einstein's Cosmos",
+        "isbn": "9780393327007",
+        "author": "Michio Kaku",
+        "price": "ARS$1.865,30",
+        "published": "2005-05-17"
+    },
+    "9780143127536": {
+        "name": "How Not to Be Wrong",
+        "isbn": "9780143127536",
+        "author": "Jordan Ellenberg",
+        "price": "ARS$1.876,81",
+        "published": "2015-05-26"
+    },
+    "9781405934138": {
+        "name": "Mythos",
+        "isbn": "9781405934138",
+        "author": "Stephen Fry",
+        "price": "ARS$1.877,97",
+        "published": "2018-07-26"
+    },
+    "9781642500004": {
+        "name": "Why We Love Star Wars",
+        "isbn": "9781642500004",
+        "author": "Joseph Scrimshaw",
+        "price": "ARS$1.881,00",
+        "published": "2019-09-10"
+    },
+    "9780767908160": {
+        "name": "The Golden Ratio",
+        "isbn": "9780767908160",
+        "author": "Mario Livio",
+        "price": "ARS$1.885,41",
+        "published": "2003-09-23"
+    },
+    "9781400033867": {
+        "name": "Programming the Universe",
+        "isbn": "9781400033867",
+        "author": "Seth Lloyd",
+        "price": "ARS$1.888,55",
+        "published": "2007-03-13"
+    },
+    "9780465075683": {
+        "name": "The Theoretical Minimum",
+        "isbn": "9780465075683",
+        "author": "Leonard Susskind",
+        "price": "ARS$1.891,03",
+        "published": "2014-05-22"
+    },
+    "9781101984321": {
+        "name": "The Man Who Wasn't There",
+        "isbn": "9781101984321",
+        "author": "Anil Ananthaswamy",
+        "price": "ARS$1.892,54",
+        "published": "2016-08-25"
+    },
+    "9780307473332": {
+        "name": "Physics of the Future",
+        "isbn": "9780307473332",
+        "author": "Michio Kaku",
+        "price": "ARS$1.894,41",
+        "published": "2012-11-26"
+    },
+    "9780060568061": {
+        "name": "mental floss presents Condensed Knowledge",
+        "isbn": "9780060568061",
+        "author": "Editors of Mental Floss",
+        "price": "ARS$1.894,64",
+        "published": "2004-05-01"
+    },
+    "9780812973815": {
+        "name": "The Black Swan: Second Edition",
+        "isbn": "9780812973815",
+        "author": "Nassim Nicholas Taleb",
+        "price": "ARS$1.896,32",
+        "published": "2010-07-01"
+    },
+    "9780141981802": {
+        "name": "Life 3.0",
+        "isbn": "9780141981802",
+        "author": "Max Tegmark",
+        "price": "ARS$1.901,11",
+        "published": "2018-07-27"
+    },
+    "9780312427900": {
+        "name": "The World Without Us",
+        "isbn": "9780312427900",
+        "author": "Alan Weisman",
+        "price": "ARS$1.901,69",
+        "published": "2008-08-05"
+    },
+    "9780141046525": {
+        "name": "Time Reborn",
+        "isbn": "9780141046525",
+        "author": "Lee Smolin",
+        "price": "ARS$1.902,30",
+        "published": "2014-07-14"
+    },
+    "9781642502015": {
+        "name": "We Did That?",
+        "isbn": "9781642502015",
+        "author": "Sophie Stirling",
+        "price": "ARS$1.904,78",
+        "published": "2020-06-04"
+    },
+    "9781608193943": {
+        "name": "Merchants of Doubt",
+        "isbn": "9781608193943",
+        "author": "Erik M. Conway",
+        "price": "ARS$1.909,08",
+        "published": "2015-02-26"
+    },
+    "9780552125550": {
+        "name": "In Search Of Schrodinger's Cat",
+        "isbn": "9780552125550",
+        "author": "John Gribbin",
+        "price": "ARS$1.910,30",
+        "published": "1985-02-15"
+    },
+    "9780452288577": {
+        "name": "The Numbers Behind NUMB3RS",
+        "isbn": "9780452288577",
+        "author": "Gary Lorden",
+        "price": "ARS$1.911,27",
+        "published": "2007-08-28"
+    },
+    "9780749386061": {
+        "name": "Chaos",
+        "isbn": "9780749386061",
+        "author": "James Gleick",
+        "price": "ARS$1.911,99",
+        "published": "2001-02-17"
+    },
+    "9780300188226": {
+        "name": "The Theory That Would Not Die",
+        "isbn": "9780300188226",
+        "author": "Sharon Bertsch McGrayne",
+        "price": "ARS$1.918,52",
+        "published": "2012-10-30"
+    },
+    "9780307455772": {
+        "name": "The Righteous Mind",
+        "isbn": "9780307455772",
+        "author": "Jonathan Haidt",
+        "price": "ARS$1.922,45",
+        "published": "2013-02-12"
+    },
+    "9781250118363": {
+        "name": "Algorithms to Live by",
+        "isbn": "9781250118363",
+        "author": "Tom Griffiths",
+        "price": "ARS$1.924,12",
+        "published": "2017-04-04"
+    },
+    "9781501142444": {
+        "name": "Boltzmanns Atom",
+        "isbn": "9781501142444",
+        "author": "David Lindley",
+        "price": "ARS$1.925,58",
+        "published": "2016-03-26"
+    },
+    "9780316511575": {
+        "name": "The Year 1000",
+        "isbn": "9780316511575",
+        "author": "Danny Danziger",
+        "price": "ARS$1.926,83",
+        "published": "2000-04-01"
+    },
+    "9780060556570": {
+        "name": "The Red Queen",
+        "isbn": "9780060556570",
+        "author": "Matt Ridley",
+        "price": "ARS$1.926,83",
+        "published": "2011-07-08"
+    },
+    "9780751545005": {
+        "name": "It's Not Rocket Science",
+        "isbn": "9780751545005",
+        "author": "Ben Miller",
+        "price": "ARS$1.926,83",
+        "published": "2014-04-01"
+    },
+    "9780143038399": {
+        "name": "Decoding the Universe",
+        "isbn": "9780143038399",
+        "author": "Charles Seife",
+        "price": "ARS$1.927,74",
+        "published": "2007-02-01"
+    },
+    "9780140296471": {
+        "name": "Zero",
+        "isbn": "9780140296471",
+        "author": "Charles Seife",
+        "price": "ARS$1.930,74",
+        "published": "2000-09-01"
+    },
+    "9780141981727": {
+        "name": "Seven Brief Lessons on Physics",
+        "isbn": "9780141981727",
+        "author": "Carlo Rovelli",
+        "price": "ARS$1.941,70",
+        "published": "2018-05-30"
+    },
+    "9780871403865": {
+        "name": "Maker of Patterns",
+        "isbn": "9780871403865",
+        "author": "Freeman Dyson",
+        "price": "ARS$1.944,13",
+        "published": "2018-04-10"
+    },
+    "9780316925280": {
+        "name": "A Supposedly Fun Thing I'll Never Do Again",
+        "isbn": "9780316925280",
+        "author": "David Foster Wallace",
+        "price": "ARS$1.947,41",
+        "published": "1998-02-02"
+    },
+    "9780393314250": {
+        "name": "The Mismeasure of Man",
+        "isbn": "9780393314250",
+        "author": "Stephen Jay Gould",
+        "price": "ARS$1.947,95",
+        "published": "1996-06-17"
+    },
+    "9781107604643": {
+        "name": "Quantum Physics",
+        "isbn": "9781107604643",
+        "author": "Alastair Rae",
+        "price": "ARS$1.948,25",
+        "published": "2012-03-26"
+    },
+    "9780691164090": {
+        "name": "QED",
+        "isbn": "9780691164090",
+        "author": "A. Zee",
+        "price": "ARS$1.951,83",
+        "published": "2014-11-01"
+    },
+    "9780679420262": {
+        "name": "The Stranger",
+        "isbn": "9780679420262",
+        "author": "Keith Gore",
+        "price": "ARS$1.954,39",
+        "published": "1993-02-23"
+    },
+    "9780465024377": {
+        "name": "The First Three Minutes",
+        "isbn": "9780465024377",
+        "author": "Steven Weinberg",
+        "price": "ARS$1.955,36",
+        "published": "1993-08-18"
+    },
+    "9781857028898": {
+        "name": "The Code Book",
+        "isbn": "9781857028898",
+        "author": "Simon Singh",
+        "price": "ARS$1.957,14",
+        "published": "2000-07-06"
+    },
+    "9781841157917": {
+        "name": "Fermat's Last Theorem",
+        "isbn": "9781841157917",
+        "author": "Simon Singh",
+        "price": "ARS$1.961,73",
+        "published": "2002-06-05"
+    },
+    "9780141982410": {
+        "name": "The Book of Why",
+        "isbn": "9780141982410",
+        "author": "Dana MacKenzie",
+        "price": "ARS$1.963,61",
+        "published": "2020-12-01"
+    },
+    "9780345539434": {
+        "name": "Cosmos",
+        "isbn": "9780345539434",
+        "author": "Ann Druyan",
+        "price": "ARS$1.964,32",
+        "published": "2020-02-07"
+    },
+    "9780143127673": {
+        "name": "Virtual Unreality",
+        "isbn": "9780143127673",
+        "author": "Charles Seife",
+        "price": "ARS$1.984,38",
+        "published": "2015-08-04"
+    },
+    "9781786893550": {
+        "name": "Things That Are",
+        "isbn": "9781786893550",
+        "author": "Amy Leach",
+        "price": "ARS$1.988,48",
+        "published": "2017-12-01"
+    },
+    "9781633539624": {
+        "name": "All about the Burger",
+        "isbn": "9781633539624",
+        "author": "George Motz",
+        "price": "ARS$1.990,20",
+        "published": "2019-05-30"
+    },
+    "9780099584575": {
+        "name": "The Gene",
+        "isbn": "9780099584575",
+        "author": "Siddhartha Mukherjee",
+        "price": "ARS$1.991,11",
+        "published": "2017-03-23"
+    },
+    "9780813599175": {
+        "name": "Ignition!",
+        "isbn": "9780813599175",
+        "author": "Isaac Asimov",
+        "price": "ARS$10.058,03",
+        "published": "2018-05-23"
+    },
+    "9781119967514": {
+        "name": "Understanding Aerodynamics",
+        "isbn": "9781119967514",
+        "author": "Doug McLean",
+        "price": "ARS$10.068,51",
+        "published": "2012-12-26"
+    },
+    "9783527403912": {
+        "name": "Quantum Paradoxes",
+        "isbn": "9783527403912",
+        "author": "Daniel Rohrlich",
+        "price": "ARS$10.312,69",
+        "published": "2005-04-30"
+    },
+    "9783319658667": {
+        "name": "Foundations of Quantum Mechanics",
+        "isbn": "9783319658667",
+        "author": "Travis Norsen",
+        "price": "ARS$10.469,20",
+        "published": "2017-09-06"
+    },
+    "9780262033848": {
+        "name": "Introduction to Algorithms",
+        "isbn": "9780262033848",
+        "author": "Clifford Stein",
+        "price": "ARS$10.551,73",
+        "published": "2009-09-30"
+    },
+    "9783642492891": {
+        "name": "Foundations of Physics",
+        "isbn": "9783642492891",
+        "author": "Mario Bunge",
+        "price": "ARS$10.559,91",
+        "published": "2012-04-18"
+    },
+    "9780521868341": {
+        "name": "Introduction to Quantum Effects in Gravity",
+        "isbn": "9780521868341",
+        "author": "Sergei Winitzki",
+        "price": "ARS$10.616,46",
+        "published": "2013-04-30"
+    },
+    "9783319631592": {
+        "name": "Beyond Classical Physics",
+        "isbn": "9783319631592",
+        "author": "Mark A. Cunningham",
+        "price": "ARS$10.625,92",
+        "published": "2018-01-01"
+    },
+    "9780521550024": {
+        "name": "The Quantum Theory of Fields",
+        "isbn": "9780521550024",
+        "author": "Steven Weinberg",
+        "price": "ARS$10.735,34",
+        "published": "2014-02-03"
+    },
+    "9780691145587": {
+        "name": "Einstein Gravity in a Nutshell",
+        "isbn": "9780691145587",
+        "author": "A. Zee",
+        "price": "ARS$10.873,01",
+        "published": "2013-06-01"
+    },
+    "9780201503975": {
+        "name": "An Introduction To Quantum Field Theory",
+        "isbn": "9780201503975",
+        "author": "Daniel V. Schroeder",
+        "price": "ARS$11.037,34",
+        "published": "1995-10-02"
+    },
+    "9780521650649": {
+        "name": "Hidden Unity in Nature's Laws",
+        "isbn": "9780521650649",
+        "author": "John C. Taylor",
+        "price": "ARS$11.403,01",
+        "published": "2016-03-07"
+    },
+    "9781108422161": {
+        "name": "An Introduction to Modern Astrophysics",
+        "isbn": "9781108422161",
+        "author": "Dale A. Ostlie",
+        "price": "ARS$11.428,06",
+        "published": "2018-07-23"
+    },
+    "9781461267928": {
+        "name": "Strings, Conformal Fields, and M-Theory",
+        "isbn": "9781461267928",
+        "author": "Michio Kaku",
+        "price": "ARS$11.478,33",
+        "published": "2012-10-04"
+    },
+    "9789814635509": {
+        "name": "Lectures Of Sidney Coleman On Quantum Field Theory: Foreword By David Kaiser",
+        "isbn": "9789814635509",
+        "author": "Brian Hill",
+        "price": "ARS$11.591,32",
+        "published": "2019-01-31"
+    },
+    "9780521633048": {
+        "name": "String Theory",
+        "isbn": "9780521633048",
+        "author": "Joseph Polchinski",
+        "price": "ARS$11.911,81",
+        "published": "2012-05-08"
+    },
+    "9780399582752": {
+        "name": "Dungeons and Dragons Art and Arcana: Special Edition, Boxed Book and Ephemera Set",
+        "isbn": "9780399582752",
+        "author": "Kyle Newman",
+        "price": "ARS$12.107,18",
+        "published": "2018-10-23"
+    },
+    "9780702051319": {
+        "name": "Gray's Anatomy for Students",
+        "isbn": "9780702051319",
+        "author": "Adam W. M. Mitchell",
+        "price": "ARS$12.724,67",
+        "published": "2014-04-14"
+    },
+    "9780306447907": {
+        "name": "Principles of Quantum Mechanics",
+        "isbn": "9780306447907",
+        "author": "R. Shankar",
+        "price": "ARS$12.739,03",
+        "published": "2011-03-16"
+    },
+    "9780691159027": {
+        "name": "Modern Classical Physics",
+        "isbn": "9780691159027",
+        "author": "Roger D. Blandford",
+        "price": "ARS$13.161,13",
+        "published": "2017-10-01"
+    },
+    "9780521633031": {
+        "name": "String Theory",
+        "isbn": "9780521633031",
+        "author": "Joseph Polchinski",
+        "price": "ARS$13.300,46",
+        "published": "2012-03-15"
+    },
+    "9780521845076": {
+        "name": "Differential Geometry and Lie Groups for Physicists",
+        "isbn": "9780521845076",
+        "author": "Marian Fecko",
+        "price": "ARS$13.655,88",
+        "published": "2014-05-14"
+    },
+    "9783319134666": {
+        "name": "Lie Groups, Lie Algebras, and Representations",
+        "isbn": "9783319134666",
+        "author": "Brian Hall",
+        "price": "ARS$13.744,65",
+        "published": "2016-08-15"
+    },
+    "9783527407828": {
+        "name": "A Modern Course in Statistical Physics",
+        "isbn": "9783527407828",
+        "author": "Linda E. Reichl",
+        "price": "ARS$13.831,01",
+        "published": "2009-08-11"
+    },
+    "9780195091588": {
+        "name": "Quantum Field Theory",
+        "isbn": "9780195091588",
+        "author": "Michio Kaku",
+        "price": "ARS$13.842,12",
+        "published": "1994-10-31"
+    },
+    "9783662555774": {
+        "name": "Classical Field Theory",
+        "isbn": "9783662555774",
+        "author": "Florian Scheck",
+        "price": "ARS$15.285,74",
+        "published": "2018-03-19"
+    },
+    "9780465023820": {
+        "name": "The Feynman Lectures on Physics, boxed set",
+        "isbn": "9780465023820",
+        "author": "Robert Leighton",
+        "price": "ARS$17.002,09",
+        "published": "2015-07-13"
+    },
+    "9783540853763": {
+        "name": "Quantum Field Theory II: Quantum Electrodynamics",
+        "isbn": "9783540853763",
+        "author": "Eberhard Zeidler",
+        "price": "ARS$17.252,41",
+        "published": "2009-02-28"
+    },
+    "9781598841749": {
+        "name": "Creation Myths of the World [2 volumes]",
+        "isbn": "9781598841749",
+        "author": "David A. Leeming",
+        "price": "ARS$17.999,97",
+        "published": "2009-12-18"
+    },
+    "9780471925675": {
+        "name": "Gravitation and Cosmology",
+        "isbn": "9780471925675",
+        "author": "Steven Weinberg",
+        "price": "ARS$19.928,64",
+        "published": "2013-08-12"
+    },
+    "9780141034591": {
+        "name": "The Black Swan",
+        "isbn": "9780141034591",
+        "author": "Nassim Nicholas Taleb",
+        "price": "ARS$2.000,18",
+        "published": "2008-02-28"
+    },
+    "9781795882415": {
+        "name": "Physics from Finance",
+        "isbn": "9781795882415",
+        "author": "Jakob Schwichtenberg",
+        "price": "ARS$2.001,32",
+        "published": "2019-02-17"
+    },
+    "9780691164076": {
+        "name": "How to Solve It",
+        "isbn": "9780691164076",
+        "author": "John H. Conway",
+        "price": "ARS$2.003,06",
+        "published": "2014-11-10"
+    },
+    "9780618257355": {
+        "name": "Time Trvl in Einstein Universe",
+        "isbn": "9780618257355",
+        "author": "Gott",
+        "price": "ARS$2.003,41",
+        "published": "2002-12-18"
+    },
+    "9781408812181": {
+        "name": "The Omnivore's Dilemma",
+        "isbn": "9781408812181",
+        "author": "Michael Pollan",
+        "price": "ARS$2.004,72",
+        "published": "2011-01-25"
+    },
+    "9780061842672": {
+        "name": "The Mental Floss History of the World",
+        "isbn": "9780061842672",
+        "author": "Erik Sass",
+        "price": "ARS$2.005,82",
+        "published": "2010-01-14"
+    },
+    "9781631409004": {
+        "name": "Cinegeek",
+        "isbn": "9781631409004",
+        "author": "Pluttark",
+        "price": "ARS$2.007,70",
+        "published": "2017-08-01"
+    },
+    "9780349107035": {
+        "name": "Cosmos",
+        "isbn": "9780349107035",
+        "author": "Carl Sagan",
+        "price": "ARS$2.014,46",
+        "published": "1983-08-11"
+    },
+    "9780393078268": {
+        "name": "The Instant Physicist",
+        "isbn": "9780393078268",
+        "author": "Joey Manfre",
+        "price": "ARS$2.015,00",
+        "published": "2011-05-11"
+    },
+    "9780385484992": {
+        "name": "Visions",
+        "isbn": "9780385484992",
+        "author": "Michio Kaku",
+        "price": "ARS$2.015,00",
+        "published": "1998-10-01"
+    },
+    "9780452268340": {
+        "name": "Atom",
+        "isbn": "9780452268340",
+        "author": "Isaac Asimov",
+        "price": "ARS$2.019,58",
+        "published": "1992-08-01"
+    },
+    "9781782439493": {
+        "name": "Infinity in the Palm of Your Hand",
+        "isbn": "9781782439493",
+        "author": "Marcus Chown",
+        "price": "ARS$2.021,08",
+        "published": "2018-10-04"
+    },
+    "9780262039932": {
+        "name": "Quantum Strangeness",
+        "isbn": "9780262039932",
+        "author": "David Kaiser",
+        "price": "ARS$2.022,15",
+        "published": "2019-05-28"
+    },
+    "9780307278821": {
+        "name": "Physics of the Impossible",
+        "isbn": "9780307278821",
+        "author": "Michio Kaku",
+        "price": "ARS$2.033,06",
+        "published": "2009-04-07"
+    },
+    "9781451610291": {
+        "name": "The Story of Stuff",
+        "isbn": "9781451610291",
+        "author": "Annie Leonard",
+        "price": "ARS$2.033,62",
+        "published": "2011-02-22"
+    },
+    "9781633536692": {
+        "name": "Answers to Questions You've Never Asked",
+        "isbn": "9781633536692",
+        "author": "Joseph Pisenti",
+        "price": "ARS$2.034,24",
+        "published": "2018-04-17"
+    },
+    "9781107604681": {
+        "name": "Mr Tompkins in Paperback",
+        "isbn": "9781107604681",
+        "author": "Roger Penrose",
+        "price": "ARS$2.041,20",
+        "published": "2012-04-04"
+    },
+    "9780340960196": {
+        "name": "Dune",
+        "isbn": "9780340960196",
+        "author": "Frank Herbert",
+        "price": "ARS$2.045,31",
+        "published": "2015-07-23"
+    },
+    "9781592405084": {
+        "name": "The Physics of Superheroes",
+        "isbn": "9781592405084",
+        "author": "James Kakalios",
+        "price": "ARS$2.046,23",
+        "published": "2009-11-03"
+    },
+    "9780465027972": {
+        "name": "Feynman's Tips on Physics",
+        "isbn": "9780465027972",
+        "author": "Richard Feynman",
+        "price": "ARS$2.050,26",
+        "published": "2013-02-19"
+    },
+    "9780141976228": {
+        "name": "Classical Mechanics",
+        "isbn": "9780141976228",
+        "author": "Leonard Susskind",
+        "price": "ARS$2.051,28",
+        "published": "2015-09-25"
+    },
+    "9781471112683": {
+        "name": "A Universe From Nothing",
+        "isbn": "9781471112683",
+        "author": "Lawrence M. Krauss",
+        "price": "ARS$2.055,30",
+        "published": "2018-02-21"
+    },
+    "9781400096237": {
+        "name": "The Information",
+        "isbn": "9781400096237",
+        "author": "James Gleick",
+        "price": "ARS$2.060,92",
+        "published": "2012-03-06"
+    },
+    "9780715639115": {
+        "name": "The Physics Of Superheroes",
+        "isbn": "9780715639115",
+        "author": "James Kakalios",
+        "price": "ARS$2.062,76",
+        "published": "2010-10-21"
+    },
+    "9781447273301": {
+        "name": "Children of Time",
+        "isbn": "9781447273301",
+        "author": "Adrian Tchaikovsky",
+        "price": "ARS$2.063,72",
+        "published": "2016-10-10"
+    },
+    "9780141026473": {
+        "name": "The Drunkard's Walk",
+        "isbn": "9780141026473",
+        "author": "Leonard Mlodinow",
+        "price": "ARS$2.065,99",
+        "published": "2009-04-02"
+    },
+    "9780141983219": {
+        "name": "Reality Is Not What It Seems",
+        "isbn": "9780141983219",
+        "author": "Carlo Rovelli",
+        "price": "ARS$2.065,99",
+        "published": "2018-05-30"
+    },
+    "9780099173311": {
+        "name": "Surely You're Joking Mr Feynman",
+        "isbn": "9780099173311",
+        "author": "Richard P. Feynman",
+        "price": "ARS$2.066,43",
+        "published": "2001-03-07"
+    },
+    "9781615193738": {
+        "name": "Atom Land",
+        "isbn": "9781615193738",
+        "author": "Jon Butterworth",
+        "price": "ARS$2.067,20",
+        "published": "2018-03-20"
+    },
+    "9780062230171": {
+        "name": "This Explains Everything",
+        "isbn": "9780062230171",
+        "author": "John Brockman",
+        "price": "ARS$2.071,32",
+        "published": "2016-05-05"
+    },
+    "9780316068222": {
+        "name": "This Is Water",
+        "isbn": "9780316068222",
+        "author": "David Foster Wallace",
+        "price": "ARS$2.072,71",
+        "published": "2009-06-10"
+    },
+    "9780141029368": {
+        "name": "The Ghost Map",
+        "isbn": "9780141029368",
+        "author": "Steven Johnson",
+        "price": "ARS$2.079,28",
+        "published": "2008-01-31"
+    },
+    "9780007214624": {
+        "name": "Finding Moonshine",
+        "isbn": "9780007214624",
+        "author": "Marcus du Sautoy",
+        "price": "ARS$2.084,79",
+        "published": "2009-05-14"
+    },
+    "9780618711680": {
+        "name": "The God Particle",
+        "isbn": "9780618711680",
+        "author": "Dick Teresi",
+        "price": "ARS$2.092,62",
+        "published": "2006-06-26"
+    },
+    "9780786881871": {
+        "name": "Five Equations That Changed the World",
+        "isbn": "9780786881871",
+        "author": "Michael Guillen",
+        "price": "ARS$2.093,21",
+        "published": "1996-09-12"
+    },
+    "9780007162215": {
+        "name": "Big Bang",
+        "isbn": "9780007162215",
+        "author": "Simon Singh",
+        "price": "ARS$2.093,83",
+        "published": "2011-06-24"
+    },
+    "9780691174389": {
+        "name": "On Gravity",
+        "isbn": "9780691174389",
+        "author": "A. Zee",
+        "price": "ARS$2.098,37",
+        "published": "2018-04-24"
+    },
+    "9780375753725": {
+        "name": "Warmth Disperses and Time Passes",
+        "isbn": "9780375753725",
+        "author": "Hans Christian Von Baeyer",
+        "price": "ARS$2.099,41",
+        "published": "1999-06-15"
+    },
+    "9780099575061": {
+        "name": "Behave",
+        "isbn": "9780099575061",
+        "author": "Robert M Sapolsky",
+        "price": "ARS$2.101,33",
+        "published": "2018-04-05"
+    },
+    "9780486477220": {
+        "name": "Quantam Mechanics and Path Integrals",
+        "isbn": "9780486477220",
+        "author": "A.R. Hibbs",
+        "price": "ARS$2.104,43",
+        "published": "2010-07-30"
+    },
+    "9781472137524": {
+        "name": "Who's in Charge?",
+        "isbn": "9781472137524",
+        "author": "Michael Gazzaniga",
+        "price": "ARS$2.106,08",
+        "published": "2016-09-01"
+    },
+    "9780521685719": {
+        "name": "How to Spend $50 Billion to Make the World a Better Place",
+        "isbn": "9780521685719",
+        "author": "Björn Lomborg",
+        "price": "ARS$2.106,84",
+        "published": "2018-01-23"
+    },
+    "9781780660257": {
+        "name": "Irrationality",
+        "isbn": "9781780660257",
+        "author": "Ben Goldacre",
+        "price": "ARS$2.106,84",
+        "published": "2013-07-16"
+    },
+    "9781785781087": {
+        "name": "13.8",
+        "isbn": "9781785781087",
+        "author": "John Gribbin",
+        "price": "ARS$2.108,75",
+        "published": "2016-09-08"
+    },
+    "9780465085989": {
+        "name": "In Pursuit of the Unknown",
+        "isbn": "9780465085989",
+        "author": "Ian Stewart",
+        "price": "ARS$2.110,51",
+        "published": "2013-10-08"
+    },
+    "9781107691766": {
+        "name": "The Decipherment of Linear B",
+        "isbn": "9781107691766",
+        "author": "John Chadwick",
+        "price": "ARS$2.110,51",
+        "published": "2014-07-28"
+    },
+    "9780375758287": {
+        "name": "The Chip",
+        "isbn": "9780375758287",
+        "author": "T.R. Reid",
+        "price": "ARS$2.111,43",
+        "published": "2001-10-09"
+    },
+    "9780140286762": {
+        "name": "The Search for the Giant Squid",
+        "isbn": "9780140286762",
+        "author": "Richard Ellis",
+        "price": "ARS$2.111,43",
+        "published": "1999-10-01"
+    },
+    "9780140136289": {
+        "name": "Structures",
+        "isbn": "9780140136289",
+        "author": "J. E. Gordon",
+        "price": "ARS$2.114,01",
+        "published": "1991-09-26"
+    },
+    "9780575108028": {
+        "name": "Dangerous Visions",
+        "isbn": "9780575108028",
+        "author": "Harlan Ellison",
+        "price": "ARS$2.116,43",
+        "published": "2013-09-01"
+    },
+    "9780582434479": {
+        "name": "Animal Farm",
+        "isbn": "9780582434479",
+        "author": "John Shuttleworth",
+        "price": "ARS$2.118,50",
+        "published": "2000-08-25"
+    },
+    "9781848310353": {
+        "name": "Quantum",
+        "isbn": "9781848310353",
+        "author": "Manjit Kumar",
+        "price": "ARS$2.118,72",
+        "published": "2010-01-01"
+    },
+    "9781642502206": {
+        "name": "The Flip Side of History",
+        "isbn": "9781642502206",
+        "author": "Steve Silverman",
+        "price": "ARS$2.121,53",
+        "published": "2020-08-14"
+    },
+    "9780715638187": {
+        "name": "Amazing Story Quantum Mechanics",
+        "isbn": "9780715638187",
+        "author": "James Kakalios",
+        "price": "ARS$2.121,85",
+        "published": "2010-10-28"
+    },
+    "9781847947154": {
+        "name": "Superforecasting",
+        "isbn": "9781847947154",
+        "author": "Dan Gardner",
+        "price": "ARS$2.123,46",
+        "published": "2016-04-07"
+    },
+    "9781642502633": {
+        "name": "Future Rising",
+        "isbn": "9781642502633",
+        "author": "Cady Coleman",
+        "price": "ARS$2.128,32",
+        "published": "2020-11-27"
+    },
+    "9780691163727": {
+        "name": "The Little Book of Black Holes",
+        "isbn": "9780691163727",
+        "author": "Frans Pretorius",
+        "price": "ARS$2.129,74",
+        "published": "2017-10-10"
+    },
+    "9781642503371": {
+        "name": "Why We Love Pirates",
+        "isbn": "9781642503371",
+        "author": "Rebecca Simon",
+        "price": "ARS$2.132,55",
+        "published": "2020-12-17"
+    },
+    "9780140256024": {
+        "name": "Does God Play Dice?",
+        "isbn": "9780140256024",
+        "author": "Ian Stewart",
+        "price": "ARS$2.145,50",
+        "published": "1997-06-26"
+    },
+    "9781509868087": {
+        "name": "Bad Blood",
+        "isbn": "9781509868087",
+        "author": "John Carreyrou",
+        "price": "ARS$2.148,85",
+        "published": "2019-07-11"
+    },
+    "9781846682452": {
+        "name": "Why Does the World Exist?",
+        "isbn": "9781846682452",
+        "author": "Jim Holt",
+        "price": "ARS$2.150,18",
+        "published": "2014-09-01"
+    },
+    "9780099590088": {
+        "name": "Sapiens",
+        "isbn": "9780099590088",
+        "author": "Yuval Noah Harari",
+        "price": "ARS$2.161,36",
+        "published": "2016-09-15"
+    },
+    "9780062897947": {
+        "name": "The Last Unknowns",
+        "isbn": "9780062897947",
+        "author": "Daniel Kahneman",
+        "price": "ARS$2.161,82",
+        "published": "2019-07-11"
+    },
+    "9781473637467": {
+        "name": "Factfulness",
+        "isbn": "9781473637467",
+        "author": "Ola Rosling",
+        "price": "ARS$2.162,87",
+        "published": "2018-04-05"
+    },
+    "9781607962403": {
+        "name": "The Principia",
+        "isbn": "9781607962403",
+        "author": "Sir Isaac Newton",
+        "price": "ARS$2.166,07",
+        "published": "2013-03-01"
+    },
+    "9780957389465": {
+        "name": "A Most Incomprehensible Thing",
+        "isbn": "9780957389465",
+        "author": "Peter Collier",
+        "price": "ARS$2.166,63",
+        "published": "2017-04-01"
+    },
+    "9781642502053": {
+        "name": "Back From the Future",
+        "isbn": "9781642502053",
+        "author": "Brad Gilmore",
+        "price": "ARS$2.166,83",
+        "published": "2020-07-23"
+    },
+    "9780007284870": {
+        "name": "Bad Science",
+        "isbn": "9780007284870",
+        "author": "Ben Goldacre",
+        "price": "ARS$2.170,23",
+        "published": "2010-03-30"
+    },
+    "9780099575832": {
+        "name": "The Knowledge",
+        "isbn": "9780099575832",
+        "author": "Lewis Dartnell",
+        "price": "ARS$2.171,57",
+        "published": "2015-03-10"
+    },
+    "9780262536349": {
+        "name": "Alice and Bob Meet the Wall of Fire",
+        "isbn": "9780262536349",
+        "author": "Thomas Lin",
+        "price": "ARS$2.172,05",
+        "published": "2018-12-11"
+    },
+    "9780486256641": {
+        "name": "One, Two, Three...Infinity",
+        "isbn": "9780486256641",
+        "author": "George Gamow",
+        "price": "ARS$2.173,20",
+        "published": "1989-08-01"
+    },
+    "9781107604667": {
+        "name": "What is Life?",
+        "isbn": "9781107604667",
+        "author": "Roger Penrose",
+        "price": "ARS$2.173,89",
+        "published": "2012-03-26"
+    },
+    "9780465030798": {
+        "name": "I Am a Strange Loop",
+        "isbn": "9780465030798",
+        "author": "Douglas Hofstadter",
+        "price": "ARS$2.174,51",
+        "published": "2008-07-16"
+    },
+    "9781788543002": {
+        "name": "The Three-Body Problem",
+        "isbn": "9781788543002",
+        "author": "Ken Liu",
+        "price": "ARS$2.182,35",
+        "published": "2018-10-04"
+    },
+    "9780552777599": {
+        "name": "Erwin Schrodinger and the Quantum Revolution",
+        "isbn": "9780552777599",
+        "author": "John Gribbin",
+        "price": "ARS$2.186,74",
+        "published": "2013-03-14"
+    },
+    "9781591846604": {
+        "name": "The Smartest Guys in the Room",
+        "isbn": "9781591846604",
+        "author": "Joe Nocera",
+        "price": "ARS$2.195,71",
+        "published": "2013-11-26"
+    },
+    "9780192832023": {
+        "name": "From Here to Infinity",
+        "isbn": "9780192832023",
+        "author": "Ian Stewart",
+        "price": "ARS$2.198,68",
+        "published": "1996-05-23"
+    },
+    "9780062698216": {
+        "name": "This Idea Is Brilliant",
+        "isbn": "9780062698216",
+        "author": "John Brockman",
+        "price": "ARS$2.202,35",
+        "published": "2018-02-22"
+    },
+    "9780307952349": {
+        "name": "Brave Genius",
+        "isbn": "9780307952349",
+        "author": "Sean B. Carroll",
+        "price": "ARS$2.203,27",
+        "published": "2014-09-23"
+    },
+    "9780192100245": {
+        "name": "Think",
+        "isbn": "9780192100245",
+        "author": "Simon Blackburn",
+        "price": "ARS$2.203,27",
+        "published": "1999-10-14"
+    },
+    "9781642501346": {
+        "name": "Eat Your Words",
+        "isbn": "9781642501346",
+        "author": "Paul Convery",
+        "price": "ARS$2.206,18",
+        "published": "2019-12-19"
+    },
+    "9788498920871": {
+        "name": "El futuro borroso o El cielo en un chip",
+        "isbn": "9788498920871",
+        "author": "Mercedes Garcia Garmilla",
+        "price": "ARS$2.207,34",
+        "published": "2010-05-20"
+    },
+    "9780241954638": {
+        "name": "Our Mathematical Universe",
+        "isbn": "9780241954638",
+        "author": "Max Tegmark",
+        "price": "ARS$2.216,99",
+        "published": "2015-02-26"
+    },
+    "9780547394527": {
+        "name": "The Edge of Physics",
+        "isbn": "9780547394527",
+        "author": "Anil Ananthaswamy",
+        "price": "ARS$2.218,91",
+        "published": "2011-01-14"
+    },
+    "9781400032051": {
+        "name": "1491 (Second Edition)",
+        "isbn": "9781400032051",
+        "author": "Charles C. Mann",
+        "price": "ARS$2.221,91",
+        "published": "2006-10-10"
+    },
+    "9780571308989": {
+        "name": "QI: The Third Book of General Ignorance",
+        "isbn": "9780571308989",
+        "author": "Andrew Hunter Murray",
+        "price": "ARS$2.226,24",
+        "published": "2018-10-05"
+    },
+    "9780307394910": {
+        "name": "The Book of General Ignorance",
+        "isbn": "9780307394910",
+        "author": "John Lloyd",
+        "price": "ARS$2.226,38",
+        "published": "2007-08-07"
+    },
+    "9781579550035": {
+        "name": "Idea Makers",
+        "isbn": "9781579550035",
+        "author": "Stephen Wolfram",
+        "price": "ARS$2.232,94",
+        "published": "2016-07-28"
+    },
+    "9780156002103": {
+        "name": "Towing Jehovah",
+        "isbn": "9780156002103",
+        "author": "James Morrow",
+        "price": "ARS$2.233,41",
+        "published": "1995-05-01"
+    },
+    "9780988269736": {
+        "name": "The Girl Who Would Be King",
+        "isbn": "9780988269736",
+        "author": "Kelly Thompson",
+        "price": "ARS$2.233,58",
+        "published": "2012-12-16"
+    },
+    "9780008393854": {
+        "name": "An Atlas of Extinct Countries",
+        "isbn": "9780008393854",
+        "author": "Gideon Defoe",
+        "price": "ARS$2.234,50",
+        "published": "2020-09-03"
+    },
+    "9781847390547": {
+        "name": "Einstein",
+        "isbn": "9781847390547",
+        "author": "Walter Isaacson",
+        "price": "ARS$2.238,11",
+        "published": "2008-06-01"
+    },
+    "9780199679591": {
+        "name": "The Concise Oxford Dictionary of Mathematics",
+        "isbn": "9780199679591",
+        "author": "James Nicholson",
+        "price": "ARS$2.238,26",
+        "published": "2014-07-22"
+    },
+    "9781633538962": {
+        "name": "Greek Mythology Explained",
+        "isbn": "9781633538962",
+        "author": "David Ramenah",
+        "price": "ARS$2.240,83",
+        "published": "2019-01-31"
+    },
+    "9781785783722": {
+        "name": "Richard Feynman",
+        "isbn": "9781785783722",
+        "author": "Mary Gribbin",
+        "price": "ARS$2.242,39",
+        "published": "2018-05-24"
+    },
+    "9780008220617": {
+        "name": "Out of the Shadow of a Giant",
+        "isbn": "9780008220617",
+        "author": "Mary Gribbin",
+        "price": "ARS$2.246,58",
+        "published": "2018-05-17"
+    },
+    "9780099443728": {
+        "name": "The Infinite Book",
+        "isbn": "9780099443728",
+        "author": "John D. Barrow",
+        "price": "ARS$2.253,27",
+        "published": "2006-04-01"
+    },
+    "9780871401007": {
+        "name": "The Meaning of Human Existence",
+        "isbn": "9780871401007",
+        "author": "Edward O. Wilson",
+        "price": "ARS$2.256,41",
+        "published": "2014-11-10"
+    },
+    "9780345409461": {
+        "name": "The Demon-Haunted World",
+        "isbn": "9780345409461",
+        "author": "Ann Druyan",
+        "price": "ARS$2.271,30",
+        "published": "2000-04-01"
+    },
+    "9781846682865": {
+        "name": "Catching Fire",
+        "isbn": "9781846682865",
+        "author": "Richard Wrangham",
+        "price": "ARS$2.284,00",
+        "published": "2012-09-12"
+    },
+    "9780262529846": {
+        "name": "The Outer Limits of Reason",
+        "isbn": "9780262529846",
+        "author": "Noson S. Yanofsky",
+        "price": "ARS$2.290,52",
+        "published": "2016-11-04"
+    },
+    "9780812967883": {
+        "name": "The Scientists",
+        "isbn": "9780812967883",
+        "author": "Adam Hook",
+        "price": "ARS$2.295,11",
+        "published": "2004-08-10"
+    },
+    "9781509837267": {
+        "name": "Wonderland",
+        "isbn": "9781509837267",
+        "author": "Steven Johnson",
+        "price": "ARS$2.304,76",
+        "published": "2017-02-09"
+    },
+    "9780691168487": {
+        "name": "e: The Story of a Number",
+        "isbn": "9780691168487",
+        "author": "Eli Maor",
+        "price": "ARS$2.314,38",
+        "published": "2015-10-21"
+    },
+    "9780486482125": {
+        "name": "Mathematical Tools for Physics",
+        "isbn": "9780486482125",
+        "author": "PHYSICS",
+        "price": "ARS$2.316,11",
+        "published": "2010-10-18"
+    },
+    "9780394726250": {
+        "name": "The Discoverers",
+        "isbn": "9780394726250",
+        "author": "Daniel J. Boorstin",
+        "price": "ARS$2.318,02",
+        "published": "1985-02-12"
+    },
+    "9780691176956": {
+        "name": "Totally Random",
+        "isbn": "9780691176956",
+        "author": "Jeffrey Bub",
+        "price": "ARS$2.336,43",
+        "published": "2018-07-10"
+    },
+    "9780743216760": {
+        "name": "The Measure of All Things",
+        "isbn": "9780743216760",
+        "author": "Ken Alder",
+        "price": "ARS$2.340,53",
+        "published": "2003-10-20"
+    },
+    "9780552777513": {
+        "name": "The Violinist's Thumb",
+        "isbn": "9780552777513",
+        "author": "Sam Kean",
+        "price": "ARS$2.349,56",
+        "published": "2013-02-28"
+    },
+    "9781786630810": {
+        "name": "A People's History of the World",
+        "isbn": "9781786630810",
+        "author": "Chris Harman",
+        "price": "ARS$2.352,84",
+        "published": "2017-05-04"
+    },
+    "9780143106166": {
+        "name": "Dracula (Penguin Classics Deluxe Edition)",
+        "isbn": "9780143106166",
+        "author": "Bram Stoker",
+        "price": "ARS$2.355,73",
+        "published": "2018-02-21"
+    },
+    "9781633538504": {
+        "name": "The Origin of Names, Words and Everything in Between",
+        "isbn": "9781633538504",
+        "author": "Patrick Foote",
+        "price": "ARS$2.357,82",
+        "published": "2018-11-01"
+    },
+    "9780099546672": {
+        "name": "Supergods",
+        "isbn": "9780099546672",
+        "author": "Grant Morrison",
+        "price": "ARS$2.359,95",
+        "published": "2012-07-26"
+    },
+    "9781786071033": {
+        "name": "The Big Picture",
+        "isbn": "9781786071033",
+        "author": "Sean Carroll",
+        "price": "ARS$2.365,33",
+        "published": "2017-05-04"
+    },
+    "9780099478898": {
+        "name": "The Happiness Hypothesis",
+        "isbn": "9780099478898",
+        "author": "Jonathan Haidt",
+        "price": "ARS$2.366,36",
+        "published": "2007-04-05"
+    },
+    "9780393319910": {
+        "name": "Geons, Black Holes, and Quantum Foam",
+        "isbn": "9780393319910",
+        "author": "Kenneth Ford",
+        "price": "ARS$2.366,94",
+        "published": "2000-05-24"
+    },
+    "9780718196042": {
+        "name": "How Not to Be Wrong",
+        "isbn": "9780718196042",
+        "author": "Jordan Ellenberg",
+        "price": "ARS$2.372,20",
+        "published": "2015-05-26"
+    },
+    "9780375714498": {
+        "name": "Manufacturing Consent",
+        "isbn": "9780375714498",
+        "author": "Noam Chomsky",
+        "price": "ARS$2.379,86",
+        "published": "2002-01-15"
+    },
+    "9780099302780": {
+        "name": "Guns, Germs and Steel",
+        "isbn": "9780099302780",
+        "author": "Jared Diamond",
+        "price": "ARS$2.393,10",
+        "published": "2000-04-26"
+    },
+    "9781447263647": {
+        "name": "The River of Consciousness",
+        "isbn": "9781447263647",
+        "author": "Oliver Sacks",
+        "price": "ARS$2.413,19",
+        "published": "2017-10-19"
+    },
+    "9780241967980": {
+        "name": "Tide",
+        "isbn": "9780241967980",
+        "author": "Hugh Aldersey-Williams",
+        "price": "ARS$2.418,98",
+        "published": "2017-04-06"
+    },
+    "9780141975658": {
+        "name": "The Signal and the Noise",
+        "isbn": "9780141975658",
+        "author": "Nate Silver",
+        "price": "ARS$2.422,98",
+        "published": "2015-10-05"
+    },
+    "9780393609097": {
+        "name": "Norse Mythology",
+        "isbn": "9780393609097",
+        "author": "Neil Gaiman",
+        "price": "ARS$2.432,88",
+        "published": "2021-02-01"
+    },
+    "9780486450070": {
+        "name": "Makers of Mathematics",
+        "isbn": "9780486450070",
+        "author": "Stuart Hollingdale",
+        "price": "ARS$2.434,44",
+        "published": "2011-07-19"
+    },
+    "9781324001560": {
+        "name": "How Charts Lie",
+        "isbn": "9781324001560",
+        "author": "Alberto Cairo",
+        "price": "ARS$2.436,50",
+        "published": "2019-10-15"
+    },
+    "9780393312768": {
+        "name": "Black Holes & Time Warps",
+        "isbn": "9780393312768",
+        "author": "Stephen W. Hawking",
+        "price": "ARS$2.451,09",
+        "published": "1995-05-02"
+    },
+    "9781473695986": {
+        "name": "Brief Answers to the Big Questions",
+        "isbn": "9781473695986",
+        "author": "Stephen Hawking",
+        "price": "ARS$2.452,60",
+        "published": "2018-10-30"
+    },
+    "9780151010264": {
+        "name": "Animal Farm and 1984",
+        "isbn": "9780151010264",
+        "author": "Christopher Hitchens",
+        "price": "ARS$2.462,09",
+        "published": "2021-07-28"
+    },
+    "9781780873275": {
+        "name": "The Periodic Table",
+        "isbn": "9781780873275",
+        "author": "Gail Dixon",
+        "price": "ARS$2.469,75",
+        "published": "2014-03-11"
+    },
+    "9781474606455": {
+        "name": "The Ancestor's Tale",
+        "isbn": "9781474606455",
+        "author": "Yan Wong",
+        "price": "ARS$2.473,28",
+        "published": "2017-02-09"
+    },
+    "9780195377934": {
+        "name": "OK",
+        "isbn": "9780195377934",
+        "author": "Allan Metcalf",
+        "price": "ARS$2.474,21",
+        "published": "2011-01-31"
+    },
+    "9781846682575": {
+        "name": "The Origins of Political Order",
+        "isbn": "9781846682575",
+        "author": "Francis Fukuyama",
+        "price": "ARS$2.482,48",
+        "published": "2012-05-01"
+    },
+    "9780393248968": {
+        "name": "Storm in a Teacup",
+        "isbn": "9780393248968",
+        "author": "Helen Czerski",
+        "price": "ARS$2.484,31",
+        "published": "2017-07-26"
+    },
+    "9780465060955": {
+        "name": "Fluke",
+        "isbn": "9780465060955",
+        "author": "Joseph Mazur",
+        "price": "ARS$2.486,01",
+        "published": "2016-03-29"
+    },
+    "9788417822002": {
+        "name": "La ciencia de la ciencia-ficción : cuando Hawking jugaba al póker en el Enterprise : aprende ciencia con las obras de culto del Sci-Fi",
+        "isbn": "9788417822002",
+        "author": "Manuel Moreno Lupiáñez",
+        "price": "ARS$2.486,25",
+        "published": "2019-02-27"
+    },
+    "9781465430014": {
+        "name": "Marvel The Avengers: The Ultimate Character Guide",
+        "isbn": "9781465430014",
+        "author": "Alan Cowsill",
+        "price": "ARS$2.508,63",
+        "published": "2015-03-03"
+    },
+    "9780099592860": {
+        "name": "The Silent History",
+        "isbn": "9780099592860",
+        "author": "Matthew Derby",
+        "price": "ARS$2.515,45",
+        "published": "2015-09-03"
+    },
+    "9781848317307": {
+        "name": "The Classics Magpie",
+        "isbn": "9781848317307",
+        "author": "Jane Hood",
+        "price": "ARS$2.518,46",
+        "published": "2014-12-23"
+    },
+    "9780743258210": {
+        "name": "The Equation That Couldn't Be Solved",
+        "isbn": "9780743258210",
+        "author": "Mario Livio",
+        "price": "ARS$2.521,52",
+        "published": "2006-09-01"
+    },
+    "9780521457286": {
+        "name": "The Ghost in the Atom",
+        "isbn": "9780521457286",
+        "author": "Julian R. Brown",
+        "price": "ARS$2.528,71",
+        "published": "2010-04-01"
+    },
+    "9780553448122": {
+        "name": "Artemis",
+        "isbn": "9780553448122",
+        "author": "Andy Weir",
+        "price": "ARS$2.532,37",
+        "published": "2017-11-14"
+    },
+    "9780062391162": {
+        "name": "Unthinkable",
+        "isbn": "9780062391162",
+        "author": "Helen Thomson",
+        "price": "ARS$2.533,30",
+        "published": "2018-06-26"
+    },
+    "9780765326454": {
+        "name": "The Mad Scientist's Guide to World Domination",
+        "isbn": "9780765326454",
+        "author": "John Joseph Adams",
+        "price": "ARS$2.542,67",
+        "published": "2013-09-01"
+    },
+    "9780465011230": {
+        "name": "The Annotated Flatland",
+        "isbn": "9780465011230",
+        "author": "Ian Stewart",
+        "price": "ARS$2.549,99",
+        "published": "2008-08-01"
+    },
+    "9780674975323": {
+        "name": "Third Thoughts",
+        "isbn": "9780674975323",
+        "author": "Steven Weinberg",
+        "price": "ARS$2.560,65",
+        "published": "2018-08-31"
+    },
+    "9781848314160": {
+        "name": "The Science Magpie",
+        "isbn": "9781848314160",
+        "author": "Simon Flynn",
+        "price": "ARS$2.566,05",
+        "published": "2013-11-12"
+    },
+    "9780415325073": {
+        "name": "Power",
+        "isbn": "9780415325073",
+        "author": "Bertrand Russell",
+        "price": "ARS$2.566,05",
+        "published": "2004-03-01"
+    },
+    "9780691173269": {
+        "name": "Fearful Symmetry",
+        "isbn": "9780691173269",
+        "author": "Roger Penrose",
+        "price": "ARS$2.566,05",
+        "published": "2016-10-10"
+    },
+    "9780241388471": {
+        "name": "Stephen Biesty's More Incredible Cross-sections",
+        "isbn": "9780241388471",
+        "author": "Stephen Biesty",
+        "price": "ARS$2.573,39",
+        "published": "2019-10-03"
+    },
+    "9780810989580": {
+        "name": "Steampunk Bible",
+        "isbn": "9780810989580",
+        "author": "S. J. Chambers",
+        "price": "ARS$2.581,30",
+        "published": "2011-06-01"
+    },
+    "9781593276201": {
+        "name": "Statistics Done Wrong",
+        "isbn": "9781593276201",
+        "author": "Alex Reinhart",
+        "price": "ARS$2.585,90",
+        "published": "2015-08-01"
+    },
+    "9781633537323": {
+        "name": "Anime Impact",
+        "isbn": "9781633537323",
+        "author": "Chris Stuckmann",
+        "price": "ARS$2.598,54",
+        "published": "2018-07-02"
+    },
+    "9780241379783": {
+        "name": "Stephen Biesty's Incredible Cross-Sections",
+        "isbn": "9780241379783",
+        "author": "Stephen Biesty",
+        "price": "ARS$2.602,79",
+        "published": "2019-05-02"
+    },
+    "9788415256212": {
+        "name": "La Guerra de DOS Mundos",
+        "isbn": "9788415256212",
+        "author": "Sergio L Palacios",
+        "price": "ARS$2.606,23",
+        "published": "2012-11-01"
+    },
+    "9781250069528": {
+        "name": "The Universe in Your Hand",
+        "isbn": "9781250069528",
+        "author": "Christophe Galfard",
+        "price": "ARS$2.606,43",
+        "published": "2016-04-19"
+    },
+    "9781529104592": {
+        "name": "Primitive Technology",
+        "isbn": "9781529104592",
+        "author": "John Plant",
+        "price": "ARS$2.612,88",
+        "published": "2019-10-31"
+    },
+    "9781633537507": {
+        "name": "Cold Fusion Presents: New Thinking",
+        "isbn": "9781633537507",
+        "author": "Dagogo Altraide",
+        "price": "ARS$2.613,65",
+        "published": "2019-01-15"
+    },
+    "9780241403471": {
+        "name": "Stephen Biesty's Incredible Cross-Sections of Everything",
+        "isbn": "9780241403471",
+        "author": "Stephen Biesty",
+        "price": "ARS$2.614,91",
+        "published": "2020-04-02"
+    },
+    "9781594206191": {
+        "name": "Einstein's Unfinished Revolution",
+        "isbn": "9781594206191",
+        "author": "Lee Smolin",
+        "price": "ARS$2.620,81",
+        "published": "2019-04-09"
+    },
+    "9780062906717": {
+        "name": "Conscious",
+        "isbn": "9780062906717",
+        "author": "Annaka Harris",
+        "price": "ARS$2.622,00",
+        "published": "2019-11-14"
+    },
+    "9780399166662": {
+        "name": "One Day",
+        "isbn": "9780399166662",
+        "author": "Gene Weingarten",
+        "price": "ARS$2.631,56",
+        "published": "2019-10-24"
+    },
+    "9781408886816": {
+        "name": "Norse Mythology",
+        "isbn": "9781408886816",
+        "author": "Neil Gaiman",
+        "price": "ARS$2.636,14",
+        "published": "2017-02-07"
+    },
+    "9781784161859": {
+        "name": "A Short History of Nearly Everything",
+        "isbn": "9781784161859",
+        "author": "Bill Bryson",
+        "price": "ARS$2.643,06",
+        "published": "2017-02-09"
+    },
+    "9780812993257": {
+        "name": "The Road to Character",
+        "isbn": "9780812993257",
+        "author": "David Brooks",
+        "price": "ARS$2.644,31",
+        "published": "2015-04-21"
+    },
+    "9781896522678": {
+        "name": "High Frontier",
+        "isbn": "9781896522678",
+        "author": "Gerard K O'Neill",
+        "price": "ARS$2.648,72",
+        "published": "2001-01-01"
+    },
+    "9780226558387": {
+        "name": "Beyond Weird",
+        "isbn": "9780226558387",
+        "author": "Philip Ball",
+        "price": "ARS$2.650,29",
+        "published": "2018-10-18"
+    },
+    "9780674018570": {
+        "name": "Information",
+        "isbn": "9780674018570",
+        "author": "Hans Christian Von Baeyer",
+        "price": "ARS$2.650,62",
+        "published": "2005-11-30"
+    },
+    "9780198738374": {
+        "name": "A Dictionary of Science",
+        "isbn": "9780198738374",
+        "author": "Jonathan Law",
+        "price": "ARS$2.663,27",
+        "published": "2017-05-23"
+    },
+    "9780553805376": {
+        "name": "The Grand Design",
+        "isbn": "9780553805376",
+        "author": "Leonard Mlodinow",
+        "price": "ARS$2.665,21",
+        "published": "2011-08-26"
+    },
+    "9780691130521": {
+        "name": "When Least Is Best",
+        "isbn": "9780691130521",
+        "author": "Paul J. Nahin",
+        "price": "ARS$2.666,03",
+        "published": "2007-07-22"
+    },
+    "9780190621766": {
+        "name": "A Brief History of Mathematical Thought",
+        "isbn": "9780190621766",
+        "author": "Luke Heaton",
+        "price": "ARS$2.681,85",
+        "published": "2017-02-01"
+    },
+    "9781250202703": {
+        "name": "The Nocturnal Brain",
+        "isbn": "9781250202703",
+        "author": "DR GUY LESCHZINER",
+        "price": "ARS$2.683,00",
+        "published": "2019-07-23"
+    },
+    "9781250098962": {
+        "name": "Chasing New Horizons",
+        "isbn": "9781250098962",
+        "author": "David Harry Grinspoon",
+        "price": "ARS$2.684,80",
+        "published": "2018-06-12"
+    },
+    "9780470613528": {
+        "name": "In Search of the Multiverse",
+        "isbn": "9780470613528",
+        "author": "John Gribbin",
+        "price": "ARS$2.689,82",
+        "published": "2010-08-30"
+    },
+    "9781845291556": {
+        "name": "A Brief History of Medicine",
+        "isbn": "9781845291556",
+        "author": "Mr Paul Strathern",
+        "price": "ARS$2.692,22",
+        "published": "2005-06-23"
+    },
+    "9780199931415": {
+        "name": "Cataloging the World",
+        "isbn": "9780199931415",
+        "author": "Alex Wright",
+        "price": "ARS$2.698,30",
+        "published": "2014-07-10"
+    },
+    "9781473223486": {
+        "name": "The Man In The High Castle",
+        "isbn": "9781473223486",
+        "author": "Philip K. Dick",
+        "price": "ARS$2.706,86",
+        "published": "2017-11-16"
+    },
+    "9780691174167": {
+        "name": "Ten Great Ideas about Chance",
+        "isbn": "9780691174167",
+        "author": "Brian Skyrms",
+        "price": "ARS$2.718,92",
+        "published": "2018-01-02"
+    },
+    "9780691142890": {
+        "name": "The Little Book of String Theory",
+        "isbn": "9780691142890",
+        "author": "Steven S. Gubser",
+        "price": "ARS$2.724,05",
+        "published": "2011-02-21"
+    },
+    "9780199678112": {
+        "name": "Superintelligence",
+        "isbn": "9780199678112",
+        "author": "Nick Bostrom",
+        "price": "ARS$2.727,33",
+        "published": "2014-09-03"
+    },
+    "9780099289920": {
+        "name": "The Elegant Universe",
+        "isbn": "9780099289920",
+        "author": "Brian Greene",
+        "price": "ARS$2.730,80",
+        "published": "2000-02-03"
+    },
+    "9780471536567": {
+        "name": "The Mathematical Universe",
+        "isbn": "9780471536567",
+        "author": "William Dunham",
+        "price": "ARS$2.732,43",
+        "published": "1994-08-30"
+    },
+    "9781633539099": {
+        "name": "Upcycled Technology",
+        "isbn": "9781633539099",
+        "author": "Daniel Davis",
+        "price": "ARS$2.742,97",
+        "published": "2019-04-18"
+    },
+    "9780674504646": {
+        "name": "QBism",
+        "isbn": "9780674504646",
+        "author": "Lili Von Baeyer",
+        "price": "ARS$2.749,73",
+        "published": "2021-01-07"
+    },
+    "9780195130966": {
+        "name": "Time: A Traveler's Guide",
+        "isbn": "9780195130966",
+        "author": "Clifford A. Pickover",
+        "price": "ARS$2.753,40",
+        "published": "1999-09-30"
+    },
+    "9781470070700": {
+        "name": "Calculus, Better Explained",
+        "isbn": "9781470070700",
+        "author": "Kalid Azad",
+        "price": "ARS$2.753,40",
+        "published": "2015-11-14"
+    },
+    "9781479186723": {
+        "name": "Math, Better Explained",
+        "isbn": "9781479186723",
+        "author": "Kalid Azad",
+        "price": "ARS$2.753,40",
+        "published": "2013-05-03"
+    },
+    "9781439148884": {
+        "name": "Perfect Symmetry",
+        "isbn": "9781439148884",
+        "author": "Heinz R Pagels",
+        "price": "ARS$2.753,40",
+        "published": "2009-05-26"
+    },
+    "9780195117981": {
+        "name": "Time's Arrow and Archimedes' Point",
+        "isbn": "9780195117981",
+        "author": "Huw Price",
+        "price": "ARS$2.753,40",
+        "published": "1997-12-04"
+    },
+    "9780801872631": {
+        "name": "Back-of-the-Envelope Physics",
+        "isbn": "9780801872631",
+        "author": "Clifford Swartz",
+        "price": "ARS$2.754,31",
+        "published": "2003-05-30"
+    },
+    "9781473680326": {
+        "name": "How To",
+        "isbn": "9781473680326",
+        "author": "Randall Munroe",
+        "price": "ARS$2.762,86",
+        "published": "2019-09-03"
+    },
+    "9781101947883": {
+        "name": "Exhalation",
+        "isbn": "9781101947883",
+        "author": "Ted Chiang",
+        "price": "ARS$2.771,07",
+        "published": "2019-05-07"
+    },
+    "9780465038299": {
+        "name": "A Different Universe",
+        "isbn": "9780465038299",
+        "author": "Robert Laughlin",
+        "price": "ARS$2.774,72",
+        "published": "2006-02-28"
+    },
+    "9781841954325": {
+        "name": "The Golden Bough",
+        "isbn": "9781841954325",
+        "author": "Cairns Craig",
+        "price": "ARS$2.774,82",
+        "published": "2004-05-24"
+    },
+    "9780763649487": {
+        "name": "Into the Unknown",
+        "isbn": "9780763649487",
+        "author": "Stephen Biesty",
+        "price": "ARS$2.789,34",
+        "published": "2011-04-12"
+    },
+    "9780521639927": {
+        "name": "The New World of Mr Tompkins",
+        "isbn": "9780521639927",
+        "author": "Russell Stannard",
+        "price": "ARS$2.793,32",
+        "published": "2009-10-31"
+    },
+    "9781681772431": {
+        "name": "Millennium",
+        "isbn": "9781681772431",
+        "author": "Ian Mortimer",
+        "price": "ARS$2.794,02",
+        "published": "2016-11-08"
+    },
+    "9781786492944": {
+        "name": "Infinite Powers",
+        "isbn": "9781786492944",
+        "author": "Steven Strogatz",
+        "price": "ARS$2.800,24",
+        "published": "2019-06-06"
+    },
+    "9780596523206": {
+        "name": "The Geek Atlas",
+        "isbn": "9780596523206",
+        "author": "John Graham-Cumming",
+        "price": "ARS$2.803,00",
+        "published": "2009-06-18"
+    },
+    "9780470467244": {
+        "name": "String Theory For Dummies",
+        "isbn": "9780470467244",
+        "author": "Daniel Robbins",
+        "price": "ARS$2.812,37",
+        "published": "2009-11-20"
+    },
+    "9780199609055": {
+        "name": "A Dictionary of Astronomy",
+        "isbn": "9780199609055",
+        "author": "Ian Ridpath",
+        "price": "ARS$2.812,49",
+        "published": "2012-12-01"
+    },
+    "9780062378071": {
+        "name": "SAS Survival Handbook, Third Edition",
+        "isbn": "9780062378071",
+        "author": "John 'Lofty' Wiseman",
+        "price": "ARS$2.836,83",
+        "published": "2014-12-13"
+    },
+    "9780393071580": {
+        "name": "Weird Life",
+        "isbn": "9780393071580",
+        "author": "David Toomey",
+        "price": "ARS$2.841,57",
+        "published": "2013-03-26"
+    },
+    "9780226922904": {
+        "name": "Swordfish",
+        "isbn": "9780226922904",
+        "author": "Richard Ellis",
+        "price": "ARS$2.846,16",
+        "published": "2013-04-15"
+    },
+    "9780770437732": {
+        "name": "The Physics of Everyday Things",
+        "isbn": "9780770437732",
+        "author": "James Kakalios",
+        "price": "ARS$2.846,16",
+        "published": "2017-05-16"
+    },
+    "9781786076335": {
+        "name": "Something Deeply Hidden",
+        "isbn": "9781786076335",
+        "author": "Sean Carroll",
+        "price": "ARS$2.846,21",
+        "published": "2019-10-21"
+    },
+    "9781594205224": {
+        "name": "How Not to Be Wrong",
+        "isbn": "9781594205224",
+        "author": "Jordan Ellenberg",
+        "price": "ARS$2.848,07",
+        "published": "2014-05-29"
+    },
+    "9788415256632": {
+        "name": "Las Hazanas de Los Superheroes y La Fisica",
+        "isbn": "9788415256632",
+        "author": "Sergio L Palacios",
+        "price": "ARS$2.849,63",
+        "published": "2016-07-01"
+    },
+    "9781593279561": {
+        "name": "Bayesian Statistics The Fun Way",
+        "isbn": "9781593279561",
+        "author": "Will Kurt",
+        "price": "ARS$2.857,95",
+        "published": "2019-07-11"
+    },
+    "9781848314559": {
+        "name": "Introducing Graphic Guide box set - Great Theories of Science",
+        "isbn": "9781848314559",
+        "author": "Oscar Zarate",
+        "price": "ARS$2.861,31",
+        "published": "2013-09-10"
+    },
+    "9781452168623": {
+        "name": "Cut in Half",
+        "isbn": "9781452168623",
+        "author": "Jonothan Woodward",
+        "price": "ARS$2.863,19",
+        "published": "2018-09-04"
+    },
+    "9781594746161": {
+        "name": "The Resurrectionist",
+        "isbn": "9781594746161",
+        "author": "E.B. Hudspeth",
+        "price": "ARS$2.874,38",
+        "published": "2015-03-04"
+    },
+    "9781473620919": {
+        "name": "Thing Explainer",
+        "isbn": "9781473620919",
+        "author": "Randall Munroe",
+        "price": "ARS$2.880,58",
+        "published": "2015-11-24"
+    },
+    "9780262533287": {
+        "name": "Frankenstein",
+        "isbn": "9780262533287",
+        "author": "Alfred Nordmann",
+        "price": "ARS$2.880,58",
+        "published": "2017-06-20"
+    },
+    "9789812381491": {
+        "name": "Facts And Mysteries In Elementary Particle Physics",
+        "isbn": "9789812381491",
+        "author": "Martinus J G Veltman",
+        "price": "ARS$2.882,72",
+        "published": "2003-06-01"
+    },
+    "9780465020287": {
+        "name": "The Crime of Reason",
+        "isbn": "9780465020287",
+        "author": "Robert Laughlin",
+        "price": "ARS$2.884,26",
+        "published": "2010-12-28"
+    },
+    "9781627790369": {
+        "name": "Algorithms to Live by",
+        "isbn": "9781627790369",
+        "author": "Tom Griffiths",
+        "price": "ARS$2.891,96",
+        "published": "2016-04-19"
+    },
+    "9780691147154": {
+        "name": "Wizards, Aliens, and Starships",
+        "isbn": "9780691147154",
+        "author": "Charles L. Adler",
+        "price": "ARS$2.895,15",
+        "published": "2014-02-02"
+    },
+    "9780465096053": {
+        "name": "What Is Real?",
+        "isbn": "9780465096053",
+        "author": "Adam Becker",
+        "price": "ARS$2.902,26",
+        "published": "2018-05-10"
+    },
+    "9780143130444": {
+        "name": "Drawdown",
+        "isbn": "9780143130444",
+        "author": "Paul Hawken",
+        "price": "ARS$2.903,87",
+        "published": "2017-04-20"
+    },
+    "9780571222865": {
+        "name": "The Strangest Man",
+        "isbn": "9780571222865",
+        "author": "Graham Farmelo",
+        "price": "ARS$2.904,02",
+        "published": "2009-12-24"
+    },
+    "9781783351961": {
+        "name": "Dishonesty is the Second-Best Policy",
+        "isbn": "9781783351961",
+        "author": "David Mitchell",
+        "price": "ARS$2.912,57",
+        "published": "2019-11-07"
+    },
+    "9780674988132": {
+        "name": "The Creativity Code",
+        "isbn": "9780674988132",
+        "author": "Marcus du Sautoy",
+        "price": "ARS$2.914,12",
+        "published": "2019-04-26"
+    },
+    "9780393285239": {
+        "name": "Now",
+        "isbn": "9780393285239",
+        "author": "Richard A. Muller",
+        "price": "ARS$2.921,77",
+        "published": "2016-09-20"
+    },
+    "9780241380369": {
+        "name": "Heroes",
+        "isbn": "9780241380369",
+        "author": "Stephen Fry",
+        "price": "ARS$2.934,32",
+        "published": "2018-11-01"
+    },
+    "9781780747750": {
+        "name": "Professor Povey's Perplexing Problems",
+        "isbn": "9781780747750",
+        "author": "Thomas Povey",
+        "price": "ARS$2.937,09",
+        "published": "2015-09-15"
+    },
+    "9788423430840": {
+        "name": "Viviendo del futuro",
+        "isbn": "9788423430840",
+        "author": "Enrique Dans",
+        "price": "ARS$2.950,41",
+        "published": "2019-10-21"
+    },
+    "9780521091282": {
+        "name": "An Introduction to Fourier Analysis and Generalised Functions",
+        "isbn": "9780521091282",
+        "author": "M. J. Lighthill",
+        "price": "ARS$2.955,45",
+        "published": "2003-04-10"
+    },
+    "9780471500308": {
+        "name": "Journey through Genius",
+        "isbn": "9780471500308",
+        "author": "William Dunham",
+        "price": "ARS$2.957,28",
+        "published": "1990-04-18"
+    },
+    "9780802778994": {
+        "name": "Sciencia",
+        "isbn": "9780802778994",
+        "author": "Gerard Cheshire",
+        "price": "ARS$2.966,35",
+        "published": "2011-11-23"
+    },
+    "9780393354324": {
+        "name": "Guns, Germs, and Steel",
+        "isbn": "9780393354324",
+        "author": "Jared Diamond",
+        "price": "ARS$2.966,87",
+        "published": "2017-09-20"
+    },
+    "9780140297416": {
+        "name": "Science: A History",
+        "isbn": "9780140297416",
+        "author": "John Gribbin",
+        "price": "ARS$2.967,39",
+        "published": "2010-06-01"
+    },
+    "9780763669904": {
+        "name": "The Story of Buildings",
+        "isbn": "9780763669904",
+        "author": "Stephen Biesty",
+        "price": "ARS$2.971,34",
+        "published": "2014-03-11"
+    },
+    "9781594632969": {
+        "name": "How We Got to Now",
+        "isbn": "9781594632969",
+        "author": "Steven Johnson",
+        "price": "ARS$2.972,22",
+        "published": "2014-09-30"
+    },
+    "9780691161518": {
+        "name": "Power-Up",
+        "isbn": "9780691161518",
+        "author": "Matthew Lane",
+        "price": "ARS$2.973,44",
+        "published": "2017-06-13"
+    },
+    "9781538760536": {
+        "name": "The Skeptics' Guide to the Universe",
+        "isbn": "9781538760536",
+        "author": "Evan Bernstein",
+        "price": "ARS$2.976,71",
+        "published": "2018-10-02"
+    },
+    "9780805092998": {
+        "name": "The Sixth Extinction",
+        "isbn": "9780805092998",
+        "author": "Elizabeth Kolbert",
+        "price": "ARS$2.980,03",
+        "published": "2014-02-11"
+    },
+    "9780544272996": {
+        "name": "What If?",
+        "isbn": "9780544272996",
+        "author": "Randall Munroe",
+        "price": "ARS$2.995,16",
+        "published": "2015-02-06"
+    },
+    "9780500021743": {
+        "name": "Arcade Game Typography",
+        "isbn": "9780500021743",
+        "author": "Kiyonori Muroga",
+        "price": "ARS$2.999,53",
+        "published": "2019-10-29"
+    },
+    "9780471887027": {
+        "name": "Quantum Mechanics",
+        "isbn": "9780471887027",
+        "author": "Eugen Merzbacher",
+        "price": "ARS$20.072,39",
+        "published": "1998-01-16"
+    },
+    "9783642224201": {
+        "name": "Quantum Field Theory III: Gauge Theory",
+        "isbn": "9783642224201",
+        "author": "Eberhard Zeidler",
+        "price": "ARS$20.662,46",
+        "published": "2011-10-28"
+    },
+    "9783540347620": {
+        "name": "Quantum Field Theory I: Basics in Mathematics and Physics",
+        "isbn": "9783540347620",
+        "author": "Eberhard Zeidler",
+        "price": "ARS$22.004,08",
+        "published": "2009-09-01"
+    },
+    "9781259129919": {
+        "name": "Fundamentals of Aerodynamics",
+        "isbn": "9781259129919",
+        "author": "John Anderson",
+        "price": "ARS$22.789,01",
+        "published": "2016-03-21"
+    },
+    "9780316509039": {
+        "name": "Math with Bad Drawings",
+        "isbn": "9780316509039",
+        "author": "Ben Orlin",
+        "price": "ARS$3.012,61",
+        "published": "2018-10-11"
+    },
+    "9780241344330": {
+        "name": "Marvel Studios All Your Questions Answered",
+        "isbn": "9780241344330",
+        "author": "Adam Bray",
+        "price": "ARS$3.014,00",
+        "published": "2018-04-04"
+    },
+    "9780374275631": {
+        "name": "Thinking, Fast and Slow",
+        "isbn": "9780374275631",
+        "author": "Daniel Kahneman",
+        "price": "ARS$3.018,59",
+        "published": "2012-02-15"
+    },
+    "9781472963888": {
+        "name": "Rage Inside the Machine",
+        "isbn": "9781472963888",
+        "author": "Robert Elliott Smith",
+        "price": "ARS$3.024,33",
+        "published": "2019-08-27"
+    },
+    "9780062004819": {
+        "name": "Among the Truthers",
+        "isbn": "9780062004819",
+        "author": "Jonathan Kay",
+        "price": "ARS$3.028,93",
+        "published": "2011-05-17"
+    },
+    "9780374146702": {
+        "name": "When Einstein Walked with Goedel",
+        "isbn": "9780374146702",
+        "author": "Jim Holt",
+        "price": "ARS$3.029,84",
+        "published": "2018-05-15"
+    },
+    "9780393351378": {
+        "name": "The Science of Interstellar",
+        "isbn": "9780393351378",
+        "author": "Christopher Nolan",
+        "price": "ARS$3.030,27",
+        "published": "2018-11-01"
+    },
+    "9780316502917": {
+        "name": "Magnitude",
+        "isbn": "9780316502917",
+        "author": "PhD  Katie Peek",
+        "price": "ARS$3.039,43",
+        "published": "2017-11-30"
+    },
+    "9781495351815": {
+        "name": "Fronteras de la realidad",
+        "isbn": "9781495351815",
+        "author": "Rafael Andrés Alemañ Berenguer",
+        "price": "ARS$3.039,54",
+        "published": "2014-01-27"
+    },
+    "9780007491568": {
+        "name": "Fahrenheit 451",
+        "isbn": "9780007491568",
+        "author": "Ray Bradbury",
+        "price": "ARS$3.062,70",
+        "published": "2013-04-01"
+    },
+    "9781324000914": {
+        "name": "Losing the Nobel Prize",
+        "isbn": "9781324000914",
+        "author": "Brian R. Keating",
+        "price": "ARS$3.069,21",
+        "published": "2019-01-15"
+    },
+    "9788401020889": {
+        "name": "¿CUANTO PESAN LAS NUBES?",
+        "isbn": "9788401020889",
+        "author": "David  Calle",
+        "price": "ARS$3.085,86",
+        "published": "2018-03-20"
+    },
+    "9780807060100": {
+        "name": "Man's Search for Meaning, Gift Edition",
+        "isbn": "9780807060100",
+        "author": "Harold S. Kushner",
+        "price": "ARS$3.087,11",
+        "published": "2014-10-28"
+    },
+    "9780062346650": {
+        "name": "To Explain the World",
+        "isbn": "9780062346650",
+        "author": "Steven Weinberg",
+        "price": "ARS$3.094,13",
+        "published": "2015-02-17"
+    },
+    "9781465474766": {
+        "name": "The Dinosaur Book",
+        "isbn": "9781465474766",
+        "author": "John Woodward",
+        "price": "ARS$3.102,73",
+        "published": "2018-09-18"
+    },
+    "9780062490421": {
+        "name": "The Rise and Fall of the Dinosaurs",
+        "isbn": "9780062490421",
+        "author": "Steve Brusatte",
+        "price": "ARS$3.116,61",
+        "published": "2018-04-24"
+    },
+    "9781107686748": {
+        "name": "Calculus for the Ambitious",
+        "isbn": "9781107686748",
+        "author": "T. W. Koerner",
+        "price": "ARS$3.120,77",
+        "published": "2014-07-21"
+    },
+    "9780262043465": {
+        "name": "Sleight of Mind",
+        "isbn": "9780262043465",
+        "author": "Matt Cook",
+        "price": "ARS$3.131,15",
+        "published": "2020-10-12"
+    },
+    "9780465032921": {
+        "name": "Math on Trial",
+        "isbn": "9780465032921",
+        "author": "Leila Schneps",
+        "price": "ARS$3.138,14",
+        "published": "2013-04-12"
+    },
+    "9781948836128": {
+        "name": "Ludicrous",
+        "isbn": "9781948836128",
+        "author": "Edward Niedermeyer",
+        "price": "ARS$3.138,19",
+        "published": "2019-09-05"
+    },
+    "9780992001001": {
+        "name": "No Bullshit Guide to Math and Physics",
+        "isbn": "9780992001001",
+        "author": "Ivan Savov",
+        "price": "ARS$3.145,92",
+        "published": "2014-07-25"
+    },
+    "9781451677614": {
+        "name": "The Making of the Atomic Bomb",
+        "isbn": "9781451677614",
+        "author": "Richard Rhodes",
+        "price": "ARS$3.147,76",
+        "published": "2012-06-12"
+    },
+    "9780316509084": {
+        "name": "Change Is the Only Constant",
+        "isbn": "9780316509084",
+        "author": "Ben Orlin",
+        "price": "ARS$3.161,19",
+        "published": "2019-11-14"
+    },
+    "9788490667453": {
+        "name": "La física cuántica del futuro",
+        "isbn": "9788490667453",
+        "author": "Ambrosio Garcia Leal",
+        "price": "ARS$3.162,50",
+        "published": "2019-10-02"
+    },
+    "9781107643260": {
+        "name": "A Student's Guide to Waves",
+        "isbn": "9781107643260",
+        "author": "Laura Kinnaman",
+        "price": "ARS$3.184,19",
+        "published": "2019-03-22"
+    },
+    "9780743272865": {
+        "name": "Home Comforts",
+        "isbn": "9780743272865",
+        "author": "Cheryl Mendelson",
+        "price": "ARS$3.194,87",
+        "published": "2005-05-17"
+    },
+    "9781846818530": {
+        "name": "Illustrated Encyclopedia of Dinosaurs",
+        "isbn": "9781846818530",
+        "author": "Dixon Dougal",
+        "price": "ARS$3.197,42",
+        "published": "2017-04-04"
+    },
+    "9781577315933": {
+        "name": "The Hero with a Thousand Faces",
+        "isbn": "9781577315933",
+        "author": "Joseph Campbell",
+        "price": "ARS$3.204,48",
+        "published": "2016-02-01"
+    },
+    "9780691119793": {
+        "name": "Fashion, Faith, and Fantasy in the New Physics of the Universe",
+        "isbn": "9780691119793",
+        "author": "Roger Penrose",
+        "price": "ARS$3.207,81",
+        "published": "2016-09-27"
+    },
+    "9781624144905": {
+        "name": "Eight Years to the Moon",
+        "isbn": "9781624144905",
+        "author": "Nancy Atkinson",
+        "price": "ARS$3.213,42",
+        "published": "2019-07-02"
+    },
+    "9781608196708": {
+        "name": "The Doomsday Machine",
+        "isbn": "9781608196708",
+        "author": "Daniel Ellsberg",
+        "price": "ARS$3.213,52",
+        "published": "2018-02-01"
+    },
+    "9781421422671": {
+        "name": "Emmy Noether's Wonderful Theorem",
+        "isbn": "9781421422671",
+        "author": "Dwight E. Neuenschwander",
+        "price": "ARS$3.213,52",
+        "published": "2017-04-01"
+    },
+    "9780753552568": {
+        "name": "How to Invent Everything",
+        "isbn": "9780753552568",
+        "author": "Ryan North",
+        "price": "ARS$3.227,82",
+        "published": "2018-09-20"
+    },
+    "9780241434123": {
+        "name": "Airline Maps",
+        "isbn": "9780241434123",
+        "author": "Maxwell Roberts",
+        "price": "ARS$3.236,14",
+        "published": "2019-10-29"
+    },
+    "9780226224985": {
+        "name": "Time Travel and Warp Drives",
+        "isbn": "9780226224985",
+        "author": "Thomas Roman",
+        "price": "ARS$3.246,37",
+        "published": "2011-12-15"
+    },
+    "9781933492926": {
+        "name": "Animals Real and Imagined",
+        "isbn": "9781933492926",
+        "author": "Terryl Whitlatch",
+        "price": "ARS$3.255,82",
+        "published": "2010-12-01"
+    },
+    "9780241309599": {
+        "name": "The Demon in the Machine",
+        "isbn": "9780241309599",
+        "author": "Paul Davies",
+        "price": "ARS$3.257,23",
+        "published": "2019-01-31"
+    },
+    "9780718188726": {
+        "name": "Mythos",
+        "isbn": "9780718188726",
+        "author": "Stephen Fry",
+        "price": "ARS$3.262,57",
+        "published": "2017-11-02"
+    },
+    "9781781168431": {
+        "name": "The Art of Fred Gambino",
+        "isbn": "9781781168431",
+        "author": "Fred Gambino",
+        "price": "ARS$3.263,49",
+        "published": "2014-07-29"
+    },
+    "9780465028375": {
+        "name": "The Shape of Inner Space",
+        "isbn": "9780465028375",
+        "author": "Steve Nadis",
+        "price": "ARS$3.266,09",
+        "published": "2012-03-27"
+    },
+    "9780199652709": {
+        "name": "Oxford Guide to Effective Writing and Speaking",
+        "isbn": "9780199652709",
+        "author": "John Seely",
+        "price": "ARS$3.282,03",
+        "published": "2013-12-10"
+    },
+    "9788496614796": {
+        "name": "Criptozoología : cazadores de monstruos",
+        "isbn": "9788496614796",
+        "author": "Rafael Andrés Alemañ Berenguer",
+        "price": "ARS$3.292,14",
+        "published": "2010-03-08"
+    },
+    "9781402785856": {
+        "name": "The Medical Book",
+        "isbn": "9781402785856",
+        "author": "Clifford A. Pickover",
+        "price": "ARS$3.297,27",
+        "published": "2012-09-04"
+    },
+    "9780679776314": {
+        "name": "The Road to Reality",
+        "isbn": "9780679776314",
+        "author": "Roger Penrose",
+        "price": "ARS$3.324,07",
+        "published": "2009-04-01"
+    },
+    "9788496614574": {
+        "name": "Wernher von Braun : entre el águila y la esvástica",
+        "isbn": "9788496614574",
+        "author": "Francisco Javier Casado Pérez",
+        "price": "ARS$3.347,02",
+        "published": "2009-01-26"
+    },
+    "9780241007617": {
+        "name": "Marvel The Avengers The Ultimate Character Guide",
+        "isbn": "9780241007617",
+        "author": "DK",
+        "price": "ARS$3.355,53",
+        "published": "2015-03-02"
+    },
+    "9780316341783": {
+        "name": "Shoot for the Moon",
+        "isbn": "9780316341783",
+        "author": "James Donovan",
+        "price": "ARS$3.372,52",
+        "published": "2019-03-12"
+    },
+    "9788494924538": {
+        "name": "Galápagos : las islas que caminan",
+        "isbn": "9788494924538",
+        "author": "Natalia  Ruiz Zelmanovitch",
+        "price": "ARS$3.374,31",
+        "published": "2019-03-01"
+    },
+    "9781422184233": {
+        "name": "The Success Equation",
+        "isbn": "9781422184233",
+        "author": "Michael J. Mauboussin",
+        "price": "ARS$3.377,00",
+        "published": "2012-11-06"
+    },
+    "9780521171908": {
+        "name": "A Student's Guide to Vectors and Tensors",
+        "isbn": "9780521171908",
+        "author": "Daniel A. Fleisch",
+        "price": "ARS$3.396,29",
+        "published": "2019-03-06"
+    },
+    "9780547342405": {
+        "name": "Built to Last",
+        "isbn": "9780547342405",
+        "author": "David Macaulay",
+        "price": "ARS$3.409,64",
+        "published": "2010-10-25"
+    },
+    "9780760352649": {
+        "name": "In Search of Stardust",
+        "isbn": "9780760352649",
+        "author": "Jon Larsen",
+        "price": "ARS$3.455,22",
+        "published": "2017-08-03"
+    },
+    "9780521019538": {
+        "name": "Paul Dirac",
+        "isbn": "9780521019538",
+        "author": "Michael F. Atiyah",
+        "price": "ARS$3.459,66",
+        "published": "2005-09-08"
+    },
+    "9781406361841": {
+        "name": "Norse Myths",
+        "isbn": "9781406361841",
+        "author": "Jeffrey Alan Love",
+        "price": "ARS$3.463,35",
+        "published": "2019-04-25"
+    },
+    "9780593048153": {
+        "name": "The Universe In A Nutshell",
+        "isbn": "9780593048153",
+        "author": "Stephen Hawking",
+        "price": "ARS$3.468,63",
+        "published": "2001-11-05"
+    },
+    "9781454911807": {
+        "name": "The Chemistry Book",
+        "isbn": "9781454911807",
+        "author": "Derek B Lowe",
+        "price": "ARS$3.478,28",
+        "published": "2016-02-09"
+    },
+    "9781482242478": {
+        "name": "Why String Theory?",
+        "isbn": "9781482242478",
+        "author": "Joseph Conlon",
+        "price": "ARS$3.484,46",
+        "published": "2015-11-24"
+    },
+    "9780292776241": {
+        "name": "Sculpting in Time",
+        "isbn": "9780292776241",
+        "author": "Kitty Hunter-Blair",
+        "price": "ARS$3.491,64",
+        "published": "1989-04-01"
+    },
+    "9781454910688": {
+        "name": "The Biology Book",
+        "isbn": "9781454910688",
+        "author": "Gloria E. Gerald",
+        "price": "ARS$3.512,59",
+        "published": "2015-03-01"
+    },
+    "9780008145606": {
+        "name": "Science",
+        "isbn": "9780008145606",
+        "author": "Mary Gribbin",
+        "price": "ARS$3.514,77",
+        "published": "2016-10-20"
+    },
+    "9780198777922": {
+        "name": "Science without Numbers",
+        "isbn": "9780198777922",
+        "author": "Hartry Field",
+        "price": "ARS$3.544,72",
+        "published": "2016-12-27"
+    },
+    "9780738206103": {
+        "name": "Nothingness",
+        "isbn": "9780738206103",
+        "author": "Henning Genz",
+        "price": "ARS$3.553,71",
+        "published": "2001-12-20"
+    },
+    "9780262037235": {
+        "name": "The Dialogues",
+        "isbn": "9780262037235",
+        "author": "Frank Wilczek",
+        "price": "ARS$3.556,44",
+        "published": "2018-01-29"
+    },
+    "9780241240434": {
+        "name": "The Periodic Table Book",
+        "isbn": "9780241240434",
+        "author": "DK",
+        "price": "ARS$3.563,36",
+        "published": "2017-03-30"
+    },
+    "9780465072927": {
+        "name": "The Last Man Who Knew Everything",
+        "isbn": "9780465072927",
+        "author": "David N. Schwartz",
+        "price": "ARS$3.571,91",
+        "published": "2017-12-28"
+    },
+    "9780735211292": {
+        "name": "Atomic Habits",
+        "isbn": "9780735211292",
+        "author": "James Clear",
+        "price": "ARS$3.579,48",
+        "published": "2018-10-16"
+    },
+    "9780521141000": {
+        "name": "An Illustrated Guide to Relativity",
+        "isbn": "9780521141000",
+        "author": "Tatsu Takeuchi",
+        "price": "ARS$3.586,48",
+        "published": "2010-10-18"
+    },
+    "9780190495992": {
+        "name": "The Elephant in the Brain",
+        "isbn": "9780190495992",
+        "author": "Robin Hanson",
+        "price": "ARS$3.592,84",
+        "published": "2018-03-15"
+    },
+    "9781107602175": {
+        "name": "Revolutions in Twentieth-Century Physics",
+        "isbn": "9781107602175",
+        "author": "David J. Griffiths",
+        "price": "ARS$3.601,10",
+        "published": "2012-12-31"
+    },
+    "9780387952895": {
+        "name": "Rare Earth",
+        "isbn": "9780387952895",
+        "author": "Donald Brownlee",
+        "price": "ARS$3.615,31",
+        "published": "2003-12-10"
+    },
+    "9788449333231": {
+        "name": "¿Por qué a los patos no se les enfrían los pies? : la física de lo cotidiano",
+        "isbn": "9788449333231",
+        "author": "Ana Pedrero Verge",
+        "price": "ARS$3.628,49",
+        "published": "2017-04-03"
+    },
+    "9781790842117": {
+        "name": "No-Nonsense Electrodynamics",
+        "isbn": "9781790842117",
+        "author": "Jakob Schwichtenberg",
+        "price": "ARS$3.656,05",
+        "published": "2018-12-06"
+    },
+    "9781421411712": {
+        "name": "The Practical Einstein",
+        "isbn": "9781421411712",
+        "author": "Jozsef Illy",
+        "price": "ARS$3.665,60",
+        "published": "2013-08-15"
+    },
+    "9780500513675": {
+        "name": "The Story of Measurement",
+        "isbn": "9780500513675",
+        "author": "Andrew Robinson",
+        "price": "ARS$3.668,14",
+        "published": "2007-11-30"
+    },
+    "9780316445436": {
+        "name": "How Things Work",
+        "isbn": "9780316445436",
+        "author": "Theodore Gray",
+        "price": "ARS$3.669,41",
+        "published": "2019-11-28"
+    },
+    "9780195305678": {
+        "name": "Brave New Words",
+        "isbn": "9780195305678",
+        "author": "Jeff Prucher",
+        "price": "ARS$3.672,73",
+        "published": "2007-06-14"
+    },
+    "9788494155260": {
+        "name": "Física : del átomo al universo : una apasionante revisión del conocimiento actual de los grandes principios de la física",
+        "isbn": "9788494155260",
+        "author": "Rafael Andrés Alemañ Berenguer",
+        "price": "ARS$3.680,62",
+        "published": "2014-11-05"
+    },
+    "9780857522405": {
+        "name": "The Body",
+        "isbn": "9780857522405",
+        "author": "Bill Bryson",
+        "price": "ARS$3.696,47",
+        "published": "2019-10-03"
+    },
+    "9781568813271": {
+        "name": "The Pea and the Sun",
+        "isbn": "9781568813271",
+        "author": "Leonard M. Wapner",
+        "price": "ARS$3.709,43",
+        "published": "2015-10-05"
+    },
+    "9781108409568": {
+        "name": "Conquering the Physics GRE",
+        "isbn": "9781108409568",
+        "author": "Adam Anderson",
+        "price": "ARS$3.722,13",
+        "published": "2019-05-31"
+    },
+    "9780387914954": {
+        "name": "Alice in Quantumland",
+        "isbn": "9780387914954",
+        "author": "Robert Gilmore",
+        "price": "ARS$3.749,74",
+        "published": "2010-11-01"
+    },
+    "9780804139021": {
+        "name": "The Martian",
+        "isbn": "9780804139021",
+        "author": "Andy Weir",
+        "price": "ARS$3.760,47",
+        "published": "2014-02-11"
+    },
+    "9781781316382": {
+        "name": "Beyond the Map (from the author of Off the Map)",
+        "isbn": "9781781316382",
+        "author": "Alastair Bonnett",
+        "price": "ARS$3.768,53",
+        "published": "2017-08-31"
+    },
+    "9781846148996": {
+        "name": "Soonish",
+        "isbn": "9781846148996",
+        "author": "Zach Weinersmith",
+        "price": "ARS$3.781,45",
+        "published": "2017-10-17"
+    },
+    "9781402788291": {
+        "name": "The Math Book",
+        "isbn": "9781402788291",
+        "author": "Clifford A. Pickover",
+        "price": "ARS$3.782,64",
+        "published": "2012-02-07"
+    },
+    "9781406360080": {
+        "name": "Exploring Space",
+        "isbn": "9781406360080",
+        "author": "Stephen Biesty",
+        "price": "ARS$3.796,75",
+        "published": "2017-02-02"
+    },
+    "9781787410749": {
+        "name": "The Speed of Starlight",
+        "isbn": "9781787410749",
+        "author": "Ximo Abadia",
+        "price": "ARS$3.796,75",
+        "published": "2018-08-23"
+    },
+    "9780199663279": {
+        "name": "The Oxford Illustrated History of Science",
+        "isbn": "9780199663279",
+        "author": "Iwan Rhys Morus",
+        "price": "ARS$3.802,93",
+        "published": "2017-08-01"
+    },
+    "9788417860790": {
+        "name": "El infinito en un junco",
+        "isbn": "9788417860790",
+        "author": "Irene Vallejo",
+        "price": "ARS$3.814,54",
+        "published": "2019-09-18"
+    },
+    "9781454933595": {
+        "name": "Artificial Intelligence: An Illustrated History",
+        "isbn": "9781454933595",
+        "author": "Clifford A. Pickover",
+        "price": "ARS$3.833,77",
+        "published": "2019-10-28"
+    },
+    "9780521099066": {
+        "name": "The Large Scale Structure of Space-Time",
+        "isbn": "9780521099066",
+        "author": "G. F. R. Ellis",
+        "price": "ARS$3.855,50",
+        "published": "2010-10-14"
+    },
+    "9780521150187": {
+        "name": "The Computing Universe",
+        "isbn": "9780521150187",
+        "author": "Gyuri Pápay",
+        "price": "ARS$3.855,50",
+        "published": "2014-12-08"
+    },
+    "9788494666971": {
+        "name": "#NODOS",
+        "isbn": "9788494666971",
+        "author": "Víctor Ramón Escobedo Bermúdez",
+        "price": "ARS$3.865,38",
+        "published": "2017-11-28"
+    },
+    "9780393099362": {
+        "name": "Vibrations and Waves",
+        "isbn": "9780393099362",
+        "author": "A.P. French",
+        "price": "ARS$3.869,28",
+        "published": "1971-04-01"
+    },
+    "9780062190376": {
+        "name": "Seveneves",
+        "isbn": "9780062190376",
+        "author": "Neal Stephenson",
+        "price": "ARS$3.902,33",
+        "published": "2015-05-19"
+    },
+    "9780062464316": {
+        "name": "Homo Deus",
+        "isbn": "9780062464316",
+        "author": "Yuval Noah Harari",
+        "price": "ARS$3.906,94",
+        "published": "2017-02-21"
+    },
+    "9781781312575": {
+        "name": "Off the Map",
+        "isbn": "9781781312575",
+        "author": "Alastair Bonnett",
+        "price": "ARS$3.924,96",
+        "published": "2014-04-17"
+    },
+    "9781118539279": {
+        "name": "How to Measure Anything",
+        "isbn": "9781118539279",
+        "author": "Douglas W. Hubbard",
+        "price": "ARS$3.958,85",
+        "published": "2014-04-25"
+    },
+    "9780593077184": {
+        "name": "The Illustrated Brief History Of Time",
+        "isbn": "9780593077184",
+        "author": "Stephen Hawking",
+        "price": "ARS$4.018,98",
+        "published": "2015-11-19"
+    },
+    "9781473688629": {
+        "name": "Theatre of the World",
+        "isbn": "9781473688629",
+        "author": "Alison McCullough",
+        "price": "ARS$4.055,40",
+        "published": "2018-09-06"
+    },
+    "9780226332420": {
+        "name": "Patterns in Nature",
+        "isbn": "9780226332420",
+        "author": "Philip Ball",
+        "price": "ARS$4.070,88",
+        "published": "2017-05-01"
+    },
+    "9780735611313": {
+        "name": "Code",
+        "isbn": "9780735611313",
+        "author": "Charles Petzold",
+        "price": "ARS$4.085,11",
+        "published": "2000-11-11"
+    },
+    "9780241317815": {
+        "name": "Knowledge Encyclopedia Science!",
+        "isbn": "9780241317815",
+        "author": "DK",
+        "price": "ARS$4.102,30",
+        "published": "2018-10-12"
+    },
+    "9781912286461": {
+        "name": "Guinness World Records 2019",
+        "isbn": "9781912286461",
+        "author": "Guinness World Records",
+        "price": "ARS$4.110,73",
+        "published": "2018-11-21"
+    },
+    "9781501139154": {
+        "name": "Leonardo da Vinci",
+        "isbn": "9781501139154",
+        "author": "Walter Isaacson",
+        "price": "ARS$4.111,92",
+        "published": "2017-11-01"
+    },
+    "9780241347447": {
+        "name": "Marvel Studios Visual Dictionary",
+        "isbn": "9780241347447",
+        "author": "Adam Bray",
+        "price": "ARS$4.167,37",
+        "published": "2018-09-13"
+    },
+    "9789380250656": {
+        "name": "Analysis II",
+        "isbn": "9789380250656",
+        "author": "Terence Tao",
+        "price": "ARS$4.168,01",
+        "published": "2014-10-15"
+    },
+    "9781847925190": {
+        "name": "Entangled Life",
+        "isbn": "9781847925190",
+        "author": "Merlin Sheldrake",
+        "price": "ARS$4.169,13",
+        "published": "2020-09-03"
+    },
+    "9780192806727": {
+        "name": "Subtle is the Lord",
+        "isbn": "9780192806727",
+        "author": "Abraham Pais",
+        "price": "ARS$4.199,45",
+        "published": "2005-11-03"
+    },
+    "9780198743040": {
+        "name": "The Lazy Universe",
+        "isbn": "9780198743040",
+        "author": "Jennifer Coopersmith",
+        "price": "ARS$4.219,19",
+        "published": "2017-11-17"
+    },
+    "9781465464187": {
+        "name": "The Astronomy Book",
+        "isbn": "9781465464187",
+        "author": "DK",
+        "price": "ARS$4.227,35",
+        "published": "2017-09-05"
+    },
+    "9780486784557": {
+        "name": "Quantum Mechanics",
+        "isbn": "9780486784557",
+        "author": "Albert Messiah",
+        "price": "ARS$4.236,76",
+        "published": "2014-02-17"
+    },
+    "9780393020236": {
+        "name": "The Colossal Book of Mathematics",
+        "isbn": "9780393020236",
+        "author": "Martin Gardner",
+        "price": "ARS$4.262,63",
+        "published": "2004-01-20"
+    },
+    "9781790455386": {
+        "name": "No-Nonsense Quantum Mechanics",
+        "isbn": "9781790455386",
+        "author": "Jakob Schwichtenberg",
+        "price": "ARS$4.349,59",
+        "published": "2018-12-01"
+    },
+    "9781594749896": {
+        "name": "Cinemaps",
+        "isbn": "9781594749896",
+        "author": "A.D. Jameson",
+        "price": "ARS$4.358,60",
+        "published": "2017-11-15"
+    },
+    "9780801889851": {
+        "name": "Bang!",
+        "isbn": "9780801889851",
+        "author": "Chris Lintott",
+        "price": "ARS$4.429,70",
+        "published": "2008-04-30"
+    },
+    "9780141015712": {
+        "name": "On the Shoulders of Giants",
+        "isbn": "9780141015712",
+        "author": "Stephen Hawking",
+        "price": "ARS$4.499,30",
+        "published": "2007-10-30"
+    },
+    "9781787411579": {
+        "name": "Planetarium",
+        "isbn": "9781787411579",
+        "author": "Chris Wormell",
+        "price": "ARS$4.522,78",
+        "published": "2018-09-06"
+    },
+    "9780700617722": {
+        "name": "The Great Sperm Whale",
+        "isbn": "9780700617722",
+        "author": "Richard Ellis",
+        "price": "ARS$4.534,02",
+        "published": "2011-04-06"
+    },
+    "9780593066126": {
+        "name": "The Magic of Reality",
+        "isbn": "9780593066126",
+        "author": "Richard Dawkins",
+        "price": "ARS$4.570,70",
+        "published": "2011-09-15"
+    },
+    "9781409350156": {
+        "name": "The Science Book",
+        "isbn": "9781409350156",
+        "author": "DK",
+        "price": "ARS$4.631,22",
+        "published": "2015-11-20"
+    },
+    "9781435148048": {
+        "name": "The Medical Book",
+        "isbn": "9781435148048",
+        "author": "Clifford A. Pickover",
+        "price": "ARS$4.656,45",
+        "published": "2014-04-04"
+    },
+    "9781454908098": {
+        "name": "The Engineering Book",
+        "isbn": "9781454908098",
+        "author": "Marshall Brain",
+        "price": "ARS$4.711,07",
+        "published": "2015-05-19"
+    },
+    "9783319666303": {
+        "name": "Physics from Symmetry",
+        "isbn": "9783319666303",
+        "author": "Jakob Schwichtenberg",
+        "price": "ARS$4.730,64",
+        "published": "2018-01-01"
+    },
+    "9781454926214": {
+        "name": "The Computer Book",
+        "isbn": "9781454926214",
+        "author": "Simson L. Garfinkel",
+        "price": "ARS$4.748,92",
+        "published": "2018-11-07"
+    },
+    "9781454930068": {
+        "name": "The Science Book",
+        "isbn": "9781454930068",
+        "author": "Clifford A. Pickover",
+        "price": "ARS$4.748,92",
+        "published": "2018-11-07"
+    },
+    "9780961392147": {
+        "name": "The Visual Display of Quantitative Information",
+        "isbn": "9780961392147",
+        "author": "Edward R. Tufte",
+        "price": "ARS$4.794,88",
+        "published": "2001-05-01"
+    },
+    "9780241196304": {
+        "name": "Knowledge Encyclopedia Space!",
+        "isbn": "9780241196304",
+        "author": "DK",
+        "price": "ARS$4.809,89",
+        "published": "2015-12-15"
+    },
+    "9780241228418": {
+        "name": "Knowledge Encyclopedia Animal!",
+        "isbn": "9780241228418",
+        "author": "John Woodward",
+        "price": "ARS$4.809,89",
+        "published": "2016-10-14"
+    },
+    "9781402778612": {
+        "name": "The Physics Book",
+        "isbn": "9781402778612",
+        "author": "Clifford A. Pickover",
+        "price": "ARS$4.832,62",
+        "published": "2011-11-01"
+    },
+    "9781602067141": {
+        "name": "A History of Mathematical Notations",
+        "isbn": "9781602067141",
+        "author": "Florian Cajori",
+        "price": "ARS$4.865,75",
+        "published": "2013-01-01"
+    },
+    "9780521564571": {
+        "name": "The New Quantum Universe",
+        "isbn": "9780521564571",
+        "author": "Patrick Walters",
+        "price": "ARS$4.962,23",
+        "published": "2018-06-07"
+    },
+    "9780198752905": {
+        "name": "The Oxford Illustrated History of the World",
+        "isbn": "9780198752905",
+        "author": "Felipe Fernandez-Armesto",
+        "price": "ARS$4.976,54",
+        "published": "2019-03-10"
+    },
+    "9781526600219": {
+        "name": "The Precipice",
+        "isbn": "9781526600219",
+        "author": "Toby Ord",
+        "price": "ARS$4.983,88",
+        "published": "2020-03-05"
+    },
+    "9781602066854": {
+        "name": "A History of Mathematical Notations",
+        "isbn": "9781602066854",
+        "author": "Florian Cajori",
+        "price": "ARS$4.998,99",
+        "published": "2013-01-01"
+    },
+    "9780674011205": {
+        "name": "Facing Up",
+        "isbn": "9780674011205",
+        "author": "Steven Weinberg",
+        "price": "ARS$5.052,08",
+        "published": "2003-05-06"
+    },
+    "9780387029306": {
+        "name": "Out of this World",
+        "isbn": "9780387029306",
+        "author": "Stephen Webb",
+        "price": "ARS$5.197,90",
+        "published": "2004-05-25"
+    },
+    "9780521274357": {
+        "name": "Never at Rest",
+        "isbn": "9780521274357",
+        "author": "Richard S. Westfall",
+        "price": "ARS$5.281,56",
+        "published": "1983-07-07"
+    },
+    "9781904842682": {
+        "name": "Physics: A Student Companion",
+        "isbn": "9781904842682",
+        "author": "Lowry Kirkby",
+        "price": "ARS$5.306,42",
+        "published": "2011-12-15"
+    },
+    "9780062316097": {
+        "name": "Sapiens",
+        "isbn": "9780062316097",
+        "author": "Yuval Noah Harari",
+        "price": "ARS$5.327,96",
+        "published": "2015-02-10"
+    },
+    "9780393925166": {
+        "name": "Div, Grad, Curl, and All That",
+        "isbn": "9780393925166",
+        "author": "H.M. Schey",
+        "price": "ARS$5.335,06",
+        "published": "2005-02-04"
+    },
+    "9788412159899": {
+        "name": "Animales ejemplares",
+        "isbn": "9788412159899",
+        "author": "Yolanda  González Pérez",
+        "price": "ARS$5.427,21",
+        "published": "2020-11-30"
+    },
+    "9781107029132": {
+        "name": "Superstring Theory",
+        "isbn": "9781107029132",
+        "author": "Edward Witten",
+        "price": "ARS$5.470,59",
+        "published": "2012-11-12"
+    },
+    "9780415883948": {
+        "name": "Anthropic Bias",
+        "isbn": "9780415883948",
+        "author": "Nick Bostrom",
+        "price": "ARS$5.504,97",
+        "published": "2010-06-21"
+    },
+    "9780226870335": {
+        "name": "General Relativity",
+        "isbn": "9780226870335",
+        "author": "Robert M. Wald",
+        "price": "ARS$5.550,55",
+        "published": "1984-06-15"
+    },
+    "9780521456920": {
+        "name": "Diagrammatica",
+        "isbn": "9780521456920",
+        "author": "Martinus Veltman",
+        "price": "ARS$5.571,09",
+        "published": "1994-07-29"
+    },
+    "9788494666957": {
+        "name": "Botánica insólita",
+        "isbn": "9788494666957",
+        "author": "Yolanda González Pérez",
+        "price": "ARS$5.615,07",
+        "published": "2017-09-01"
+    },
+    "9780691157245": {
+        "name": "Welcome to the Universe",
+        "isbn": "9780691157245",
+        "author": "J. Richard Gott",
+        "price": "ARS$5.640,69",
+        "published": "2016-11-01"
+    },
+    "9780521670531": {
+        "name": "The Quantum Theory of Fields: Volume 1, Foundations",
+        "isbn": "9780521670531",
+        "author": "Steven Weinberg",
+        "price": "ARS$5.645,48",
+        "published": "2019-02-15"
+    },
+    "9780375422409": {
+        "name": "Mythology",
+        "isbn": "9780375422409",
+        "author": "Alex Ross",
+        "price": "ARS$5.657,33",
+        "published": "2003-10-21"
+    },
+    "9788408165705": {
+        "name": "Atlas de mapas curiosos",
+        "isbn": "9788408165705",
+        "author": "Gemma Salvà Santanachs",
+        "price": "ARS$5.659,89",
+        "published": "2019-09-25"
+    },
+    "9780521670555": {
+        "name": "The Quantum Theory of Fields: Volume 3, Supersymmetry",
+        "isbn": "9780521670555",
+        "author": "Steven Weinberg",
+        "price": "ARS$5.692,29",
+        "published": "2005-06-02"
+    },
+    "9780195085143": {
+        "name": "Hyperspace",
+        "isbn": "9780195085143",
+        "author": "Michio Kaku",
+        "price": "ARS$5.789,78",
+        "published": "1994-09-22"
+    },
+    "9780750627689": {
+        "name": "The Classical Theory of Fields",
+        "isbn": "9780750627689",
+        "author": "E.M. Lifshitz",
+        "price": "ARS$5.831,00",
+        "published": "1995-08-01"
+    },
+    "9780198519973": {
+        "name": "Inward Bound",
+        "isbn": "9780198519973",
+        "author": "Abraham Pais",
+        "price": "ARS$5.847,04",
+        "published": "1988-09-29"
+    },
+    "9781608875016": {
+        "name": "DC Comics",
+        "isbn": "9781608875016",
+        "author": "Matthew Manning",
+        "price": "ARS$5.847,40",
+        "published": "2018-09-18"
+    },
+    "9781606999592": {
+        "name": "My Favorite Thing Is Monsters",
+        "isbn": "9781606999592",
+        "author": "Emil Ferris",
+        "price": "ARS$5.896,90",
+        "published": "2018-07-02"
+    },
+    "9781138061217": {
+        "name": "The Shape of Space",
+        "isbn": "9781138061217",
+        "author": "Jeffrey R. Weeks",
+        "price": "ARS$5.964,18",
+        "published": "2020-01-04"
+    },
+    "9781107029118": {
+        "name": "Superstring Theory",
+        "isbn": "9781107029118",
+        "author": "Edward Witten",
+        "price": "ARS$5.994,48",
+        "published": "2012-11-11"
+    },
+    "9781786648037": {
+        "name": "The Astounding Illustrated History of Fantasy & Horror",
+        "isbn": "9781786648037",
+        "author": "Ramsey Campbell",
+        "price": "ARS$6.007,50",
+        "published": "2018-10-31"
+    },
+    "9781786645272": {
+        "name": "The Astounding Illustrated History of Science Fiction",
+        "isbn": "9781786645272",
+        "author": "Pat Mills",
+        "price": "ARS$6.007,50",
+        "published": "2017-12-15"
+    },
+    "9780521435321": {
+        "name": "Einstein's Mirror",
+        "isbn": "9780521435321",
+        "author": "Patrick Walters",
+        "price": "ARS$6.032,39",
+        "published": "2012-01-05"
+    },
+    "9780241227930": {
+        "name": "The Way Things Work Now",
+        "isbn": "9780241227930",
+        "author": "Neil Ardley",
+        "price": "ARS$6.130,66",
+        "published": "2016-07-01"
+    },
+    "9789810220341": {
+        "name": "Gauge Fields, Knots And Gravity",
+        "isbn": "9789810220341",
+        "author": "Javier P Muniain",
+        "price": "ARS$6.137,61",
+        "published": "1994-10-01"
+    },
+    "9780521568234": {
+        "name": "The Pleasures of Counting",
+        "isbn": "9780521568234",
+        "author": "T. W. Koerner",
+        "price": "ARS$6.364,59",
+        "published": "2015-03-02"
+    },
+    "9780521877619": {
+        "name": "A Student's Guide to Maxwell's Equations",
+        "isbn": "9780521877619",
+        "author": "Daniel Fleisch",
+        "price": "ARS$6.427,05",
+        "published": "2011-02-11"
+    },
+    "9780241225905": {
+        "name": "Big History",
+        "isbn": "9780241225905",
+        "author": "David Christian",
+        "price": "ARS$6.471,52",
+        "published": "2016-10-05"
+    },
+    "9780738202969": {
+        "name": "Feynman Lectures On Computation",
+        "isbn": "9780738202969",
+        "author": "Richard P. Feynman",
+        "price": "ARS$6.480,32",
+        "published": "2000-07-09"
+    },
+    "9780415485470": {
+        "name": "The Concept of Mind",
+        "isbn": "9780415485470",
+        "author": "Gilbert Ryle",
+        "price": "ARS$6.698,91",
+        "published": "2009-08-04"
+    },
+    "9781465414175": {
+        "name": "Knowledge Encyclopedia (Updated and Enlarged Edition)",
+        "isbn": "9781465414175",
+        "author": "DK",
+        "price": "ARS$6.707,91",
+        "published": "2013-09-16"
+    },
+    "9789380250649": {
+        "name": "Analysis I",
+        "isbn": "9789380250649",
+        "author": "Terence Tao",
+        "price": "ARS$6.866,06",
+        "published": "2014-10-15"
+    },
+    "9780691135045": {
+        "name": "Physics and Technology for Future Presidents",
+        "isbn": "9780691135045",
+        "author": "Richard A. Muller",
+        "price": "ARS$6.998,97",
+        "published": "2011-02-21"
+    },
+    "9781524101039": {
+        "name": "Art of Atari",
+        "isbn": "9781524101039",
+        "author": "Tim Lapetino",
+        "price": "ARS$7.033,10",
+        "published": "2016-10-25"
+    },
+    "9781108420419": {
+        "name": "Introduction to Electrodynamics",
+        "isbn": "9781108420419",
+        "author": "David J. Griffiths",
+        "price": "ARS$7.128,31",
+        "published": "2017-07-31"
+    },
+    "9781465455727": {
+        "name": "Ultimate Marvel",
+        "isbn": "9781465455727",
+        "author": "Lorraine Cink",
+        "price": "ARS$7.195,05",
+        "published": "2017-09-05"
+    },
+    "9780521876223": {
+        "name": "Introduction to Classical Mechanics",
+        "isbn": "9780521876223",
+        "author": "David Morin",
+        "price": "ARS$7.199,41",
+        "published": "2019-03-08"
+    },
+    "9780124058880": {
+        "name": "Doing Bayesian Data Analysis",
+        "isbn": "9780124058880",
+        "author": "John Kruschke",
+        "price": "ARS$7.249,88",
+        "published": "2015-07-08"
+    },
+    "9780521880329": {
+        "name": "A First Course in String Theory",
+        "isbn": "9780521880329",
+        "author": "Barton Zwiebach",
+        "price": "ARS$7.250,11",
+        "published": "2009-02-01"
+    },
+    "9781465478900": {
+        "name": "Marvel Encyclopedia, New Edition",
+        "isbn": "9781465478900",
+        "author": "DK",
+        "price": "ARS$7.347,30",
+        "published": "2019-04-02"
+    },
+    "9781579550080": {
+        "name": "A New Kind Of Science",
+        "isbn": "9781579550080",
+        "author": "Stephen Wolfram",
+        "price": "ARS$7.380,76",
+        "published": "2002-08-01"
+    },
+    "9781409364801": {
+        "name": "The Aircraft Book",
+        "isbn": "9781409364801",
+        "author": "Philip Whiteman",
+        "price": "ARS$7.388,34",
+        "published": "2013-09-03"
+    },
+    "9781107189638": {
+        "name": "Introduction to Quantum Mechanics",
+        "isbn": "9781107189638",
+        "author": "Darrell F. Schroeter",
+        "price": "ARS$7.437,31",
+        "published": "2018-08-16"
+    },
+    "9780198534464": {
+        "name": "Visual Complex Analysis",
+        "isbn": "9780198534464",
+        "author": "Tristan Needham",
+        "price": "ARS$7.438,22",
+        "published": "1999-02-18"
+    },
+    "9780241240472": {
+        "name": "Science",
+        "isbn": "9780241240472",
+        "author": "Adam Hart-Davis",
+        "price": "ARS$7.460,17",
+        "published": "2016-09-01"
+    },
+    "9780521864497": {
+        "name": "Quantum Field Theory",
+        "isbn": "9780521864497",
+        "author": "Mark Srednicki",
+        "price": "ARS$7.511,28",
+        "published": "2019-03-22"
+    },
+    "9780691145297": {
+        "name": "Statistical Mechanics in a Nutshell",
+        "isbn": "9780691145297",
+        "author": "Luca Peliti",
+        "price": "ARS$7.792,58",
+        "published": "2011-11-07"
+    },
+    "9783527406012": {
+        "name": "Introduction to Elementary Particles",
+        "isbn": "9783527406012",
+        "author": "David Griffiths",
+        "price": "ARS$7.794,33",
+        "published": "2008-10-20"
+    },
+    "9781405336994": {
+        "name": "The Natural History Book",
+        "isbn": "9781405336994",
+        "author": "DK",
+        "price": "ARS$7.799,72",
+        "published": "2014-10-10"
+    },
+    "9780008190033": {
+        "name": "The Time Machine",
+        "isbn": "9780008190033",
+        "author": "H. G. Wells",
+        "price": "ARS$796,33",
+        "published": "2017-02-13"
+    },
+    "9781107034730": {
+        "name": "Quantum Field Theory and the Standard Model",
+        "isbn": "9781107034730",
+        "author": "Matthew D. Schwartz",
+        "price": "ARS$8.104,07",
+        "published": "2019-03-26"
+    },
+    "9780199656158": {
+        "name": "Introduction to 3+1 Numerical Relativity",
+        "isbn": "9780199656158",
+        "author": "Miguel Alcubierre",
+        "price": "ARS$8.168,77",
+        "published": "2012-09-07"
+    },
+    "9780786860708": {
+        "name": "Illusion Of Life",
+        "isbn": "9780786860708",
+        "author": "Frank Thomas",
+        "price": "ARS$8.237,23",
+        "published": "2011-07-11"
+    },
+    "9780198526827": {
+        "name": "Cosmology",
+        "isbn": "9780198526827",
+        "author": "Steven Weinberg",
+        "price": "ARS$8.269,39",
+        "published": "2008-04-28"
+    },
+    "9780521679718": {
+        "name": "Mathematical Methods for Physics and Engineering",
+        "isbn": "9780521679718",
+        "author": "S. J. Bence",
+        "price": "ARS$8.319,78",
+        "published": "2006-07-31"
+    },
+    "9781439840955": {
+        "name": "Bayesian Data Analysis",
+        "isbn": "9781439840955",
+        "author": "Donald B. Rubin",
+        "price": "ARS$8.480,63",
+        "published": "2013-11-07"
+    },
+    "9781789090697": {
+        "name": "Marvelocity: The Marvel Comics Art of Alex Ross",
+        "isbn": "9781789090697",
+        "author": "Jj Abrams",
+        "price": "ARS$8.528,77",
+        "published": "2018-10-02"
+    },
+    "9781292026558": {
+        "name": "Classical Mechanics: Pearson New International Edition",
+        "isbn": "9781292026558",
+        "author": "John Safko",
+        "price": "ARS$8.530,63",
+        "published": "2013-08-05"
+    },
+    "9780262028967": {
+        "name": "Structure and Interpretation of Classical Mechanics",
+        "isbn": "9780262028967",
+        "author": "Jack Wisdom",
+        "price": "ARS$8.591,58",
+        "published": "2015-07-15"
+    },
+    "9780521539296": {
+        "name": "Consistent Quantum Theory",
+        "isbn": "9780521539296",
+        "author": "Robert B. Griffiths",
+        "price": "ARS$8.617,57",
+        "published": "2004-11-30"
+    },
+    "9783662137437": {
+        "name": "Lectures on String Theory",
+        "isbn": "9783662137437",
+        "author": "Stefan Theisen",
+        "price": "ARS$8.723,09",
+        "published": "2014-04-17"
+    },
+    "9780387942995": {
+        "name": "Thermodynamics and Statistical Mechanics",
+        "isbn": "9780387942995",
+        "author": "D. Rischke",
+        "price": "ARS$8.859,01",
+        "published": "2001-11-14"
+    },
+    "9783319132358": {
+        "name": "If the Universe Is Teeming with Aliens ... WHERE IS EVERYBODY?",
+        "isbn": "9783319132358",
+        "author": "Stephen Webb",
+        "price": "ARS$8.920,28",
+        "published": "2015-05-29"
+    },
+    "9783540674573": {
+        "name": "Relativistic Quantum Mechanics. Wave Equations",
+        "isbn": "9783540674573",
+        "author": "D.A. Bromley",
+        "price": "ARS$9.049,13",
+        "published": "2000-07-01"
+    },
+    "9780471309321": {
+        "name": "Classical Electrodynamics",
+        "isbn": "9780471309321",
+        "author": "John David Jackson",
+        "price": "ARS$9.063,07",
+        "published": "1998-12-01"
+    },
+    "9780199699322": {
+        "name": "Quantum Field Theory for the Gifted Amateur",
+        "isbn": "9780199699322",
+        "author": "Stephen J. Blundell",
+        "price": "ARS$9.168,51",
+        "published": "2014-06-17"
+    },
+    "9783662501832": {
+        "name": "A Brief History of String Theory",
+        "isbn": "9783662501832",
+        "author": "Dean Rickles",
+        "price": "ARS$9.276,82",
+        "published": "2016-09-09"
+    },
+    "9780387968902": {
+        "name": "Mathematical Methods of Classical Mechanics",
+        "isbn": "9780387968902",
+        "author": "A. Weinstein",
+        "price": "ARS$9.437,45",
+        "published": "1997-09-05"
+    },
+    "9780691137131": {
+        "name": "Quantum Mechanics in a Nutshell",
+        "isbn": "9780691137131",
+        "author": "Gerald D. Mahan",
+        "price": "ARS$9.498,23",
+        "published": "2009-01-18"
+    },
+    "9780470054567": {
+        "name": "Partial Differential Equations",
+        "isbn": "9780470054567",
+        "author": "Walter A. Strauss",
+        "price": "ARS$9.628,48",
+        "published": "2008-01-18"
+    },
+    "9780691130187": {
+        "name": "Classical Electromagnetism in a Nutshell",
+        "isbn": "9780691130187",
+        "author": "Anupam Garg",
+        "price": "ARS$9.776,75",
+        "published": "2012-05-24"
+    },
+    "9780691162690": {
+        "name": "Group Theory in a Nutshell for Physicists",
+        "isbn": "9780691162690",
+        "author": "A. Zee",
+        "price": "ARS$9.941,45",
+        "published": "2016-04-15"
+    },
+    "9780691177793": {
+        "name": "Gravitation",
+        "isbn": "9780691177793",
+        "author": "David I. Kaiser",
+        "price": "ARS$9.992,77",
+        "published": "2017-10-24"
+    },
+    "9781512181159": {
+        "name": "The System of the World",
+        "isbn": "9781512181159",
+        "author": "Isaac Newton",
+        "price": "ARS$996,92",
+        "published": "2015-05-13"
+    },
+    "9781844164486": {
+        "name": "The Solaris Book of New Science Fiction",
+        "isbn": "9781844164486",
+        "author": "George Mann",
+        "price": null,
+        "published": "2007-02-05"
+    },
+    "9781573247214": {
+        "name": "Cats Don't Always Land on Their Feet",
+        "isbn": "9781573247214",
+        "author": "Jack Mingo",
+        "price": null,
+        "published": "2002-06-01"
+    },
+    "9781501107726": {
+        "name": "Amazing Fantastic Incredible",
+        "isbn": "9781501107726",
+        "author": "Lee",
+        "price": null,
+        "published": "2015-11-04"
+    },
+    "9784871877701": {
+        "name": "The Queen's Gambit",
+        "isbn": "9784871877701",
+        "author": "Sam Sloan",
+        "price": null,
+        "published": "2016-11-26"
+    },
+    "9780802715135": {
+        "name": "Physics on the Fringe",
+        "isbn": "9780802715135",
+        "author": "Margaret Wertheim",
+        "price": null,
+        "published": "2012-03-01"
+    },
+    "9780575401310": {
+        "name": "The Terminal Beach",
+        "isbn": "9780575401310",
+        "author": "J.G. Ballard",
+        "price": null,
+        "published": "1997-11-20"
+    },
+    "9780465061709": {
+        "name": "The First Three Minutes",
+        "isbn": "9780465061709",
+        "author": "Steven Weinberg",
+        "price": null,
+        "published": "2020-12-30"
+    },
+    "9780061193736": {
+        "name": "Zig Zag",
+        "isbn": "9780061193736",
+        "author": "Jose Carlos Somoza",
+        "price": null,
+        "published": "2008-08-07"
+    },
+    "9788466934985": {
+        "name": "La lengua de las matemáticas y otros relatos exactos",
+        "isbn": "9788466934985",
+        "author": "Fernando Álvarez, Óscar Martín y Pareja, Cristóbal",
+        "price": null,
+        "published": null
+    },
+    "9780821625132": {
+        "name": "Stranger Than Science",
+        "isbn": "9780821625132",
+        "author": "Frank Edwards",
+        "price": null,
+        "published": "1995-06-01"
+    },
+    "9780008293833": {
+        "name": "Superior",
+        "isbn": "9780008293833",
+        "author": "Angela Saini",
+        "price": null,
+        "published": "2019-06-13"
+    },
+    "9780805057676": {
+        "name": "Carl Sagan",
+        "isbn": "9780805057676",
+        "author": "William Poundstone",
+        "price": null,
+        "published": "2000-10-01"
+    },
+    "9780714871080": {
+        "name": "This Brutal World",
+        "isbn": "9780714871080",
+        "author": "Peter Chadwick",
+        "price": null,
+        "published": "2016-05-23"
+    },
+    "9780241262627": {
+        "name": "The Case Against Reality",
+        "isbn": "9780241262627",
+        "author": "Donald D. Hoffman",
+        "price": null,
+        "published": "2019-08-13"
+    },
+    "9780375726095": {
+        "name": "The Book of Nothing",
+        "isbn": "9780375726095",
+        "author": "John D. Barrow",
+        "price": null,
+        "published": "2002-08-13"
+    },
+    "9780593084687": {
+        "name": "Humble Pi",
+        "isbn": "9780593084687",
+        "author": "Matt Parker",
+        "price": null,
+        "published": "2020-01-21"
+    },
+    "9788494305672": {
+        "name": "Virus y pandemias",
+        "isbn": "9788494305672",
+        "author": "Ignacio Lopez-Goni",
+        "price": null,
+        "published": "2016-02-25"
+    },
+    "9780307474551": {
+        "name": "Once Before Time",
+        "isbn": "9780307474551",
+        "author": "Martin Bojowald",
+        "price": null,
+        "published": "2011-11-01"
+    },
+    "9780385043458": {
+        "name": "The Left Hand of the Electron",
+        "isbn": "9780385043458",
+        "author": "Isaac Asimov",
+        "price": null,
+        "published": "1972-04-01"
+    },
+    "9781616148010": {
+        "name": "Beyond the God Particle",
+        "isbn": "9781616148010",
+        "author": "Christopher T. Hill",
+        "price": null,
+        "published": "2013-10-08"
+    },
+    "9780816279135": {
+        "name": "Intelligent Life in the Universe",
+        "isbn": "9780816279135",
+        "author": "C. Sagan",
+        "price": null,
+        "published": "1984-11-01"
+    },
+    "9780385365925": {
+        "name": "Ultimate Hitchhiker's Guide to the Galaxy-EXP-PROP Ultimate Hitchhiker's Guide to the Galaxy EXPT-PROP-International",
+        "isbn": "9780385365925",
+        "author": "Douglas Adams",
+        "price": null,
+        "published": "2020-03-02"
+    },
+    "9780691141336": {
+        "name": "Gamma",
+        "isbn": "9780691141336",
+        "author": "Freeman Dyson",
+        "price": null,
+        "published": "2009-07-26"
+    },
+    "9780008307875": {
+        "name": "Chasing the Moon",
+        "isbn": "9780008307875",
+        "author": "Alan Andres",
+        "price": null,
+        "published": "2019-06-13"
+    },
+    "9781606600498": {
+        "name": "The Book of Black",
+        "isbn": "9781606600498",
+        "author": "Clifford A. Pickover",
+        "price": null,
+        "published": "2013-11-29"
+    },
+    "9781447289234": {
+        "name": "Stories of Your Life and Others",
+        "isbn": "9781447289234",
+        "author": "Ted Chiang",
+        "price": null,
+        "published": "2015-05-21"
+    },
+    "9780886825010": {
+        "name": "The Ones Who Walk Away from Omelas",
+        "isbn": "9780886825010",
+        "author": "Ursula K Le Guin",
+        "price": null,
+        "published": "1997-04-01"
+    },
+    "9780062183637": {
+        "name": "Lost Girls",
+        "isbn": "9780062183637",
+        "author": "Robert Kolker",
+        "price": null,
+        "published": "2013-07-09"
+    },
+    "9780375422225": {
+        "name": "The Age of Wonder",
+        "isbn": "9780375422225",
+        "author": "Sir Richard Holmes",
+        "price": null,
+        "published": "2009-07-14"
+    },
+    "9781529319415": {
+        "name": "The Secret Lives of Planets",
+        "isbn": "9781529319415",
+        "author": "Paul Murdin",
+        "price": null,
+        "published": "2019-08-30"
+    },
+    "9780241003916": {
+        "name": "A History of the Bible",
+        "isbn": "9780241003916",
+        "author": "Dr John Barton",
+        "price": null,
+        "published": "2019-07-16"
+    },
+    "9780321512864": {
+        "name": "Exploring Black Holes",
+        "isbn": "9780321512864",
+        "author": "Edmund Bertschinger",
+        "price": null,
+        "published": "2019-01-01"
+    },
+    "9780521880688": {
+        "name": "Numerical Recipes 3rd Edition",
+        "isbn": "9780521880688",
+        "author": "Brian P. Flannery",
+        "price": null,
+        "published": "2007-10-01"
+    },
+    "9780312622374": {
+        "name": "Our Final Invention",
+        "isbn": "9780312622374",
+        "author": "James Barrat",
+        "price": null,
+        "published": "2013-10-01"
+    },
+    "9781482253443": {
+        "name": "Statistical Rethinking",
+        "isbn": "9781482253443",
+        "author": "Richard McElreath",
+        "price": null,
+        "published": "2016-02-19"
+    },
+    "9780500052006": {
+        "name": "The Dinosaurs Rediscovered",
+        "isbn": "9780500052006",
+        "author": "Michael J. Benton",
+        "price": null,
+        "published": "2019-05-07"
+    },
+    "9780199937875": {
+        "name": "The Locust Effect",
+        "isbn": "9780199937875",
+        "author": "Victor Boutros",
+        "price": null,
+        "published": "2014-03-13"
+    },
+    "9780575077171": {
+        "name": "House of Suns",
+        "isbn": "9780575077171",
+        "author": "Alastair Reynolds",
+        "price": null,
+        "published": "2008-04-17"
+    },
+    "9781471151972": {
+        "name": "The Stranger in the Woods",
+        "isbn": "9781471151972",
+        "author": "Michael Finkel",
+        "price": null,
+        "published": "2017-03-21"
+    },
+    "9781781313596": {
+        "name": "Sci-Fi Chronicles",
+        "isbn": "9781781313596",
+        "author": "Guy Haley",
+        "price": null,
+        "published": "2014-10-02"
+    },
+    "9780544142848": {
+        "name": "Ghost Fleet: A Novel of the Next World War",
+        "isbn": "9780544142848",
+        "author": "August Cole",
+        "price": null,
+        "published": "2015-06-30"
+    },
+    "9781501126925": {
+        "name": "I'm Thinking of Ending Things",
+        "isbn": "9781501126925",
+        "author": "Iain Reid",
+        "price": null,
+        "published": "2016-06-14"
+    },
+    "9780802717566": {
+        "name": "Last Ape Standing",
+        "isbn": "9780802717566",
+        "author": "Chip Walter",
+        "price": null,
+        "published": "2013-04-11"
+    },
+    "9780715651612": {
+        "name": "What the Luck?",
+        "isbn": "9780715651612",
+        "author": "Gary Smith",
+        "price": null,
+        "published": "2017-01-26"
+    },
+    "9780674013315": {
+        "name": "Galileo's Pendulum",
+        "isbn": "9780674013315",
+        "author": "Roger G. Newton",
+        "price": null,
+        "published": "2004-05-07"
+    },
+    "9781617230066": {
+        "name": "Five Billion Years of Solitude",
+        "isbn": "9781617230066",
+        "author": "Lee Billings",
+        "price": null,
+        "published": "2013-10-03"
+    },
+    "9780471377436": {
+        "name": "The Secret Life of Dust",
+        "isbn": "9780471377436",
+        "author": "Hannah Holmes",
+        "price": null,
+        "published": "2001-08-15"
+    },
+    "9780007455287": {
+        "name": "The Secret Museum",
+        "isbn": "9780007455287",
+        "author": "Molly Oldfield",
+        "price": null,
+        "published": "2013-02-28"
+    },
+    "9781788162548": {
+        "name": "The Moon",
+        "isbn": "9781788162548",
+        "author": "Oliver Morton",
+        "price": null,
+        "published": "2019-05-16"
+    },
+    "9780312035600": {
+        "name": "Man After Man",
+        "isbn": "9780312035600",
+        "author": "Dougal Dixon",
+        "price": null,
+        "published": "1990-09-01"
+    },
+    "9781846812095": {
+        "name": "Complete Illustrated Encyclopedia of Dinosaurs & Prehistoric Creatures",
+        "isbn": "9781846812095",
+        "author": "Dixon Dougal",
+        "price": null,
+        "published": "2014-07-07"
+    },
+    "9781911081012": {
+        "name": "After Man",
+        "isbn": "9781911081012",
+        "author": "Dougal Dixon",
+        "price": null,
+        "published": "2018-05-24"
+    },
+    "9781588346377": {
+        "name": "The Smithsonian History of Space Exploration",
+        "isbn": "9781588346377",
+        "author": "Roger D. Launius",
+        "price": null,
+        "published": "2018-10-23"
+    },
+    "9780008129361": {
+        "name": "Eureka!",
+        "isbn": "9780008129361",
+        "author": "Tom Cabot",
+        "price": null,
+        "published": "2016-11-03"
+    },
+    "9780393068474": {
+        "name": "Packing for Mars",
+        "isbn": "9780393068474",
+        "author": "Mary Roach",
+        "price": null,
+        "published": "2010-08-24"
+    },
+    "9780241004487": {
+        "name": "Einstein's Unfinished Revolution",
+        "isbn": "9780241004487",
+        "author": "Lee Smolin",
+        "price": null,
+        "published": "2019-08-22"
+    },
+    "9788498929362": {
+        "name": "Las dudas de la física en el siglo XXI : ¿es la teoría de cuerdas un callejón sin salida?",
+        "isbn": "9788498929362",
+        "author": "Rosa María Salleras Puig",
+        "price": null,
+        "published": "2016-03-04"
+    },
+    "9780198821250": {
+        "name": "Who We Are and How We Got Here",
+        "isbn": "9780198821250",
+        "author": "David Reich",
+        "price": null,
+        "published": "2018-05-07"
+    },
+    "9780307387103": {
+        "name": "Tuna",
+        "isbn": "9780307387103",
+        "author": "Richard Ellis",
+        "price": null,
+        "published": "2009-07-14"
+    },
+    "9781501126949": {
+        "name": "I'm Thinking of Ending Things",
+        "isbn": "9781501126949",
+        "author": "Iain Reid",
+        "price": null,
+        "published": "2017-04-11"
+    },
+    "9780241357538": {
+        "name": "Marvel Studios Character Encyclopedia",
+        "isbn": "9780241357538",
+        "author": "Adam Bray",
+        "price": null,
+        "published": "2019-04-04"
+    },
+    "9781302917203": {
+        "name": "The Road To Marvel's Avengers: Endgame - The Art Of The Marvel Cinematic Universe",
+        "isbn": "9781302917203",
+        "author": "Eleni Roussos",
+        "price": null,
+        "published": "2019-05-07"
+    },
+    "9781785659508": {
+        "name": "The Art of Iron Man (10th anniversary edition)",
+        "isbn": "9781785659508",
+        "author": "John Rhett Thomas",
+        "price": null,
+        "published": "2018-10-09"
+    },
+    "9781608872756": {
+        "name": "Iron Man Manual",
+        "isbn": "9781608872756",
+        "author": "Daniel Wallace",
+        "price": null,
+        "published": "2013-12-03"
+    },
+    "9780836839647": {
+        "name": "The Birth of Our Universe",
+        "isbn": "9780836839647",
+        "author": "Richard Hantula",
+        "price": null,
+        "published": "2005-01-01"
+    },
+    "9780836839524": {
+        "name": "Science Fiction",
+        "isbn": "9780836839524",
+        "author": "Richard Hantula",
+        "price": null,
+        "published": "2005-02-01"
+    },
+    "9780241355213": {
+        "name": "The Uninhabitable Earth",
+        "isbn": "9780241355213",
+        "author": "David Wallace-wells",
+        "price": null,
+        "published": "2019-02-19"
+    },
+    "9781435154469": {
+        "name": "Complete Tales and Poems of Edgar Allan Poe (Barnes & Noble Collectible Classics: Omnibus Edition)",
+        "isbn": "9781435154469",
+        "author": "Dawn B. Sova",
+        "price": null,
+        "published": "2019-05-13"
+    },
+    "9781451608113": {
+        "name": "The Case for Mars",
+        "isbn": "9781451608113",
+        "author": "Robert Zubrin",
+        "price": null,
+        "published": "2011-06-28"
+    },
+    "9781785784996": {
+        "name": "Six Impossible Things",
+        "isbn": "9781785784996",
+        "author": "John Gribbin",
+        "price": null,
+        "published": "2019-04-04"
+    },
+    "9780674035157": {
+        "name": "Lake Views",
+        "isbn": "9780674035157",
+        "author": "Steven Weinberg",
+        "price": null,
+        "published": "2010-01-15"
+    },
+    "9780141985206": {
+        "name": "Incerto Box Set",
+        "isbn": "9780141985206",
+        "author": "Nassim Nicholas Taleb",
+        "price": null,
+        "published": "2016-10-27"
+    },
+    "9780241242636": {
+        "name": "The Book of Why",
+        "isbn": "9780241242636",
+        "author": "Dana MacKenzie",
+        "price": null,
+        "published": "2018-05-15"
+    },
+    "9780615314464": {
+        "name": "Xkcd",
+        "isbn": "9780615314464",
+        "author": "Randall Munroe",
+        "price": null,
+        "published": "2010-09-23"
+    },
+    "9781848549579": {
+        "name": "What If?",
+        "isbn": "9781848549579",
+        "author": "Randall Munroe",
+        "price": null,
+        "published": "2014-11-25"
+    },
+    "9781785780820": {
+        "name": "Introducing Game Theory",
+        "isbn": "9781785780820",
+        "author": "Tom Humberstone",
+        "price": null,
+        "published": "2017-04-18"
+    },
+    "9780241360231": {
+        "name": "Humble Pi",
+        "isbn": "9780241360231",
+        "author": "Matt Parker",
+        "price": null,
+        "published": "2019-03-07"
+    },
+    "9780393097931": {
+        "name": "Special Relativity",
+        "isbn": "9780393097931",
+        "author": "A.P. French",
+        "price": null,
+        "published": "1968-08-17"
+    },
+    "9781509868063": {
+        "name": "Bad Blood",
+        "isbn": "9781509868063",
+        "author": "John Carreyrou",
+        "price": null,
+        "published": "2018-05-31"
+    },
+    "9780307463906": {
+        "name": "Endgame",
+        "isbn": "9780307463906",
+        "author": "Frank Brady",
+        "price": null,
+        "published": "2011-02-01"
+    },
+    "9780307908797": {
+        "name": "Time Travel",
+        "isbn": "9780307908797",
+        "author": "James Gleick",
+        "price": null,
+        "published": "2016-10-11"
+    },
+    "9780679747048": {
+        "name": "Genius",
+        "isbn": "9780679747048",
+        "author": "James Gleick",
+        "price": null,
+        "published": "1993-11-02"
+    },
+    "9780691115337": {
+        "name": "Four Colors Suffice",
+        "isbn": "9780691115337",
+        "author": "Robin Wilson",
+        "price": null,
+        "published": "2003-01-26"
+    },
+    "9780307958198": {
+        "name": "Black Hole Blues",
+        "isbn": "9780307958198",
+        "author": "Janna Levin",
+        "price": null,
+        "published": "2016-04-05"
+    },
+    "9780307956392": {
+        "name": "Decisive",
+        "isbn": "9780307956392",
+        "author": "Dan Heath",
+        "price": null,
+        "published": "2013-03-26"
+    },
+    "9781770890176": {
+        "name": "The Universe Within",
+        "isbn": "9781770890176",
+        "author": "Neil Turok",
+        "price": null,
+        "published": "2012-10-18"
+    },
+    "9783836569507": {
+        "name": "The NASA Archives. 60 Years in Space",
+        "isbn": "9783836569507",
+        "author": "Roger Launius",
+        "price": null,
+        "published": "2019-10-03"
+    },
+    "9780836839517": {
+        "name": "Legends, Folklore, and Outer Space",
+        "isbn": "9780836839517",
+        "author": "Richard Hantula",
+        "price": null,
+        "published": "2005-02-01"
+    },
+    "9780836839654": {
+        "name": "Black Holes, Pulsars, and Quasars",
+        "isbn": "9780836839654",
+        "author": "Richard Hantula",
+        "price": null,
+        "published": "2005-01-01"
+    },
+    "9780836839548": {
+        "name": "UFO's",
+        "isbn": "9780836839548",
+        "author": "Richard Hantula",
+        "price": null,
+        "published": "2005-02-01"
+    },
+    "9780836839500": {
+        "name": "Is There Life in Outer Space",
+        "isbn": "9780836839500",
+        "author": "Richard Hantula",
+        "price": null,
+        "published": "2005-02-01"
+    },
+    "9781435114937": {
+        "name": "Gray's Anatomy (Barnes & Noble Collectible Classics: Omnibus Edition)",
+        "isbn": "9781435114937",
+        "author": "H. V. Carter",
+        "price": null,
+        "published": "2011-07-01"
+    },
+    "9781435164987": {
+        "name": "Tales of Norse Mythology (Barnes & Noble Omnibus Leatherbound Classics)",
+        "isbn": "9781435164987",
+        "author": "Helen A. Guerber",
+        "price": null,
+        "published": "2017-05-04"
+    },
+    "9781435167902": {
+        "name": "Complete Sherlock Holmes (Barnes & Noble Collectible Classics: Omnibus Edition)",
+        "isbn": "9781435167902",
+        "author": "Sir Arthur Conan Doyle",
+        "price": null,
+        "published": "2019-05-13"
+    },
+    "9781435142817": {
+        "name": "Dracula and Other Horror Classics (Barnes & Noble Collectible Classics: Omnibus Edition)",
+        "isbn": "9781435142817",
+        "author": "Bram Stoker",
+        "price": null,
+        "published": "2015-03-05"
+    },
+    "9781435122956": {
+        "name": "Jules Verne: Seven Novels",
+        "isbn": "9781435122956",
+        "author": "Jules Verne",
+        "price": null,
+        "published": "2011-08-01"
+    },
+    "9781435122963": {
+        "name": "H.P. Lovecraft (Barnes & Noble Collectible Classics: Omnibus Edition)",
+        "isbn": "9781435122963",
+        "author": "H. P. Lovecraft",
+        "price": null,
+        "published": "2019-05-31"
+    },
+    "9781594488528": {
+        "name": "The Invention of Air",
+        "isbn": "9781594488528",
+        "author": "Steven Johnson",
+        "price": null,
+        "published": "2009-01-01"
+    },
+    "9780007576586": {
+        "name": "What We Cannot Know",
+        "isbn": "9780007576586",
+        "author": "Marcus du Sautoy",
+        "price": null,
+        "published": "2016-05-19"
+    },
+    "9780140085204": {
+        "name": "The Penguin Dictionary of Curious and Interesting Words",
+        "isbn": "9780140085204",
+        "author": "George Stone Saussy",
+        "price": null,
+        "published": "1986-11-27"
+    },
+    "9780830633272": {
+        "name": "Reaching for Infinity",
+        "isbn": "9780830633272",
+        "author": "Stan Gibilisco",
+        "price": null,
+        "published": "1990-06-30"
+    },
+    "9780747509219": {
+        "name": "Number",
+        "isbn": "9780747509219",
+        "author": "John McLeish",
+        "price": null,
+        "published": "1991-10-17"
+    },
+    "9781280609497": {
+        "name": "Quantum Theory: Concepts and Methods",
+        "isbn": "9781280609497",
+        "author": "Asher Peres",
+        "price": null,
+        "published": "2002-01-01"
+    },
+    "9781292026633": {
+        "name": "Spacetime and Geometry: Pearson New International Edition",
+        "isbn": "9781292026633",
+        "author": "Sean Carroll",
+        "price": null,
+        "published": "2013-08-12"
+    },
+    "9780399156519": {
+        "name": "The Book of Awesome",
+        "isbn": "9780399156519",
+        "author": "Neil Pasricha",
+        "price": null,
+        "published": "2011-07-19"
+    },
+    "9781408809594": {
+        "name": "Alex's Adventures in Numberland",
+        "isbn": "9781408809594",
+        "author": "Alex Bellos",
+        "price": null,
+        "published": "2011-04-05"
+    },
+    "9780571244034": {
+        "name": "We Need to Talk About Kelvin",
+        "isbn": "9780571244034",
+        "author": "Marcus Chown",
+        "price": null,
+        "published": "2010-09-02"
+    },
+    "9784871877244": {
+        "name": "Project Mars A Technical Tale Dr. Wernher von Braun",
+        "isbn": "9784871877244",
+        "author": "Sam Sloan",
+        "price": null,
+        "published": "2017-05-14"
+    },
+    "9781856266369": {
+        "name": "Encyclopedia of Gods",
+        "isbn": "9781856266369",
+        "author": "Michael Jordan",
+        "price": null,
+        "published": "2005-08-30"
+    },
+    "9781856261562": {
+        "name": "Myths of the World",
+        "isbn": "9781856261562",
+        "author": "Michael Jordan",
+        "price": null,
+        "published": "1996-06-01"
+    },
+    "9780241254684": {
+        "name": "Origin Story",
+        "isbn": "9780241254684",
+        "author": "David Christian",
+        "price": null,
+        "published": "2018-05-22"
+    },
+    "9780241336496": {
+        "name": "How Democracies Die",
+        "isbn": "9780241336496",
+        "author": "Daniel Ziblatt",
+        "price": null,
+        "published": "2018-01-25"
+    },
+    "9780241294222": {
+        "name": "How to Change Your Mind",
+        "isbn": "9780241294222",
+        "author": "Michael Pollan",
+        "price": null,
+        "published": "2018-05-17"
+    },
+    "9780785154716": {
+        "name": "Marvels: The Platinum Edition Slipcase",
+        "isbn": "9780785154716",
+        "author": "Alex Ross",
+        "price": null,
+        "published": "2014-08-19"
+    },
+    "9780441148004": {
+        "name": "Digging Leviathan",
+        "isbn": "9780441148004",
+        "author": "James P Blaylock",
+        "price": null,
+        "published": "1984-09-01"
+    },
+    "9780760765722": {
+        "name": "Science Fiction of the 20th Century",
+        "isbn": "9780760765722",
+        "author": "Frank M. Robinson",
+        "price": null,
+        "published": "2004-11-30"
+    },
+    "9780385031394": {
+        "name": "The Crystal Man",
+        "isbn": "9780385031394",
+        "price": null,
+        "published": "1973-01-01"
+    },
+    "9781591025757": {
+        "name": "Symmetry and the Beautiful Universe",
+        "isbn": "9781591025757",
+        "author": "Christopher T. Hill",
+        "price": null,
+        "published": "2008-02-01"
+    },
+    "9780375412882": {
+        "name": "The Fabric of the Cosmos",
+        "isbn": "9780375412882",
+        "author": "Brian Greene",
+        "price": null,
+        "published": "2004-02-10"
+    },
+    "9781473661356": {
+        "name": "What is Real?",
+        "isbn": "9781473661356",
+        "author": "Adam Becker",
+        "price": null,
+        "published": "2018-05-31"
+    },
+    "9781592406722": {
+        "name": "The Amazing Story of Quantum Mechanics",
+        "isbn": "9781592406722",
+        "author": "James Kakalios",
+        "price": null,
+        "published": "2011-11-01"
+    },
+    "9780871404091": {
+        "name": "Why Does the World Exist?",
+        "isbn": "9780871404091",
+        "author": "Jim Holt",
+        "price": null,
+        "published": "2012-08-22"
+    },
+    "9781101986097": {
+        "name": "Through Two Doors At Once",
+        "isbn": "9781101986097",
+        "author": "Anil Ananthaswamy",
+        "price": null,
+        "published": "2018-08-07"
+    },
+    "9781594205231": {
+        "name": "The Knowledge",
+        "isbn": "9781594205231",
+        "author": "Lewis Dartnell",
+        "price": null,
+        "published": "2015-02-26"
+    },
+    "9780801868740": {
+        "name": "Inventing Flight",
+        "isbn": "9780801868740",
+        "author": "John David Anderson",
+        "price": null,
+        "published": "2004-05-12"
+    },
+    "9780321909107": {
+        "name": "Conceptual Physics",
+        "isbn": "9780321909107",
+        "author": "Paul Hewitt",
+        "price": null,
+        "published": "2014-10-02"
+    },
+    "9780857525123": {
+        "name": "Caesar's Last Breath",
+        "isbn": "9780857525123",
+        "author": "Sam Kean",
+        "price": null,
+        "published": "2017-07-20"
+    },
+    "9780804737234": {
+        "name": "Bootstrapping",
+        "isbn": "9780804737234",
+        "author": "Thierry Bardini",
+        "price": null,
+        "published": "2001-01-01"
+    },
+    "9780486485881": {
+        "name": "Relativistic Quantum Fields",
+        "isbn": "9780486485881",
+        "author": "James D. Bjorken",
+        "price": null,
+        "published": "2013-09-18"
+    },
+    "9780070054936": {
+        "name": "Relativistic Quantum Mechanics",
+        "isbn": "9780070054936",
+        "author": "Sidney D. Drell",
+        "price": null,
+        "published": "1965-09-01"
+    },
+    "9780070054943": {
+        "name": "Relativistic Quantum Fields",
+        "isbn": "9780070054943",
+        "author": "Sidney D. Drell",
+        "price": null,
+        "published": "1965-06-01"
+    },
+    "9781783782284": {
+        "name": "How the World Thinks",
+        "isbn": "9781783782284",
+        "author": "Julian Baggini",
+        "price": null,
+        "published": "2018-10-04"
+    },
+    "9780393060133": {
+        "name": "The New Time Travelers",
+        "isbn": "9780393060133",
+        "author": "David Toomey",
+        "price": null,
+        "published": "2007-08-14"
+    },
+    "9781468310597": {
+        "name": "At the Edge of Uncertainty",
+        "isbn": "9781468310597",
+        "author": "Michael Brooks",
+        "price": null,
+        "published": "2015-02-10"
+    },
+    "9780140172133": {
+        "name": "Asimov's New Guide to Science",
+        "isbn": "9780140172133",
+        "author": "Mr Isaac Asimov",
+        "price": null,
+        "published": "1993-05-27"
+    },
+    "9780762434343": {
+        "name": "The Dreams That Stuff is Made of",
+        "isbn": "9780762434343",
+        "author": "Stephen Hawking",
+        "price": null,
+        "published": "2011-09-30"
+    },
+    "9780486445687": {
+        "name": "Quantum Field Theory",
+        "isbn": "9780486445687",
+        "author": "Jean-Bernard Zuber",
+        "price": null,
+        "published": "2006-03-31"
+    },
+    "9780072320022": {
+        "name": "Relativistic Quantum Mechanics",
+        "isbn": "9780072320022",
+        "author": "Bjorken",
+        "price": null,
+        "published": "2008-12-05"
+    },
+    "9780241232613": {
+        "name": "DC Comics Encyclopedia All-New Edition",
+        "isbn": "9780241232613",
+        "author": "Stephen Wiacek",
+        "price": null,
+        "published": "2016-10-14"
+    },
+    "9781409345732": {
+        "name": "Marvel Encyclopedia (updated edition)",
+        "isbn": "9781409345732",
+        "author": "DK",
+        "price": null,
+        "published": "2014-03-03"
+    },
+    "9781405367783": {
+        "name": "DC Comics The Ultimate Character Guide",
+        "isbn": "9781405367783",
+        "author": "DK",
+        "price": null,
+        "published": "2016-09-28"
+    },
+    "9780297609407": {
+        "name": "The Book of Humans",
+        "isbn": "9780297609407",
+        "author": "Adam Rutherford",
+        "price": null,
+        "published": "2018-09-13"
+    },
+    "9780385530828": {
+        "name": "The Future of the Mind",
+        "isbn": "9780385530828",
+        "author": "Michio Kaku",
+        "price": null,
+        "published": "2014-02-25"
+    },
+    "9780241304846": {
+        "name": "The Future of Humanity",
+        "isbn": "9780241304846",
+        "author": "Michio Kaku",
+        "price": null,
+        "published": "2018-02-28"
+    },
+    "9781847924575": {
+        "name": "Beyond Weird",
+        "isbn": "9781847924575",
+        "author": "Philip Ball",
+        "price": null,
+        "published": "2018-03-22"
+    },
+    "9781719838719": {
+        "name": "No-Nonsense Quantum Mechanics",
+        "isbn": "9781719838719",
+        "author": "Jakob Schwichtenberg",
+        "price": null,
+        "published": "2018-08-22"
+    },
+    "9780198714743": {
+        "name": "A Dictionary of Physics",
+        "isbn": "9780198714743",
+        "author": "Richard Rennie",
+        "price": null,
+        "published": "2015-12-01"
+    },
+    "9780761169086": {
+        "name": "Atlas Obscura",
+        "isbn": "9780761169086",
+        "author": "Dylan Thuras",
+        "price": null,
+        "published": "2016-10-01"
+    },
+    "9780349104522": {
+        "name": "The Man Who Knew Infinity",
+        "isbn": "9780349104522",
+        "author": "Robert Kanigel",
+        "price": null,
+        "published": "2016-09-22"
+    },
+    "9780241292525": {
+        "name": "The Order of Time",
+        "isbn": "9780241292525",
+        "author": "Carlo Rovelli",
+        "price": null,
+        "published": "2018-09-01"
+    },
+    "9780552155755": {
+        "name": "The Time Traveller",
+        "isbn": "9780552155755",
+        "author": "Ronald L Mallett",
+        "price": null,
+        "published": "2008-08-14"
+    },
+    "9781108422413": {
+        "name": "Modern Quantum Mechanics",
+        "isbn": "9781108422413",
+        "author": "Jim Napolitano",
+        "price": null,
+        "published": "2018-02-12"
+    },
+    "9781405302388": {
+        "name": "The Way Things Work",
+        "isbn": "9781405302388",
+        "author": "Neil Ardley",
+        "price": null,
+        "published": "2011-06-17"
+    },
+    "9780395938478": {
+        "name": "The New Way Things Work",
+        "isbn": "9780395938478",
+        "author": "Neil Ardley",
+        "price": null,
+        "published": "2000-01-14"
+    },
+    "9781406322224": {
+        "name": "The Way We Work",
+        "isbn": "9781406322224",
+        "author": "Beth Aves",
+        "price": null,
+        "published": "2009-10-05"
+    },
+    "9780241203385": {
+        "name": "How Machines Work",
+        "isbn": "9780241203385",
+        "author": "David Macaulay",
+        "price": null,
+        "published": "2015-12-15"
+    },
+    "9780241293324": {
+        "name": "Special Relativity and Classical Field Theory",
+        "isbn": "9780241293324",
+        "author": "Art Friedman",
+        "price": null,
+        "published": "2017-09-26"
+    },
+    "9780201657029": {
+        "name": "Classical Mechanics",
+        "isbn": "9780201657029",
+        "author": "John Safko",
+        "price": null,
+        "published": "2001-06-26"
+    },
+    "9780316339438": {
+        "name": "Spurious Correlations",
+        "isbn": "9780316339438",
+        "author": "Tyler Vigen",
+        "price": null,
+        "published": "2015-05-12"
+    },
+    "9780140146905": {
+        "name": "The Fabric of Reality",
+        "isbn": "9780140146905",
+        "author": "David Deutsch",
+        "price": null,
+        "published": "1998-03-26"
+    },
+    "9781576876862": {
+        "name": "The Mind's Eye",
+        "isbn": "9781576876862",
+        "author": "Jane Homish",
+        "price": null,
+        "published": "2014-06-12"
+    },
+    "9781473629356": {
+        "name": "New Scientist: The Origin of (almost) Everything",
+        "isbn": "9781473629356",
+        "author": "Jennifer Daniel",
+        "price": null,
+        "published": "2018-03-08"
+    },
+    "9781473642706": {
+        "name": "Nothing",
+        "isbn": "9781473642706",
+        "author": "New Scientist",
+        "price": null,
+        "published": "2016-07-04"
+    },
+    "9781408706039": {
+        "name": "Does Santa Exist?",
+        "isbn": "9781408706039",
+        "author": "Eric Kaplan",
+        "price": null,
+        "published": "2014-11-06"
+    },
+    "9780552778909": {
+        "name": "The Magic of Reality",
+        "isbn": "9780552778909",
+        "author": "Richard Dawkins",
+        "price": null,
+        "published": "2013-01-09"
+    },
+    "9780552562966": {
+        "name": "A Really Short History of Nearly Everything",
+        "isbn": "9780552562966",
+        "author": "Bill Bryson",
+        "price": null,
+        "published": "2010-09-02"
+    },
+    "9780718199463": {
+        "name": "A Beautiful Question",
+        "isbn": "9780718199463",
+        "author": "Frank Wilczek",
+        "price": null,
+        "published": "2016-08-25"
+    },
+    "9781620405932": {
+        "name": "Genius At Play",
+        "isbn": "9781620405932",
+        "author": "Siobhan Roberts",
+        "price": null,
+        "published": "2015-09-10"
+    },
+    "9780553176988": {
+        "name": "A Brief History Of Time",
+        "isbn": "9780553176988",
+        "author": "Stephen Hawking",
+        "price": null,
+        "published": "2018-04-19"
+    },
+    "9780716723271": {
+        "name": "Spacetime Physics",
+        "isbn": "9780716723271",
+        "author": "John Archibald Wheeler",
+        "price": null,
+        "published": "1992-03-15"
+    },
+    "9780805386622": {
+        "name": "Gravity",
+        "isbn": "9780805386622",
+        "author": "James Hartle",
+        "price": null,
+        "published": "2003-01-28"
+    }
+}

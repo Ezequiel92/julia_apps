@@ -39,13 +39,10 @@ function smoothTimeSeries(
     width::Int64 = 3,
 )::Tuple{Vector{Dates.Date}, Vector{Float64}}
 
-    new_x, new_y = Dates.Date[], Float64[]
+    window_range = 1:width:(length(data) - width + 1)
 
-    for i in 1:width:(length(data) - width + 1)
-        mean = sum(data[i:(i + (width - 1))]) / width
-        push!(new_y, round(mean))
-        push!(new_x, dates[i + round(Int64, width / 2)])
-    end
+    new_x = [dates[i + round(Int64, width / 2)] for i in window_range]
+    new_y = [round(sum(data[i:(i + width - 1)]) / width) for i in window_range]
 
     return new_x, new_y
 end
@@ -134,4 +131,4 @@ end
 # Usage.
 ############################################################################################
 
-covid19Plot("Argentina", "Number of new cases", width = 7, file_name = "example")
+covid19Plot("Argentina", "Number of new cases", width = 7, file_name = "COVID-19")
