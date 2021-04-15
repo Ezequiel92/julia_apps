@@ -2,7 +2,7 @@ using HTTP, Cascadia, Gumbo
 using Dates, ProgressMeter, OrderedCollections, JSON
 
 "URL of the wishlist. It has to be public wishlist."
-const URL = "https://www.bookdepository.com/es/wishlists/W75ZXZ?page="
+const URL = "YOUR_URL_HERE"
 "Filename of the output .json file."
 const FILENAME = "wishlist"
 
