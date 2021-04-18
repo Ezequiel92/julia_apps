@@ -1,4 +1,4 @@
-# 👨‍💻 Collection of Julia scripts.
+# 👨‍💻 Collection of Julia scripts
 
 [![ForTheBadge made-with-julia](https://forthebadge.com/images/badges/made-with-julia.svg)](https://julialang.org)
 
