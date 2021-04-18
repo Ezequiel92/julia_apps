@@ -54,7 +54,7 @@ Produce a Plotly bar plot with a time series of `data_type` for a given `country
 
 # Arguments
 - `country::String`: Country for which the data will be plotted. The name has to be in 
-  english and the first letter must be uppercase. For a list of available location see
+  English and the first letter must be uppercase. For a list of available location see
   https://github.com/owid/covid-19-data/blob/master/public/data/jhu/locations.csv.
 - `data_type::String`: Type of data to be plotted. Available types are:
   "Number of new cases"
@@ -66,7 +66,7 @@ Produce a Plotly bar plot with a time series of `data_type` for a given `country
   "Total number of deaths"
   "Total number of deaths per million"
 - `width::Int64 = 1`: Width of the moving window used to smooth out the data.
-- `file_name::String = "COVID-19"`: Name of the output html file.
+- `file_name::String = "COVID-19"`: Name of the output HTML file.
 
 # Examples
 ```julia-repl

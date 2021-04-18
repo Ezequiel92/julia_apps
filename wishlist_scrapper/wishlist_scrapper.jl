@@ -1,7 +1,7 @@
 using HTTP, Cascadia, Gumbo
 using Dates, ProgressMeter, OrderedCollections, JSON
 
-"URL of the wishlist. It has to be public wishlist."
+"URL of the wishlist. It has to be a public wishlist."
 const URL = "YOUR_URL_HERE"
 "Filename of the output .json file."
 const FILENAME = "wishlist"
@@ -24,8 +24,8 @@ corresponding country. For example:
 "ARS\$1.839,92" is 1893 Argentinian pesos and 92 cents.
 
 # Arguments
-- `URL::String`: url of the public wishlist.
-- `sort_key::Union{String, Nothing} = nothing`: Key by which the end result will be sorted.
+- `URL::String`: URL of the public wishlist.
+- `sort_key::Union{String, Nothing} = nothing`: Key by which the result will be sorted.
   If `nothing` there is no sorting, otherwise the options are:
   "isbn"
   "author"
@@ -35,7 +35,7 @@ corresponding country. For example:
 
 # Returns
 - A dictionary which keys are the ISBN codes of each book, and which entries are 
-  dictionaries with the available data for each book, i.e. author, isbn, price, etc. 
+  dictionaries with the available data for each book, i.e. author, ISBN, price, etc. 
   Missing data fields will be represented by `missing`.
 """
 function exportWishlist(

@@ -68,7 +68,7 @@ end
 Generate a random position and velocity depending on the type of simulation.
 
 # Arguments
-- `kind::String`: Type of simulation. The options are: "Gas" and "Globular cluster".
+- `kind::String`: Type of simulation. The options are "Gas" and "Globular cluster".
 
 # Returns
 - A Tuple with two Vectors containing the position and velocity.
@@ -113,7 +113,7 @@ end
 Generate a random initial condition depending on the type of simulation.
 
 # Arguments
-- `kind::String`: Type of simulation. The options are: "Gas" and "Globular cluster".
+- `kind::String`: Type of simulation. The options are "Gas" and "Globular cluster".
 - `N::Int64`: Total number of stars for the simulation.
 
 # Returns
@@ -139,16 +139,16 @@ end
 """
     makeSim(N::Int64, kind::String, tspan::Tuple{Float64, Float64})
 
-Run a gravitational simulation with `N` stars distributed acording to `kind` 
+Run a gravitational simulation with `N` stars distributed according to `kind` 
 for a period of `tspan`. 
 
 # Arguments
 - `N::Int64`: Total number of stars for the simulation.
-- `kind::String`: Type of simulation. The options are: "Gas" and "Globular cluster".
-- `tspan::Tuple{Float64, Float64}`: Total duration fo the simulation.
+- `kind::String`: Type of simulation. The options are "Gas" and "Globular cluster".
+- `tspan::Tuple{Float64, Float64}`: Total duration of the simulation.
 
 # Returns
-- The result fo the simulation.
+- The result of the simulation.
 """
 function makeSim(N::Int64, kind::String, tspan::Tuple{Float64, Float64})
 
@@ -159,7 +159,7 @@ function makeSim(N::Int64, kind::String, tspan::Tuple{Float64, Float64})
     return run_simulation(simulation)
 end
 
-# Create directory where the frames will be temporarily stored.
+# Create the directory where the frames will be temporarily stored.
 mkpath("TEMP/")
 
 ############################################################################################
