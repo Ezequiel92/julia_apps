@@ -21,6 +21,12 @@ Collection of single-file apps written in Julia, as a learning exercise.
 
 📚 wishlist_scrapper: A Web scrapper for the books in a [Book Depository](https://www.bookdepository.com) public wishlist. It saves the data in a JSON file. I could find only two similar projects in GitHub, one in Python2 (more than 10 years old) and the other in Javascript (from more than two years ago), both were unmaintained, and obviously, neither worked. So, I made my own in Julia.
 
+## 📣 Contact
+
+[![image](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lozano.ez@gmail.com)
+
+[![image](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:lozano.ez@outlook.com)
+
 ## ⚠️ Warning
 
 These scripts are written as an exercise and may break at any moment. So, no guarantees are given.
