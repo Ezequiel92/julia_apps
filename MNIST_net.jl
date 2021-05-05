@@ -104,9 +104,9 @@ Run trainNet(), allowing for automatic or interactive testing of the results.
 function MNIST_net(;interactive::Bool = false, show_training::Bool = true)
 
     # Load train dataset
-    images, labels = MNIST.traindata(dir = "./MNIST")
+    images, labels = MNIST.traindata(dir = "./auxiliary/MNIST")
     # Load test dataset
-    test_images, test_labels = MNIST.testdata(dir = "./MNIST")
+    test_images, test_labels = MNIST.testdata(dir = "./auxiliary/MNIST")
 
     # Train the neural net
     w_i_h, w_h_o, b_i_h, b_h_o = trainNet(images, labels; show_training)

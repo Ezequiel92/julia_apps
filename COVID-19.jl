@@ -131,4 +131,6 @@ end
 # Usage.
 ############################################################################################
 
-covid19Plot("Argentina", "Number of new cases", width = 7, file_name = "COVID-19")
+filepath = joinpath(@__DIR__, "output/COVID-19")
+
+covid19Plot("Argentina", "Number of new cases", width = 7, file_name = filepath)

@@ -133,7 +133,8 @@ end
 ############################################################################################
 
 wishlist_dict = exportWishlist(URL, sort_key = "price")
+filepath = joinpath(@__DIR__, "output", FILENAME * ".json")
 
-open(FILENAME * ".json", "w") do io
+open(filepath, "w") do io
     JSON.print(io, wishlist_dict, 4)
 end
