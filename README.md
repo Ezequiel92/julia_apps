@@ -1,4 +1,4 @@
-# 👨‍💻 Collection of Julia scripts
+# 👨‍💻 Collection of small Julia apps
 
 [![ForTheBadge made-with-julia](https://forthebadge.com/images/badges/made-with-julia.svg)](https://julialang.org)
 
@@ -13,13 +13,13 @@ Collection of single-file apps written in Julia, as a learning exercise.
 
 ## 💻 Apps
 
-😷 COVID-19: Makes an interactive plot (outputs a .html file) of some variable (e.g. total number of cases) versus time for a given country. The data is taken from [Our World in Data](https://github.com/owid/covid-19-data).
+😷 COVID-19: Makes an interactive plot (outputs a .html file) of the evolution of some variable (e.g. total number of cases) for a given country. The data is taken from [Our World in Data](https://github.com/owid/covid-19-data).
 
 🌌 gravity_sim: (UNDER CONSTRUCTION) Makes a GIF of an N-body gravitational simulation.
 
-🤖 MNIST_net: Julia implementation of a simple feedforward neural network. Based on [Neural Network From Scratch](https://github.com/Bot-Academy/NeuralNetworkFromScratch) with some modifications and extras.
+🤖 MNIST_net: Julia implementation of a simple feedforward neural network. Based on [Neural Network From Scratch](https://github.com/Bot-Academy/NeuralNetworkFromScratch) with some modifications.
 
-📚 wishlist_scrapper: A Web scrapper for the books in a [Book Depository](https://www.bookdepository.com) public wishlist. It saves the data in a JSON file. I could find only two similar projects in GitHub, one in Python2 (more than 10 years old) and the other in Javascript (from more than two years ago), both were unmaintained, and obviously, neither worked. So, I made my own in Julia.
+📚 wishlist_scrapper: A Web scrapper for any [Book Depository](https://www.bookdepository.com) public wishlist. It saves the data in a JSON file. I could find only two similar projects in GitHub, one in Python2 (more than 10 years old) and the other in Javascript (from more than two years ago), both were unmaintained, and obviously, neither worked. So, I made my own in Julia.
 
 ## 📣 Contact
 
