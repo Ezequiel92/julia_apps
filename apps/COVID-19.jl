@@ -5,14 +5,14 @@ const SOURCE = "https://raw.githubusercontent.com/owid/covid-19-data/master/publ
 
 "File names for the different data types."
 const FILE = Dict(
-    "Number of new cases" => "new_cases.csv",
-    "Number of new cases per million" => "new_cases_per_million.csv",
-    "Number of new deaths" => "new_deaths.csv",
-    "Number of new deaths per million" => "new_deaths_per_million.csv",
-    "Total number of cases" => "total_cases.csv",
-    "Total number of cases per million" => "total_cases_per_million.csv",
-    "Total number of deaths" => "total_deaths.csv",
-    "Total number of deaths per million" => "total_deaths_per_million.csv",
+    "number of new cases" => "new_cases.csv",
+    "number of new cases per million" => "new_cases_per_million.csv",
+    "number of new deaths" => "new_deaths.csv",
+    "number of new deaths per million" => "new_deaths_per_million.csv",
+    "total number of cases" => "total_cases.csv",
+    "total number of cases per million" => "total_cases_per_million.csv",
+    "total number of deaths" => "total_deaths.csv",
+    "total number of deaths per million" => "total_deaths_per_million.csv",
 )
 
 """
@@ -57,16 +57,16 @@ Produce a Plotly bar plot with a time series of `data_type` for a given `country
   English and the first letter must be uppercase. For a list of available location see
   https://github.com/owid/covid-19-data/blob/master/public/data/jhu/locations.csv.
 - `data_type::String`: Type of data to be plotted. Available types are:
-  "Number of new cases"
-  "Number of new cases per million"
-  "Number of new deaths"
-  "Number of new deaths per million"
-  "Total number of cases"
-  "Total number of cases per million"
-  "Total number of deaths"
-  "Total number of deaths per million"
+  "number of new cases"
+  "number of new cases per million"
+  "number of new deaths"
+  "number of new deaths per million"
+  "total number of cases"
+  "total number of cases per million"
+  "total number of deaths"
+  "total number of deaths per million"
 - `width::Int64 = 1`: Width of the moving window used to smooth out the data.
-- `file_name::String = "COVID-19"`: Name of the output HTML file.
+- `filepath::String = "COVID-19"`: Name of the output HTML file.
 
 # Examples
 ```julia-repl
@@ -80,7 +80,7 @@ function covid19Plot(
     country::String, 
     data_type::String; 
     width::Int64 = 1,
-    file_name::String = "COVID-19",
+    filepath::String = "COVID-19",
 )::Nothing
 
     # Get raw data from OWID.
@@ -103,8 +103,8 @@ function covid19Plot(
     # Prepare the plot.
     data = bar(; x, y)
     layout = Layout(
-        title = "$data_type in $country",
-        titlefont_size = 28,
+        title = "Average $data_type in $country ($width days period)",
+        titlefont_size = 26,
         xaxis = attr(
             title = "Date",
             titlefont_size = 24,
@@ -122,15 +122,15 @@ function covid19Plot(
     )
 
     # Plot the data.
-    savefig(plot(data, layout), file_name * ".html")
+    savefig(plot(data, layout), filepath * ".html")
 
     return nothing
 end
 
 ############################################################################################
-# Usage.
+# Usage
 ############################################################################################
 
-filepath = joinpath(@__DIR__, "output/COVID-19")
+filepath = joinpath(@__DIR__, "../output/COVID-19")
 
-covid19Plot("Argentina", "Number of new cases", width = 7, file_name = filepath)
+covid19Plot("Argentina", "number of new cases"; width = 7, filepath)

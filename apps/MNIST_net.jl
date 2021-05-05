@@ -2,6 +2,7 @@ using MLDatasets, Plots, ImageCore
 
 const LEARNING_RATE = 0.01
 const EPOCHS = 5
+const MNIST_PATH = "./auxiliary/MNIST"
 
 """
     trainNet(
@@ -104,9 +105,9 @@ Run trainNet(), allowing for automatic or interactive testing of the results.
 function MNIST_net(;interactive::Bool = false, show_training::Bool = true)
 
     # Load train dataset
-    images, labels = MNIST.traindata(dir = "./auxiliary/MNIST")
+    images, labels = MNIST.traindata(dir = MNIST_PATH)
     # Load test dataset
-    test_images, test_labels = MNIST.testdata(dir = "./auxiliary/MNIST")
+    test_images, test_labels = MNIST.testdata(dir = MNIST_PATH)
 
     # Train the neural net
     w_i_h, w_h_o, b_i_h, b_h_o = trainNet(images, labels; show_training)
@@ -164,7 +165,7 @@ function MNIST_net(;interactive::Bool = false, show_training::Bool = true)
 end
 
 ############################################################################################
-# Usage.
+# Usage
 ############################################################################################
 
 MNIST_net(interactive = true, show_training = true)

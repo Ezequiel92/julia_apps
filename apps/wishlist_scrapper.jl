@@ -1,10 +1,39 @@
 using HTTP, Cascadia, Gumbo
 using Dates, ProgressMeter, OrderedCollections, JSON
 
-"URL of the wishlist. It has to be a public wishlist."
-const URL = "YOUR_URL_HERE"
-"Filename of the output .json file."
-const FILENAME = "wishlist"
+function parse_price(price_number::AbstractString)::Union{Missing, Float64}
+
+    dot_bool = occursin('.', price_number)
+    comma_bool = occursin(',', price_number)
+
+    if comma_bool && dot_bool
+        first = price_number[findfirst(r"[.,]", price_number)]
+        if first == ","
+            return parse(Float64, replace(price_number, ',' => "", count = 1)) 
+        elseif first == "."
+            return parse(
+                Float64, 
+                replace(
+                    replace(price_number, '.' => "", count = 1), 
+                    ',' => ".", 
+                    count = 1,
+                ),
+            ) 
+        else
+            println("Could't parse: ", number_st)
+            return missing
+        end
+    elseif dot_bool || comma_bool
+        cents = split(price_number, r"[.,]")[2]
+        if length(cents) > 2
+            return parse(Float64, replace(price_number, r"[.,]" => "")) 
+        end
+        return parse(Float64, replace(price_number, ',' => "."))
+    else
+        return parse(Float64, price_number)
+    end
+
+end
 
 """
     exportWishlist(
@@ -58,7 +87,7 @@ function exportWishlist(
 
     while true
 
-        url = URL * string(page)
+        url = URL * "?page=" * string(page)
         page_html = HTTP.request("GET", url)
 
         body = parsehtml(String(page_html.body))
@@ -104,11 +133,13 @@ function exportWishlist(
             # Saves the price, if available.
             if isempty(price)
                 push!(book_dict, "price" => missing)
+                push!(book_dict, "coin" => missing)
             else
-                push!(
-                    book_dict, 
-                    "price" => first(split(strip(nodeText(first(price))), '\n')),
-                )
+                price_str = first(split(strip(nodeText(first(price))), '\n'))
+                price_number = match(r"\d*[.,]\d*([.,]\d*)?", price_str).match
+                value = parse_price(price_number)
+                push!(book_dict, "price" => value)
+                push!(book_dict, "coin" => replace(price_str, price_number => ""))
             end
 
             # Stores the book in the wishlist dictionary.
@@ -120,6 +151,8 @@ function exportWishlist(
         page += 1
     end
 
+    println("\nFinished processing $(length(wishlist)) books!")
+
     if isnothing(sort_key)
         return wishlist
     else
@@ -129,11 +162,17 @@ function exportWishlist(
 end
 
 ############################################################################################
-# Usage.
+# Usage
 ############################################################################################
 
+"URL of the wishlist. It has to be a public wishlist."
+const URL = "https://www.bookdepository.com/wishlists/XXXXXXX"
+
+"Filename of the output .json file."
+const FILENAME = "wishlist"
+
 wishlist_dict = exportWishlist(URL, sort_key = "price")
-filepath = joinpath(@__DIR__, "output", FILENAME * ".json")
+filepath = joinpath(@__DIR__, "../output", FILENAME * ".json")
 
 open(filepath, "w") do io
     JSON.print(io, wishlist_dict, 4)
