@@ -1,4 +1,4 @@
-# 👨‍💻 Collection of small Julia apps
+# 👨‍💻 Julia apps
 
 [![ForTheBadge made-with-julia](https://forthebadge.com/images/badges/made-with-julia.svg)](https://julialang.org)
 
@@ -6,25 +6,25 @@
 
 Collection of single-file apps written in Julia, as a learning exercise.
 
-- Each .jl file is a script and the .toml files contain the dependencies for all of them. 
-- Each app is self-contained and can be run as is.  
+- Each .jl file is a self-contained script and can be run as is.
+- The .toml files contain the dependencies for all the scripts. See the `using` at the beginning of each script for the individual dependencies.  
 - The functions within each app are documented using docstrings. 
-- An example of how to use the app is written at the end of each .jl file and is what is executed when the file is run. 
+- An example of how to use the app is written at the end of each one and is what is executed when the file is run. 
 
 ## 💻 Apps
 
-😷 `COVID-19.jl`: Makes an interactive plot (outputs a .html file) of the evolution of some variable (e.g. total number of cases) for a given country. The data is taken from [Our World in Data](https://github.com/owid/covid-19-data).
+😷 `COVID-19.jl`: Makes an interactive plot (as a .html file) of the evolution of some variable (e.g. total number of cases) for a given country. The data is taken from [Our World in Data](https://github.com/owid/covid-19-data).
 
 🌌 `gravity_sim.jl`: (UNDER CONSTRUCTION) Makes a GIF of an N-body gravitational simulation.
 
-🤖 `MNIST_net.jl`: Julia implementation of a simple feedforward neural network. Based on [Neural Network From Scratch](https://github.com/Bot-Academy/NeuralNetworkFromScratch) with some modifications.
+🤖 `MNIST_net.jl`: Julia implementation of the simple neural network of [Neural Network From Scratch](https://github.com/Bot-Academy/NeuralNetworkFromScratch), with some modifications and additions.
 
-📚 `wishlist_scrapper.jl`: A Web scrapper for any [Book Depository](https://www.bookdepository.com) public wishlist. It saves the data in a JSON file. I could find only two similar projects in GitHub, one in Python2 (more than 10 years old) and the other in Javascript (from more than two years ago), both were unmaintained, and obviously, neither worked. So, I made my own in Julia.
+📚 `wishlist_scrapper.jl`: A Web scrapper for any [Book Depository](https://www.bookdepository.com) public wishlist. It saves the data in a JSON file. I could only find two similar projects in GitHub, one in Python2 (more than 10 years old) and the other in Javascript (from more than two years ago), both were unmaintained, and obviously, neither worked. So, I made my own.
 
 ## Output
 
-- For the apps that generate some kind of output, this will be stored in `output/`.
-- The folder `auxiliary/`is used to store working files for the scripts, and it can be emptied between runs.
+- For the apps that generate some kind of output, it will be stored in `output/`.
+- The folder `auxiliary/` is used to store working files for the scripts, and it can be deleted between runs.
 
 ## 📣 Contact
 
@@ -34,4 +34,4 @@ Collection of single-file apps written in Julia, as a learning exercise.
 
 ## ⚠️ Warning
 
-These scripts are written as an exercise and may break at any moment. So, no guarantees are given.
+These scripts are written as an exercise and may break at any moment. So, use them at your own risk.
