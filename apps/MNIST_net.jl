@@ -4,6 +4,9 @@ const LEARNING_RATE = 0.01
 const EPOCHS = 5
 const MNIST_PATH = "./auxiliary/MNIST"
 
+# Create auxiliary folder if it doesn't exist
+mkpath(joinpath(@__DIR__, "../auxiliary/"))
+
 """
     trainNet(
         images::Base.ReinterpretArray, 

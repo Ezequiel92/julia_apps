@@ -1,6 +1,41 @@
 using HTTP, Cascadia, Gumbo
 using Dates, ProgressMeter, OrderedCollections, JSON
 
+"""
+    parse_price(price_number::AbstractString)::Union{Missing, Float64}
+
+Parse a string representing a price as a floating point number.
+
+It smartly considers the position of the ',' and '.' to infer the 
+convention for thousands and cents.
+
+# Arguments
+- `price_number::AbstractString`: The price to be parsed.
+
+# Returns
+- The price as a floating point number.
+
+# Examples
+```julia-repl
+julia> parse_price("1.789,56")
+1789.56
+
+julia> parse_price("8,536.96")
+8536.96
+
+julia> parse_price("42.69")
+42.69
+
+julia> parse_price("5.698")
+5698.0
+
+julia> parse_price("42,88")
+42.88
+
+julia> parse_price("1,256")
+1256.0
+```
+"""
 function parse_price(price_number::AbstractString)::Union{Missing, Float64}
 
     dot_bool = occursin('.', price_number)
@@ -9,12 +44,12 @@ function parse_price(price_number::AbstractString)::Union{Missing, Float64}
     if comma_bool && dot_bool
         first = price_number[findfirst(r"[.,]", price_number)]
         if first == ","
-            return parse(Float64, replace(price_number, ',' => "", count = 1)) 
+            return parse(Float64, replace(price_number, ',' => "")) 
         elseif first == "."
             return parse(
                 Float64, 
                 replace(
-                    replace(price_number, '.' => "", count = 1), 
+                    replace(price_number, '.' => ""), 
                     ',' => ".", 
                     count = 1,
                 ),
@@ -24,7 +59,7 @@ function parse_price(price_number::AbstractString)::Union{Missing, Float64}
             return missing
         end
     elseif dot_bool || comma_bool
-        cents = split(price_number, r"[.,]")[2]
+        cents = rsplit(price_number, ['.', ',']; limit = 2)[2]
         if length(cents) > 2
             return parse(Float64, replace(price_number, r"[.,]" => "")) 
         end
@@ -39,38 +74,33 @@ end
     exportWishlist(
         URL::String; 
         <keyword arguments>,
-    )::OrderedDict{String, Dict{String, Any}}
+    )::Union{Nothing, OrderedDict{String, Dict{String, Any}}}
 
 Crawls the Book Depository webpage for the books in the given wishlist.
 
-All data fields, but the date, will be strings. The date is a Dates object.
-
-The price is in the format "COIN\$NUMBER", where `COIN` is a denomination code and `NUMBER` 
-is the price itself in the corresponding denomination and in the format used by the 
-corresponding country. For example:
-
-"US\$20.03" is 20 US dollars and 3 cents.
-"ARS\$1.839,92" is 1893 Argentinian pesos and 92 cents.
+All data fields, except the date and price, will be strings. The date is a Dates object and 
+the price is a Float64.
 
 # Arguments
 - `URL::String`: URL of the public wishlist.
 - `sort_key::Union{String, Nothing} = nothing`: Key by which the result will be sorted.
   If `nothing` there is no sorting, otherwise the options are:
-  "isbn"
-  "author"
-  "price"
-  "published"
-  "title"
+  "isbn": Standard numerical order (lower first) even though this field is a string.
+  "author": Standard alphabetical order.
+  "price": Standard numerical order (lower first), with missings together at the end. 
+  "published": Older first.
+  "title": Standard alphabetical order.
 
 # Returns
 - A dictionary which keys are the ISBN codes of each book, and which entries are 
   dictionaries with the available data for each book, i.e. author, ISBN, price, etc. 
   Missing data fields will be represented by `missing`.
+  Return `nothing` if no books were detected.
 """
 function exportWishlist(
     URL::String; 
     sort_key::Union{String, Nothing} = nothing,
-)::OrderedDict{String, Dict{String, Any}}
+)::Union{OrderedDict{String, Dict{String, Any}}, Nothing}
 
     # Sort key correctness check,
     (
@@ -151,7 +181,12 @@ function exportWishlist(
         page += 1
     end
 
-    println("\nFinished processing $(length(wishlist)) books!")
+    if length(wishlist) == 0
+        println("I couldn't detect any books! Check the url.")
+        return nothing
+    else
+        println("\nFinished processing $(length(wishlist)) books!")
+    end
 
     if isnothing(sort_key)
         return wishlist
@@ -172,8 +207,15 @@ const URL = "https://www.bookdepository.com/wishlists/XXXXXXX"
 const FILENAME = "wishlist"
 
 wishlist_dict = exportWishlist(URL, sort_key = "price")
-filepath = joinpath(@__DIR__, "../output", FILENAME * ".json")
 
-open(filepath, "w") do io
-    JSON.print(io, wishlist_dict, 4)
+if wishlist_dict !== nothing
+
+    # Create output path if it doesn't exist
+    folderpath = mkpath(joinpath(@__DIR__, "../output"))
+    filepath = joinpath(folderpath, FILENAME * ".json")
+
+    open(filepath, "w") do io
+        JSON.print(io, wishlist_dict, 4)
+    end
+
 end
