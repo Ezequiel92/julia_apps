@@ -8,7 +8,7 @@ const MNIST_PATH = "./auxiliary/MNIST"
 mkpath(joinpath(@__DIR__, "../auxiliary/"))
 
 """
-    trainNet(
+    train_net(
         images::Base.ReinterpretArray, 
         labels::Vector{Int64};
         <keyword arguments>,
@@ -26,7 +26,7 @@ Train a basic neural network on the MNIST dataset.
   b = bias, i = input, h = hidden, o = output and l = label, e.g. w_i_h = weights from 
   input layer to hidden layer.
 """
-function trainNet(
+function train_net(
     images::Base.ReinterpretArray, 
     labels::Vector{Int64}; 
     show_training::Bool = true,
@@ -94,9 +94,9 @@ function trainNet(
 end
 
 """
-    MNIST_net(<keyword arguments>)
+    mnist_net(<keyword arguments>)
 
-Run trainNet(), allowing for automatic or interactive testing of the results.
+Run train_net(), allowing for automatic or interactive testing of the results.
         
 # Arguments
 - `interactive::Bool = false`: If the testing of the results will be interactive or 
@@ -105,7 +105,7 @@ Run trainNet(), allowing for automatic or interactive testing of the results.
   net on the whole test set of 10000 images.
 - `show_training::Bool = true`: If it will print each epoch accuracy and mean error.
 """
-function MNIST_net(;interactive::Bool = false, show_training::Bool = true)
+function mnist_net(;interactive::Bool = false, show_training::Bool = true)
 
     # Load train dataset
     images, labels = MNIST.traindata(dir = MNIST_PATH)
@@ -113,7 +113,7 @@ function MNIST_net(;interactive::Bool = false, show_training::Bool = true)
     test_images, test_labels = MNIST.testdata(dir = MNIST_PATH)
 
     # Train the neural net
-    w_i_h, w_h_o, b_i_h, b_h_o = trainNet(images, labels; show_training)
+    w_i_h, w_h_o, b_i_h, b_h_o = train_net(images, labels; show_training)
 
     if interactive
         while true
@@ -171,4 +171,4 @@ end
 # Usage
 ############################################################################################
 
-MNIST_net(interactive = true, show_training = true)
+mnist_net(interactive = true, show_training = true)

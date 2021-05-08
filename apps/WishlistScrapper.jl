@@ -71,12 +71,12 @@ function parse_price(price_number::AbstractString)::Union{Missing, Float64}
 end
 
 """
-    exportWishlist(
+    export_wishlist(
         URL::String; 
         <keyword arguments>,
     )::Union{Nothing, OrderedDict{String, Dict{String, Any}}}
 
-Crawls the Book Depository webpage for the books in the given wishlist.
+Crawls a Book Depository public wishlist, saving its books in a JSON.
 
 All data fields, except the date and price, will be strings. The date is a Dates object and 
 the price is a Float64.
@@ -97,7 +97,7 @@ the price is a Float64.
   Missing data fields will be represented by `missing`.
   Return `nothing` if no books were detected.
 """
-function exportWishlist(
+function export_wishlist(
     URL::String; 
     sort_key::Union{String, Nothing} = nothing,
 )::Union{OrderedDict{String, Dict{String, Any}}, Nothing}
@@ -206,7 +206,7 @@ const URL = "https://www.bookdepository.com/wishlists/XXXXXXX"
 "Filename of the output .json file."
 const FILENAME = "wishlist"
 
-wishlist_dict = exportWishlist(URL, sort_key = "price")
+wishlist_dict = export_wishlist(URL, sort_key = "price")
 
 if wishlist_dict !== nothing
 
