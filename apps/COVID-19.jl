@@ -135,4 +135,4 @@ end
 folderpath = mkpath(joinpath(@__DIR__, "../output"))
 filepath = joinpath(folderpath, "COVID-19")
 
-covid19Plot("Argentina", "number of new cases"; width = 7, filepath)
+covid19Plot("Argentina", "number of new cases"; width = 3, filepath)
