@@ -83,24 +83,24 @@ function covid19Plot(
     filepath::String = "COVID-19",
 )::Nothing
 
-    # Get raw data from OWID.
+    # Get raw data from OWID
     raw_dataframe = CSV.File(HTTP.get(SOURCE * FILE[data_type]).body) |> DataFrame
 
-    # Data availability check.
+    # Data availability check
     (
         country in names(raw_dataframe) ||
         error("Country '$country' was not found in the database.
               Refer to https://github.com/owid/covid-19-data/blob/master/public/data/jhu/locations.csv")
     )
 
-    # Smooth the data with a moving window of width `width`.
+    # Smooth the data with a moving window of width `width`
     x, y = smoothTimeSeries(
         coalesce.(raw_dataframe[!, country], 0.0),
         raw_dataframe.date;
         width,
     )
 
-    # Prepare the plot.
+    # Prepare the plot
     data = bar(; x, y)
     layout = Layout(
         title = "Average $data_type in $country ($width days period)",
@@ -135,4 +135,4 @@ end
 folderpath = mkpath(joinpath(@__DIR__, "../output"))
 filepath = joinpath(folderpath, "COVID-19")
 
-covid19Plot("Argentina", "number of new cases"; width = 3, filepath)
+covid19Plot("Argentina", "number of new cases"; width = 7, filepath)

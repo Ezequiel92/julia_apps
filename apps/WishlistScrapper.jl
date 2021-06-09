@@ -102,13 +102,13 @@ function export_wishlist(
     sort_key::Union{String, Nothing} = nothing,
 )::Union{OrderedDict{String, Dict{String, Any}}, Nothing}
 
-    # Sort key correctness check,
+    # Sort key correctness check
     (
         sort_key ∈ [nothing, "isbn", "author", "price", "published", "title"] || 
         error("$sort_key is not one of the available sort keys.")
     )
 
-    # Final dictionary to be filled with the data.
+    # Final dictionary to be filled with the data
     wishlist = OrderedDict{String, Dict{String, Any}}()
 
     page = 1
@@ -141,7 +141,7 @@ function export_wishlist(
             date = eachmatch(Selector("div.item-info > p.published"), book)
             price = eachmatch(Selector("div.item-info > div.price-wrap > p.price"), book)
 
-            # Saves the author, title and isbn of the book.
+            # Saves the author, title and isbn of the book
             for data in basic_data
                 if data.attributes["itemprop"] == "contributor"
                     push!(book_dict, "author" => data.attributes["content"])
@@ -153,14 +153,14 @@ function export_wishlist(
                 end
             end
 
-            # Saves publishing date, if available.
+            # Saves publishing date, if available
             if isempty(date)
                 push!(book_dict, "published" => missing)
             else
                 push!(book_dict, "published" => Date(nodeText(first(date)), "dd u yyyy"))
             end
             
-            # Saves the price, if available.
+            # Saves the price, if available
             if isempty(price)
                 push!(book_dict, "price" => missing)
                 push!(book_dict, "coin" => missing)
@@ -172,7 +172,7 @@ function export_wishlist(
                 push!(book_dict, "coin" => replace(price_str, price_number => ""))
             end
 
-            # Stores the book in the wishlist dictionary.
+            # Stores the book in the wishlist dictionary
             push!(wishlist, book_dict["isbn"] => book_dict)
         end
 

@@ -22,7 +22,7 @@ const FPS = 30
 "Pixel size of the frames and final GIF."
 const RESOLUTION = (1280, 720)
 
-# Color schemes for the stars.
+# Color schemes for the stars
 if COLOR_SCHEME == "orange_stars"
 
     markercolor = :darkorange2
@@ -40,7 +40,7 @@ elseif COLOR_SCHEME == "white_stars"
 end
 
 ############################################################################################
-# Auxiliary functions.
+# Auxiliary functions
 ############################################################################################
 
 """
@@ -51,9 +51,9 @@ Generate a random mass following the Salpeter (1995) IMF.
 function randMass()::Float64
 
     while true
-        # Stellar mass between 0.4 and 10 Mₒ.
+        # Stellar mass between 0.4 and 10 Mₒ
         global mass = 4.8 * rand() + 5.2
-        # Salpeter (1995) IMF.
+        # Salpeter (1995) IMF
         prob = mass^(-2.35) / 2.51894
         rand() > prob || break
     end
@@ -133,7 +133,7 @@ function initCondition(kind::String, N::Int64)::Vector{MassBody{Float64, Float64
 end
 
 ############################################################################################
-# Main function.
+# Main function
 ############################################################################################
 
 """
@@ -159,16 +159,16 @@ function makeSim(N::Int64, kind::String, tspan::Tuple{Float64, Float64})
     return run_simulation(simulation)
 end
 
-# Create the directory where the frames will be temporarily stored.
+# Create the directory where the frames will be temporarily stored
 mkpath("TEMP/")
 
 ############################################################################################
-# Usage.
+# Usage
 ############################################################################################
 
-# Duration of the simulation in Myr.
+# Duration of the simulation in Myr
 tspan = DURATION
-# Time length of each frame, for a 1 minute long animation.
+# Time length of each frame, for a 1 minute long animation
 frame_time = (tspan[2] - tspan[1]) / (60 * FPS)
 
 sim_result = makeSim(1000, "Globular cluster", tspan)
@@ -198,7 +198,7 @@ animation = @animate for (i, t) in enumerate(tspan[1]:frame_time:tspan[2])
     savefig("TEMP/" * "frame_" * string(i) * ".png")
 end
 
-# Make the GIF.
+# Make the GIF
 gif(animation, "example.gif", fps = FPS)
 
 #rm("TEMP/")
