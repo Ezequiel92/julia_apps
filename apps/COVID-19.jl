@@ -121,7 +121,7 @@ function covid19Plot(
         line = attr(color = "rgb(25, 25, 25)", width = 1.5),
     )
 
-    # Plot the data.
+    # Plot the data
     savefig(plot(data, layout), filepath * ".html")
 
     return nothing
