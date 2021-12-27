@@ -1,3 +1,6 @@
+name = "julia_apps"
+uuid = "8b1f8dff-6cb1-4423-aaa8-f26fb261f3ec"
+
 [deps]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 Cascadia = "54eefc05-d75b-58de-a785-1a3403f0919f"
