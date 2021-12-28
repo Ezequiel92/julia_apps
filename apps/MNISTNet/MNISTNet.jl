@@ -2,10 +2,7 @@ using MLDatasets, Plots, ImageCore
 
 const LEARNING_RATE = 0.01
 const EPOCHS = 5
-const MNIST_PATH = "./auxiliary/MNIST"
-
-# Create auxiliary folder if it doesn't exist
-mkpath(joinpath(@__DIR__, "../auxiliary/"))
+const MNIST_PATH = "./MNIST"
 
 """
     train_net(
@@ -119,8 +116,9 @@ function mnist_net(;interactive::Bool = false, show_training::Bool = true)
         while true
 
             # Select a testing image
-            print("Choose an image (1 - 10000): ") 
-            idx =  parse(Int64, readline())
+            print("Choose an image (1 - 10000): \n") 
+            ans = readline()
+            idx =  parse(Int64, ans)
             img = test_images[:, :, idx]
 
             # Forward propagation input -> hidden
@@ -131,8 +129,9 @@ function mnist_net(;interactive::Bool = false, show_training::Bool = true)
             o = @. 1 / (1 + exp(-o_pre))
 
             # Show the image and the result
-            title = "I think it is a $(argmax(o)[1] - 1) with " *
-            "$(round(maximum(o) * 100, sigdigits = 3))% confidence"
+            title = "\n I think it is a $(argmax(o)[1] - 1) with \
+            $(round(maximum(o) * 100, sigdigits = 3))% confidence \n"
+            println(title)
             plot(MNIST.convert2image(img); title, axis = nothing)
             gui()
 

@@ -132,7 +132,7 @@ end
 ############################################################################################
 
 # Create output path if it doesn't exist
-folderpath = mkpath(joinpath(@__DIR__, "../output"))
+folderpath = mkpath(joinpath(@__DIR__, "./output"))
 filepath = joinpath(folderpath, "COVID-19")
 
 covid19Plot("Argentina", "number of new cases"; width = 7, filepath)

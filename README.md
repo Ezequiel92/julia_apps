@@ -13,10 +13,10 @@
 
 Collection of single-file apps written in Julia, as a learning exercise.
 
-- Each .jl file is a self-contained script and can be run as is.
-- The .toml files contain the dependencies for all the scripts. See the `using` at the beginning of each script for the individual dependencies.  
-- The functions within each app are documented using docstrings. 
-- An example of how to use the app is written at the end of each one and is what is executed when the file is run. 
+- Each folder has a .jl file which is a self-contained script and can be run as is.
+- The .toml files in each folder contain the dependencies for all the scripts.
+- The functions within each app are documented using docstrings.
+- An example of how to use the app is written at the end of each one and is what is executed when the file is run.
 
 ## 💻 Apps
 
@@ -30,8 +30,7 @@ Collection of single-file apps written in Julia, as a learning exercise.
 
 ## Output
 
-- For the apps that generate some kind of output, it will be stored in `output/`.
-- The folder `auxiliary/` is used to store working files for the scripts, and it can be deleted between runs.
+- For the apps that generate some kind of output, it will be stored in the `output/` directory within each app folder.
 
 ## ⚠️ Warning
 
