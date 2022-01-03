@@ -17,6 +17,7 @@ jobs:
         version:
           - '1'
     steps:
+      - run: cd COVID-19
       - uses: actions/checkout@v2.4.0
       - uses: julia-actions/setup-julia@v1.6.1
         with:
