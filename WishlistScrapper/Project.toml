@@ -1,6 +1,3 @@
-name = "WishlistScrapper"
-uuid = "ac826aa6-84ab-4a0c-b3c6-3601d8e61ae4"
-
 [deps]
 Cascadia = "54eefc05-d75b-58de-a785-1a3403f0919f"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"

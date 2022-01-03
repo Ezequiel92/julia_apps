@@ -210,7 +210,7 @@ wishlist_dict = export_wishlist(URL, sort_key = "price")
 if wishlist_dict !== nothing
 
     # Create output path if it doesn't exist
-    folderpath = mkpath(joinpath(@__DIR__, "./output"))
+    folderpath = mkpath(joinpath(@__DIR__, "../output"))
     filepath = joinpath(folderpath, FILENAME * ".json")
 
     open(filepath, "w") do io
