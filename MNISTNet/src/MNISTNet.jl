@@ -2,7 +2,7 @@ using MLDatasets, Plots, ImageCore
 
 const LEARNING_RATE = 0.01
 const EPOCHS = 5
-const MNIST_PATH = "./MNIST"
+const MNIST_PATH = "../MNIST"
 
 """
     train_net(
