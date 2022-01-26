@@ -42,6 +42,12 @@ jobs:
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
       - run: julia --color=yes --project=COVID-19 -e 'import Pkg; Pkg.instantiate'
       - run: julia --color=yes --project=COVID-19 -e 'import Pkg; Pkg.update()'
+      - run: julia --color=yes --project=GravitySim -e 'import Pkg; Pkg.instantiate'
+      - run: julia --color=yes --project=GravitySim -e 'import Pkg; Pkg.update()'
+      - run: julia --color=yes --project=MNISTNet -e 'import Pkg; Pkg.instantiate'
+      - run: julia --color=yes --project=MNISTNet -e 'import Pkg; Pkg.update()'
+      - run: julia --color=yes --project=WishlistScrapper -e 'import Pkg; Pkg.instantiate'
+      - run: julia --color=yes --project=WishlistScrapper -e 'import Pkg; Pkg.update()'
       - run: git status
       - uses: actions/upload-artifact@v2
         with:
