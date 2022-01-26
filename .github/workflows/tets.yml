@@ -23,6 +23,7 @@ jobs:
           version: ${{ matrix.version }}
           arch: x64
       - run: cd COVID-19
+      - run: pwd 
       - run: println("::set-output name=manifest_version::$(VERSION.major).$(VERSION.minor)")
         shell: julia --color=yes {0}
         id: manifest_version
