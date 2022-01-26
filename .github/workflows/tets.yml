@@ -22,8 +22,6 @@ jobs:
         with:
           version: ${{ matrix.version }}
           arch: x64
-      - run: cd COVID-19
-      - run: pwd 
       - run: println("::set-output name=manifest_version::$(VERSION.major).$(VERSION.minor)")
         shell: julia --color=yes {0}
         id: manifest_version
@@ -42,13 +40,13 @@ jobs:
         env:
           JULIA_PKG_SERVER: ""
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
-      - run: julia --color=yes --project=@. -e 'import Pkg; Pkg.instantiate'
-      - run: julia --color=yes --project=@. -e 'import Pkg; Pkg.update()'
+      - run: julia --color=yes --project=COVID-19 -e 'import Pkg; Pkg.instantiate'
+      - run: julia --color=yes --project=COVID-19 -e 'import Pkg; Pkg.update()'
       - run: git status
       - uses: actions/upload-artifact@v2.3.1
         with:
-          name: manifest_file_for_${{ steps.manifest_version.outputs.manifest_version }}
-          path: COVID-19/Manifest.toml
+          name: manifest_files
+          path: ./**/Manifest.toml
           if-no-files-found: error
   make_single_pr:
     needs: update_each_manifest
@@ -64,10 +62,10 @@ jobs:
       - uses: actions/download-artifact@v2.1.0
         with:
           path: /tmp/manifest_updater/download_artifacts
-      - run: mv /tmp/manifest_updater/download_artifacts/manifest_file_for_*/Manifest.toml COVID-19
+      - run: cp /tmp/manifest_updater/download_artifacts/manifest_files .
       - run: rm -rf /tmp/manifest_updater
-      - run: chmod 600 COVID-19/Project.toml
-      - run: chmod 600 COVID-19/Manifest.toml
+      - run: chmod 600 ./*/Project.toml
+      - run: chmod 600 ./*/Manifest.toml
       - run: git status
       - uses: peter-evans/create-pull-request@v3.12.0
         with:
