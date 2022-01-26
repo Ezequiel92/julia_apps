@@ -65,11 +65,8 @@ jobs:
           path: /tmp/manifest_updater/download_artifacts
       - run: mv /tmp/manifest_updater/download_artifacts/manifest_file_for_*/Manifest.toml COVID-19
       - run: rm -rf /tmp/manifest_updater
-      - run: cd ./COVID-19
-      - run: pwd
-      - run: ls
-      - run: chmod 600 Project.toml
-      - run: chmod 600 Manifest.toml
+      - run: chmod 600 COVID-19/Project.toml
+      - run: chmod 600 COVID-19/Manifest.toml
       - run: git status
       - uses: peter-evans/create-pull-request@v3.12.0
         with:
