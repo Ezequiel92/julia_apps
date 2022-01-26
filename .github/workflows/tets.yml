@@ -62,7 +62,7 @@ jobs:
       - uses: actions/download-artifact@v2.1.0
         with:
           path: /tmp/manifest_updater/download_artifacts
-      - run: cp /tmp/manifest_updater/download_artifacts/manifest_files .
+      - run: rsync -a /tmp/manifest_updater/download_artifacts/manifest_files/. ./
       - run: rm -rf /tmp/manifest_updater
       - run: chmod 600 ./*/Project.toml
       - run: chmod 600 ./*/Manifest.toml
