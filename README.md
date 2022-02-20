@@ -21,7 +21,7 @@ Collection of single-file apps written in Julia, as a learning exercise.
 
 😷 `COVID-19.jl`: Makes an interactive plot (as a .html file) of the evolution of some variable (e.g. total number of cases) for a given country. The data is taken from [Our World in Data](https://github.com/owid/covid-19-data).
 
-🌌 `GravitySim.jl`: (?�� WIP ?��) Makes a GIF of an N-body gravitational simulation.
+🌌 `GravitySim.jl`: (🚧 WIP 🚧) Makes a GIF of an N-body gravitational simulation.
 
 🤖 `MNISTNet.jl`: Julia implementation of the simple neural network of [Neural Network From Scratch](https://github.com/Bot-Academy/NeuralNetworkFromScratch), with some modifications and additions.
 
