@@ -162,13 +162,13 @@ function export_wishlist(
             # Saves the price, if available
             if isempty(price)
                 push!(book_dict, "price" => missing)
-                push!(book_dict, "coin" => missing)
+                push!(book_dict, "currency" => missing)
             else
                 price_str = first(split(strip(nodeText(first(price))), '\n'))
                 price_number = match(r"\d*[.,]\d*([.,]\d*)?", price_str).match
                 value = parse_price(price_number)
                 push!(book_dict, "price" => value)
-                push!(book_dict, "coin" => replace(price_str, price_number => ""))
+                push!(book_dict, "currency" => strip(replace(price_str, price_number => "")))
             end
 
             # Stores the book in the wishlist dictionary
@@ -195,9 +195,9 @@ function export_wishlist(
     
 end
 
-############################################################################################
+####################################################################################################
 # Usage
-############################################################################################
+####################################################################################################
 
 "URL of the wishlist. It has to be a public wishlist."
 const URL = "https://www.bookdepository.com/wishlists/XXXXXX"
