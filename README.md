@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/Ezequiel92/julia_apps/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Ezequiel92/julia_apps?style=flat&logo=GNU&labelColor=2B2D2F"></a>
+    <a href="https://github.com/ezequiel92/julia_apps/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ezequiel92/julia_apps?style=flat&logo=GNU&labelColor=2B2D2F"></a>
 </p>
 
 Collection of single-file apps written in Julia, as a learning exercise.
