@@ -6,10 +6,6 @@
     <a href="https://julialang.org"><img src="https://forthebadge.com/images/badges/made-with-julia.svg"></a>
 </p>
 
-<p align="center">
-    <a href="https://github.com/ezequiel92/julia_apps/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ezequiel92/julia_apps?style=flat&logo=GNU&labelColor=2B2D2F"></a>
-</p>
-
 Collection of single-file apps written in Julia, as a learning exercise.
 
 - Each folder has a .jl file which is a self-contained script and can be run as is.
