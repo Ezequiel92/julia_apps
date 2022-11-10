@@ -2,32 +2,24 @@ using MLDatasets, Plots, ImageCore
 
 const LEARNING_RATE = 0.01
 const EPOCHS = 5
-const MNIST_PATH = "../MNIST"
+const MNIST_PATH = "MNIST"
 
 """
-    train_net(
-        images::Base.ReinterpretArray, 
-        labels::Vector{Int64};
-        <keyword arguments>,
-    )
+    train_net(images::Array{Float32, 3}, labels::Vector{Int64}; <keyword arguments>)
 
 Train a basic neural network on the MNIST dataset.
-        
+
 # Arguments
-- `images::Base.ReinterpretArray`: Images to do the training.
-- `labels::Vector{Int64}`: Labels of the images.
-- `show_training::Bool = true`: If it will print each epoch accuracy and mean error.
+
+  - `images::Array{Float32, 3}`: Images to do the training.
+  - `labels::Vector{Int64}`: Labels of the images.
+  - `show_training::Bool=true`: If it will print each epoch accuracy and mean error.
 
 # Returns
-- The weiths and biasis of the train net as (w_i_h, w_h_o, b_i_h, b_h_o), where w = weights, 
-  b = bias, i = input, h = hidden, o = output and l = label, e.g. w_i_h = weights from 
-  input layer to hidden layer.
+
+  - The weiths and biasis of the train net as (w_i_h, w_h_o, b_i_h, b_h_o), where w = weights, b = bias, i = input, h = hidden, o = output and l = label, e.g. w_i_h = weights from input layer to hidden layer.
 """
-function train_net(
-    images::Base.ReinterpretArray, 
-    labels::Vector{Int64}; 
-    show_training::Bool = true,
-)
+function train_net(images::Array{Float32,3}, labels::Vector{Int64}; show_training::Bool=true)
 
     # Random initialized the weiths and biasis
     w_i_h = rand(Float64, (20, 784)) .- 0.5
@@ -42,8 +34,8 @@ function train_net(
     end
 
     # Vector of the images with a shape of 784x1
-    vec_img = reshape.(eachslice(images, dims = 3), 784, 1)
-    
+    vec_img = reshape.(eachslice(images, dims=3), 784, 1)
+
     for epoch in 1:EPOCHS
 
         # Number of correct guesses
@@ -78,10 +70,9 @@ function train_net(
 
         # Show accuracy and error for this epoch
         if show_training
-            ep = "Epoch $epoch, "
-            acc = "accuracy: $(round((n_correct / size(images, 3)) * 100, sigdigits = 3))%"
-            err = ", mean error: $(round(e / length(vec_img), sigdigits = 3))"
-            println(ep * acc * err)
+            acc = round((n_correct / size(images, 3)) * 100, sigdigits=3)
+            err = round(e / length(vec_img), sigdigits=3)
+            println("Epoch $epoch, accuracy: $acc%, mean error: $err")
         end
 
     end
@@ -91,23 +82,21 @@ function train_net(
 end
 
 """
-    mnist_net(<keyword arguments>)
+    mnist_net(; <keyword arguments>)
 
 Run train_net(), allowing for automatic or interactive testing of the results.
-        
+
 # Arguments
-- `interactive::Bool = false`: If the testing of the results will be interactive or 
-  automatic. In interactive mode, it prompts you to choose one image from the 
-  testing set, and runs the trained net on it. In automatic mode, it will test the trained 
-  net on the whole test set of 10000 images.
-- `show_training::Bool = true`: If it will print each epoch accuracy and mean error.
+
+  - `interactive::Bool=false`: If the testing of the results will be interactive or automatic. In interactive mode, it prompts you to choose one image from the testing set, and runs the trained net on it. In automatic mode, it will test the trained net on the whole test set of 10000 images.
+  - `show_training::Bool=true`: If it will print each epoch accuracy and mean error.
 """
-function mnist_net(;interactive::Bool = false, show_training::Bool = true)
+function mnist_net(; interactive::Bool=false, show_training::Bool=true)
 
     # Load train dataset
-    images, labels = MNIST.traindata(dir = MNIST_PATH)
+    images, labels = MNIST(; split=:train, dir=MNIST_PATH)[:]
     # Load test dataset
-    test_images, test_labels = MNIST.testdata(dir = MNIST_PATH)
+    test_images, test_labels = MNIST(; split=:test, dir=MNIST_PATH)[:]
 
     # Train the neural net
     w_i_h, w_h_o, b_i_h, b_h_o = train_net(images, labels; show_training)
@@ -116,9 +105,9 @@ function mnist_net(;interactive::Bool = false, show_training::Bool = true)
         while true
 
             # Select a testing image
-            print("Choose an image (1 - 10000): \n") 
+            print("Choose an image (1 - 10000): \n")
             ans = readline()
-            idx =  parse(Int64, ans)
+            idx = parse(Int64, ans)
             img = test_images[:, :, idx]
 
             # Forward propagation input -> hidden
@@ -132,7 +121,7 @@ function mnist_net(;interactive::Bool = false, show_training::Bool = true)
             title = "\n I think it is a $(argmax(o)[1] - 1) with \
             $(round(maximum(o) * 100, sigdigits = 3))% confidence \n"
             println(title)
-            plot(MNIST.convert2image(img); title, axis = nothing)
+            plot(MNIST.convert2image(img); title, axis=nothing)
             gui()
 
         end
@@ -144,7 +133,7 @@ function mnist_net(;interactive::Bool = false, show_training::Bool = true)
             ov[i][i, 1] = 1.0
         end
 
-        for (img, number) in zip(eachslice(test_images, dims = 3), test_labels)
+        for (img, number) in zip(eachslice(test_images, dims=3), test_labels)
 
             # Forward propagation input -> hidden
             h_pre = b_i_h .+ w_i_h * reshape(img, 784, 1)
@@ -158,10 +147,8 @@ function mnist_net(;interactive::Bool = false, show_training::Bool = true)
 
         end
 
-        println()
-        test_accu = "Accuracy on the test dataset:" * 
-        " $(round((test_correct / size(test_images, 3)) * 100, sigdigits = 3))%"   
-        println(test_accu)
+        accuracy = round((test_correct / size(test_images, 3)) * 100, sigdigits=3)
+        println("\nAccuracy on the test dataset: $accuracy%")
     end
 
 end
@@ -170,4 +157,4 @@ end
 # Usage
 ############################################################################################
 
-mnist_net(interactive = true, show_training = true)
+mnist_net(interactive=true, show_training=true)

@@ -5,16 +5,18 @@ using HTTP, Cascadia, Gumbo, Dates, ProgressMeter, OrderedCollections, JSON
 
 Parse a string representing a price as a floating point number.
 
-It smartly considers the position of the ',' and '.' to infer the 
-convention for thousands and cents.
+It smartly considers the position of the ',' and '.' to infer the convention for thousands and cents.
 
 # Arguments
-- `price_number::AbstractString`: The price to be parsed.
+
+  - `price_number::AbstractString`: The price to be parsed.
 
 # Returns
-- The price as a floating point number.
+
+  - The price as a floating point number.
 
 # Examples
+
 ```julia-repl
 julia> parse_price("1.789,56")
 1789.56
@@ -35,7 +37,7 @@ julia> parse_price("1,256")
 1256.0
 ```
 """
-function parse_price(price_number::AbstractString)::Union{Missing, Float64}
+function parse_price(price_number::AbstractString)::Union{Missing,Float64}
 
     dot_bool = occursin('.', price_number)
     comma_bool = occursin(',', price_number)
@@ -43,24 +45,17 @@ function parse_price(price_number::AbstractString)::Union{Missing, Float64}
     if comma_bool && dot_bool
         first = price_number[findfirst(r"[.,]", price_number)]
         if first == ","
-            return parse(Float64, replace(price_number, ',' => "")) 
+            return parse(Float64, replace(price_number, ',' => ""))
         elseif first == "."
-            return parse(
-                Float64, 
-                replace(
-                    replace(price_number, '.' => ""), 
-                    ',' => ".", 
-                    count = 1,
-                ),
-            ) 
+            return parse(Float64, replace(replace(price_number, '.' => ""), ',' => ".", count=1))
         else
             println("Could't parse: ", number_st)
             return missing
         end
     elseif dot_bool || comma_bool
-        cents = rsplit(price_number, ['.', ',']; limit = 2)[2]
+        cents = rsplit(price_number, ['.', ',']; limit=2)[2]
         if length(cents) > 2
-            return parse(Float64, replace(price_number, r"[.,]" => "")) 
+            return parse(Float64, replace(price_number, r"[.,]" => ""))
         end
         return parse(Float64, replace(price_number, ',' => "."))
     else
@@ -77,38 +72,35 @@ end
 
 Crawls a Book Depository public wishlist, saving its books in a JSON.
 
-All data fields, except the date and price, will be strings. The date is a Dates object and 
-the price is a Float64.
+All data fields, except the date and price, will be strings. The date is a Dates object and the price is a Float64.
 
 # Arguments
-- `URL::String`: URL of the public wishlist.
-- `sort_key::Union{String, Nothing} = nothing`: Key by which the result will be sorted.
-  If `nothing` there is no sorting, otherwise the options are:
-  "isbn": Standard numerical order (lower first) even though this field is a string.
-  "author": Standard alphabetical order.
-  "price": Standard numerical order (lower first), with missings together at the end. 
-  "published": Older first.
-  "title": Standard alphabetical order.
+
+  - `URL::String`: URL of the public wishlist.
+  - `sort_key::Union{String, Nothing}=nothing`: Key by which the result will be sorted. If `nothing` there is no sorting, otherwise the options are:
+    "isbn": Standard numerical order (lower first) even though this field is a string.
+    "author": Standard alphabetical order.
+    "price": Standard numerical order (lower first), with missings together at the end.
+    "published": Older first.
+    "title": Standard alphabetical order.
 
 # Returns
-- A dictionary which keys are the ISBN codes of each book, and which entries are 
-  dictionaries with the available data for each book, i.e. author, ISBN, price, etc. 
-  Missing data fields will be represented by `missing`.
-  Return `nothing` if no books were detected.
+
+  - A dictionary which keys are the ISBN codes of each book, and which entries are dictionaries with the available data for each book, i.e. author, ISBN, price, etc. Missing data fields will be represented by `missing`. Return `nothing` if no books were detected.
 """
 function export_wishlist(
-    URL::String; 
-    sort_key::Union{String, Nothing} = nothing,
-)::Union{OrderedDict{String, Dict{String, Any}}, Nothing}
+    URL::String;
+    sort_key::Union{String,Nothing}=nothing,
+)::Union{OrderedDict{String,Dict{String,Any}},Nothing}
 
     # Sort key correctness check
     (
-        sort_key ∈ [nothing, "isbn", "author", "price", "published", "title"] || 
+        sort_key ∈ [nothing, "isbn", "author", "price", "published", "title"] ||
         error("$sort_key is not one of the available sort keys.")
     )
 
     # Final dictionary to be filled with the data
-    wishlist = OrderedDict{String, Dict{String, Any}}()
+    wishlist = OrderedDict{String,Dict{String,Any}}()
 
     page = 1
     prog = ProgressUnknown("Processing page")
@@ -127,14 +119,14 @@ function export_wishlist(
             ),
             body.root,
         )
-        
+
         if length(book_list) == 0
             ProgressMeter.finish!(prog)
             break
         end
 
         for book in book_list
-            book_dict = Dict{String, Any}()
+            book_dict = Dict{String,Any}()
 
             basic_data = eachmatch(Selector("meta"), book)
             date = eachmatch(Selector("div.item-info > p.published"), book)
@@ -145,10 +137,7 @@ function export_wishlist(
                 if data.attributes["itemprop"] == "contributor"
                     push!(book_dict, "author" => data.attributes["content"])
                 else
-                    push!(
-                        book_dict, 
-                        data.attributes["itemprop"] => data.attributes["content"],
-                    )
+                    push!(book_dict, data.attributes["itemprop"] => data.attributes["content"])
                 end
             end
 
@@ -158,7 +147,7 @@ function export_wishlist(
             else
                 push!(book_dict, "published" => Date(nodeText(first(date)), "dd u yyyy"))
             end
-            
+
             # Saves the price, if available
             if isempty(price)
                 push!(book_dict, "price" => missing)
@@ -175,7 +164,7 @@ function export_wishlist(
             push!(wishlist, book_dict["isbn"] => book_dict)
         end
 
-        ProgressMeter.next!(prog; showvalues = generate_showvalues(length(wishlist)))
+        ProgressMeter.next!(prog; showvalues=generate_showvalues(length(wishlist)))
 
         page += 1
     end
@@ -190,22 +179,26 @@ function export_wishlist(
     if isnothing(sort_key)
         return wishlist
     else
-        return sort(wishlist, byvalue = true, by = x -> x[sort_key])
+        return sort(wishlist, byvalue=true, by=x -> x[sort_key])
     end
-    
+
 end
 
 ####################################################################################################
 # Usage
 ####################################################################################################
 
-"URL of the wishlist. It has to be a public wishlist."
-const URL = "https://www.bookdepository.com/wishlists/XXXXXX"
+"""
+URL of the wishlist. It has to be a public wishlist.
+"""
+const URL = "https://www.bookdepository.com/wishlists/XXXXXXX"
 
-"Filename of the output .json file."
+"""
+Filename of the output .json file.
+"""
 const FILENAME = "wishlist"
 
-wishlist_dict = export_wishlist(URL, sort_key = "price")
+wishlist_dict = export_wishlist(URL, sort_key="price")
 
 if wishlist_dict !== nothing
 
