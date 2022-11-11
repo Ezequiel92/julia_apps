@@ -1,4 +1,4 @@
-using HTTP, Cascadia, Gumbo, Dates, ProgressMeter, OrderedCollections, JSON
+using Cascadia, Gumbo, Dates, HTTP, JSON, ProgressMeter, OrderedCollections
 
 """
     parse_price(price_number::AbstractString)::Union{Missing, Float64}
@@ -43,23 +43,32 @@ function parse_price(price_number::AbstractString)::Union{Missing,Float64}
     comma_bool = occursin(',', price_number)
 
     if comma_bool && dot_bool
+
         first = price_number[findfirst(r"[.,]", price_number)]
+
         if first == ","
             return parse(Float64, replace(price_number, ',' => ""))
         elseif first == "."
             return parse(Float64, replace(replace(price_number, '.' => ""), ',' => ".", count=1))
         else
-            println("Could't parse: ", number_st)
+            println("Could't parse: ", price_number)
             return missing
         end
+
     elseif dot_bool || comma_bool
+
         cents = rsplit(price_number, ['.', ',']; limit=2)[2]
+
         if length(cents) > 2
             return parse(Float64, replace(price_number, r"[.,]" => ""))
         end
+
         return parse(Float64, replace(price_number, ',' => "."))
+
     else
+
         return parse(Float64, price_number)
+
     end
 
 end
@@ -72,34 +81,35 @@ end
 
 Crawls a Book Depository public wishlist, saving its books in a JSON.
 
-All data fields, except the date and price, will be strings. The date is a Dates object and the price is a Float64.
+All data fields, except the date and price, will be strings. The date is a ´Dates´ object and the price is a ´Float64´.
 
 # Arguments
 
   - `URL::String`: URL of the public wishlist.
   - `sort_key::Union{String, Nothing}=nothing`: Key by which the result will be sorted. If `nothing` there is no sorting, otherwise the options are:
-    "isbn": Standard numerical order (lower first) even though this field is a string.
-    "author": Standard alphabetical order.
-    "price": Standard numerical order (lower first), with missings together at the end.
-    "published": Older first.
-    "title": Standard alphabetical order.
+    
+      + "isbn": Standard numerical order (lower first) even though this field is a string.
+      + "author": Standard alphabetical order.
+      + "price": Standard numerical order (lower first), with missings values together at the end as ´null´.
+      + "date_published": Older first.
+      + "title": Standard alphabetical order.
 
 # Returns
 
-  - A dictionary which keys are the ISBN codes of each book, and which entries are dictionaries with the available data for each book, i.e. author, ISBN, price, etc. Missing data fields will be represented by `missing`. Return `nothing` if no books were detected.
+  - A dictionary with the ISBN codes as its keys, and a dictionaries with the available data for each book as its values. Missing data fields will be printed as `null`. Return `nothing` if no books were detected.
 """
 function export_wishlist(
     URL::String;
     sort_key::Union{String,Nothing}=nothing,
 )::Union{OrderedDict{String,Dict{String,Any}},Nothing}
 
-    # Sort key correctness check
+    # Check ´sort_key´ correctness
     (
-        sort_key ∈ [nothing, "isbn", "author", "price", "published", "title"] ||
+        sort_key ∈ [nothing, "isbn", "author", "price", "date_published", "title"] ||
         error("$sort_key is not one of the available sort keys.")
     )
 
-    # Final dictionary to be filled with the data
+    # Allocate memory for the dictionary to be filled with the data
     wishlist = OrderedDict{String,Dict{String,Any}}()
 
     page = 1
@@ -114,8 +124,8 @@ function export_wishlist(
         body = parsehtml(String(page_html.body))
         book_list = eachmatch(
             Selector(
-                "body > div.page-slide > div.content-wrap > div > div.content-block" *
-                " > div > div.block > div > div > div",
+                "body > div.page-slide > div.content-wrap > div > div.content-block \
+                > div > div.block > div > div > div",
             ),
             body.root,
         )
@@ -132,7 +142,7 @@ function export_wishlist(
             date = eachmatch(Selector("div.item-info > p.published"), book)
             price = eachmatch(Selector("div.item-info > div.price-wrap > p.price"), book)
 
-            # Saves the author, title and isbn of the book
+            # Save the author, title and isbn of the book
             for data in basic_data
                 if data.attributes["itemprop"] == "contributor"
                     push!(book_dict, "author" => data.attributes["content"])
@@ -141,14 +151,14 @@ function export_wishlist(
                 end
             end
 
-            # Saves publishing date, if available
+            # Save the publishing date, if available
             if isempty(date)
-                push!(book_dict, "published" => missing)
+                push!(book_dict, "date_published" => missing)
             else
-                push!(book_dict, "published" => Date(nodeText(first(date)), "dd u yyyy"))
+                push!(book_dict, "date_published" => Date(nodeText(first(date)), "dd u yyyy"))
             end
 
-            # Saves the price, if available
+            # Save the price, if available
             if isempty(price)
                 push!(book_dict, "price" => missing)
                 push!(book_dict, "currency" => missing)
@@ -189,22 +199,22 @@ end
 ####################################################################################################
 
 """
-URL of the wishlist. It has to be a public wishlist.
+URL of the wishlist. It has to be a public wishlist!.
 """
 const URL = "https://www.bookdepository.com/wishlists/XXXXXXX"
 
 """
 Filename of the output .json file.
 """
-const FILENAME = "wishlist"
+const FILENAME = "wishlist.json"
 
 wishlist_dict = export_wishlist(URL, sort_key="price")
 
 if wishlist_dict !== nothing
 
     # Create output path if it doesn't exist
-    folderpath = mkpath(joinpath(@__DIR__, "../output"))
-    filepath = joinpath(folderpath, FILENAME * ".json")
+    output_path = mkpath(joinpath(@__DIR__, "../output"))
+    filepath = joinpath(output_path, FILENAME)
 
     open(filepath, "w") do io
         JSON.print(io, wishlist_dict, 4)

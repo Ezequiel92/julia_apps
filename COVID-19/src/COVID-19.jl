@@ -1,4 +1,4 @@
-using Plotly, HTTP, CSV, DataFrames, Dates
+using CSV, DataFrames, Dates, HTTP, Plotly
 
 """
 Data source.
@@ -20,7 +20,7 @@ const FILE = Dict(
 )
 
 """
-    function smoothTimeSeries(
+    smoothTimeSeries(
         data::Vector{Float64},
         dates::Vector{Dates.Date}; 
         <keyword arguments>
@@ -30,13 +30,13 @@ Smooth `data` with a moving window of width `width`.
 
 # Arguments
 
-  - `data::Vector{Float64}`: y axis data to be smoothed.
+  - `data::Vector{Float64}`: y axis data to be smoothed out.
   - `dates::Vector{Dates.Date}`: x axis data.
   - `width::Int64=3`: Width of the moving window.
 
 # Returns
 
-  - Tuple with two Arrays, the first is the x-axis data smooth out, and the second is the y-axis data trim down to have the same length as the x-axis data.
+  - Tuple with two arrays, the first is the y axis data smooth out, and the second is the x axis data trim down to have the same length as the y axis data.
 """
 function smoothTimeSeries(
     data::Vector{Float64},
@@ -50,27 +50,29 @@ function smoothTimeSeries(
     new_y = [round(sum(data[i:(i + width - 1)]) / width) for i in window_range]
 
     return new_x, new_y
+
 end
 
 """
-    function covid19Plot(country::String, data_type::String; <keyword arguments>)::Nothing
+    covid19Plot(country::String, data_type::String; <keyword arguments>)::Nothing
 
-Produce a Plotly bar plot with a time series of `data_type` for a given `country`.
+Produce a bar plot, with a time series of `data_type` for a given `country`, using `Plotly`.
 
 # Arguments
 
   - `country::String`: Country for which the data will be plotted. The name has to be in English and the first letter must be uppercase. For a list of available location see https://github.com/owid/covid-19-data/blob/master/public/data/jhu/locations.csv.
   - `data_type::String`: Type of data to be plotted. Available types are:
-    "number of new cases"
-    "number of new cases per million"
-    "number of new deaths"
-    "number of new deaths per million"
-    "total number of cases"
-    "total number of cases per million"
-    "total number of deaths"
-    "total number of deaths per million"
+    
+      + "number of new cases"
+      + "number of new cases per million"
+      + "number of new deaths"
+      + "number of new deaths per million"
+      + "total number of cases"
+      + "total number of cases per million"
+      + "total number of deaths"
+      + "total number of deaths per million"
   - `width::Int64=1`: Width of the moving window used to smooth out the data.
-  - `filepath::String="COVID-19"`: Name of the output HTML file.
+  - `filepath::String="./COVID-19.html"`: Output path, including the HTML file name.
 
 # Examples
 
@@ -85,21 +87,25 @@ function covid19Plot(
     country::String,
     data_type::String;
     width::Int64=1,
-    filepath::String="COVID-19",
+    filepath::String="./COVID-19.html",
 )::Nothing
 
     # Get raw data from OWID
-    raw_dataframe = CSV.File(HTTP.get(SOURCE * FILE[data_type]).body) |> DataFrame
+    raw_dataframe = CSV.read(HTTP.get(SOURCE * FILE[data_type]).body, DataFrame)
 
     # Data availability check
     (
-        country in names(raw_dataframe) || 
+        country in names(raw_dataframe) ||
         error("Country '$country' was not found in the database. Refer to \
         https://github.com/owid/covid-19-data/blob/master/public/data/jhu/locations.csv")
     )
 
     # Smooth the data with a moving window of width `width`
-    x, y = smoothTimeSeries(coalesce.(raw_dataframe[!, country], 0.0), raw_dataframe.date; width)
+    x, y = smoothTimeSeries(
+        coalesce.(raw_dataframe[!, country], 0.0), 
+        Array(raw_dataframe[!, :date]); 
+        width,
+    )
 
     # Prepare the plot
     data = bar(; x, y)
@@ -112,10 +118,11 @@ function covid19Plot(
         line=attr(color="rgb(25, 25, 25)", width=1.5),
     )
 
-    # Plot the data
-    savefig(plot(data, layout), filepath * ".html")
+    # Save the plot
+    savefig(plot(data, layout), filepath)
 
     return nothing
+
 end
 
 ####################################################################################################
@@ -124,6 +131,6 @@ end
 
 # Create output path if it doesn't exist
 folderpath = mkpath(joinpath(@__DIR__, "../output"))
-filepath = joinpath(folderpath, "COVID-19")
+filepath = joinpath(folderpath, "COVID-19.html")
 
 covid19Plot("Argentina", "number of new cases"; width=7, filepath)

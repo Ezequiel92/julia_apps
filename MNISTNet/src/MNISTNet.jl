@@ -1,4 +1,4 @@
-using MLDatasets, Plots, ImageCore
+using ImageCore, MLDatasets, Plots
 
 const LEARNING_RATE = 0.01
 const EPOCHS = 5
@@ -17,30 +17,30 @@ Train a basic neural network on the MNIST dataset.
 
 # Returns
 
-  - The weiths and biasis of the train net as (w_i_h, w_h_o, b_i_h, b_h_o), where w = weights, b = bias, i = input, h = hidden, o = output and l = label, e.g. w_i_h = weights from input layer to hidden layer.
+  - The weights and biases of the train net as the tuple (w_i_h, w_h_o, b_i_h, b_h_o), where w = weights, b = bias, i = input, h = hidden and o = output, e.g. w_i_h = weights from input layer to hidden layer.
 """
 function train_net(images::Array{Float32,3}, labels::Vector{Int64}; show_training::Bool=true)
 
-    # Random initialized the weiths and biasis
+    # Initialize the weiths and biasis randomly
     w_i_h = rand(Float64, (20, 784)) .- 0.5
     w_h_o = rand(Float64, (10, 20)) .- 0.5
     b_i_h = zeros(Float64, 20, 1)
     b_h_o = zeros(Float64, 10, 1)
 
-    # Possible output values
+    # Set the possible output values
     ov = [zeros(10, 1) for _ in 1:10]
     for i in 1:10
         ov[i][i, 1] = 1.0
     end
 
-    # Vector of the images with a shape of 784x1
+    # Initialize the vector of the images with a shape of 784x1
     vec_img = reshape.(eachslice(images, dims=3), 784, 1)
 
     for epoch in 1:EPOCHS
 
-        # Number of correct guesses
+        # Initialize the number of correct guesses
         n_correct = 0
-        # Mean error per epoch
+        # Initialize the mean error per epoch
         e = 0
 
         for (img, number) in zip(vec_img, labels)
@@ -52,7 +52,7 @@ function train_net(images::Array{Float32,3}, labels::Vector{Int64}; show_trainin
             o_pre = b_h_o + w_h_o * h
             o = @. 1 / (1 + exp(-o_pre))
 
-            # Cost / Error calculation
+            # Compute Cost / Error
             l = ov[number + 1]
             e += sum((o - l) .^ 2) / length(o)
             n_correct += argmax(o) == argmax(l) ? 1 : 0
@@ -70,7 +70,7 @@ function train_net(images::Array{Float32,3}, labels::Vector{Int64}; show_trainin
 
         # Show accuracy and error for this epoch
         if show_training
-            acc = round((n_correct / size(images, 3)) * 100, sigdigits=3)
+            acc = round(100 * n_correct / size(images, 3), sigdigits=3)
             err = round(e / length(vec_img), sigdigits=3)
             println("Epoch $epoch, accuracy: $acc%, mean error: $err")
         end
@@ -127,7 +127,7 @@ function mnist_net(; interactive::Bool=false, show_training::Bool=true)
         end
     else
         test_correct = 0
-        # Possible output values
+        # Set possible output values
         ov = [zeros(10, 1) for _ in 1:10]
         for i in 1:10
             ov[i][i, 1] = 1.0
@@ -147,14 +147,14 @@ function mnist_net(; interactive::Bool=false, show_training::Bool=true)
 
         end
 
-        accuracy = round((test_correct / size(test_images, 3)) * 100, sigdigits=3)
+        accuracy = round(100 * test_correct / size(test_images, 3), sigdigits=3)
         println("\nAccuracy on the test dataset: $accuracy%")
     end
 
 end
 
-############################################################################################
+####################################################################################################
 # Usage
-############################################################################################
+####################################################################################################
 
 mnist_net(interactive=true, show_training=true)
