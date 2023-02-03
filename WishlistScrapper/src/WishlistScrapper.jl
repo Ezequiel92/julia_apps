@@ -201,7 +201,7 @@ end
 """
 URL of the wishlist. It has to be a public wishlist!.
 """
-const URL = "https://www.bookdepository.com/wishlists/XXXXXXX"
+const URL = "https://www.bookdepository.com/wishlists/XXXXXX"
 
 """
 Filename of the output .json file.
