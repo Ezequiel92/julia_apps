@@ -11,7 +11,7 @@ Collection of single-file apps written in Julia, as a learning exercise.
 - Each folder has a .jl file which is a self-contained script and can be run as is.
 - The .toml files in each folder contain the dependencies for all the scripts.
 - The functions within each app are documented using docstrings.
-- An example of how to use the app is written at the end of each one and is what is executed when the file is run.
+- An example of how to use the app is written at the end of each `.jl` file.
 
 ## 💻 Apps
 
@@ -19,7 +19,7 @@ Collection of single-file apps written in Julia, as a learning exercise.
 
 🤖 `MNISTNet.jl`: Julia implementation of the simple neural network of [Neural Network From Scratch](https://github.com/Bot-Academy/NeuralNetworkFromScratch), with some modifications and additions.
 
-📚 `WishlistScrapper.jl`: A Web scrapper for any [Book Depository](https://www.bookdepository.com) public wishlist. It saves the data as a JSON file. I could only find two similar projects in GitHub, one in Python2 and the other in Javascript, both were unmaintained, and obviously, neither worked. So, I made my own.
+📚 `WishlistScrapper.jl`: A Web scrapper for any [Book Depository](https://www.bookdepository.com) public wishlist. It saves the data as a JSON file.
 
 ## Output
 
