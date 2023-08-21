@@ -3,7 +3,7 @@
 </div>
 
 <p align="center">
-    <a href="https://julialang.org"><img src="https://forthebadge.com/images/badges/made-with-julia.svg"></a>
+    <a href="https://julialang.org"><img src="https://img.shields.io/badge/-Julia-9558B2?style=for-the-badge&logo=julia&logoColor=white"></a>
 </p>
 
 Collection of single-file apps written in Julia, as a learning exercise.
