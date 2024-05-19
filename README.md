@@ -6,6 +6,9 @@
     <a href="https://julialang.org"><img src="https://img.shields.io/badge/-Julia-9558B2?style=for-the-badge&logo=julia&logoColor=white"></a>
 </p>
 
+> [!CAUTION]
+> This code is written for my personal use and purely as an exercise, thus it may break at any moment. Use it at your own risk.
+
 Collection of single-file apps written in Julia, as a learning exercise.
 
 - Each folder has a .jl file which is a self-contained script and can be run as is.
@@ -24,7 +27,3 @@ Collection of single-file apps written in Julia, as a learning exercise.
 ## Output
 
 - For the apps that generate some kind of output, it will be stored in the `output/` directory within each app folder.
-
-## ⚠️ Warning
-
-This code is written for my personal use and as an exercise, thus it may break at any moment. Use it at your own risk.
